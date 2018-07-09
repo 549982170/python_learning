@@ -1,0 +1,10 @@
+Full request URI: http://www.job1001.com/webdev/position_new/index.php?&position=all&mode=xinwen&doaction=pxel_detail&article_source=group&art_id=6551426240154573
+
+
+
+http://www.yl1001.com/ajax.htm?doaction=xinzhi_ajax&detail=hf_replay&position=php
+
+Full request URI: http://www.job1001.com/webdev/position_new/index.php?&mode=ajax&doaction=xinzhi_ajax&detail=reply&position=php
+
+
+Full request URI: http://www.yl1001.com/myhome.htm?doaction=ajax_group&detail=news_tips&ajaxformflag=1&lasttime=1426391291

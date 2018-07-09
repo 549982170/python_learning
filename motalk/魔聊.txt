@@ -1,0 +1,7 @@
+roadshow
+
+聊天服务器地址  外网 www.spellthread.com
+
+聊天服务器域名  spellthread.com
+
+sample JID   4@spellthread.com

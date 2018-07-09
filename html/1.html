@@ -1,0 +1,509 @@
+{% extends "./base.html" %}
+{% block page_title %}预算分类-拍摄设备{% endblock %}
+{% block other_link %}
+    <link href="{{ url_for('static',filename='css/budget.css') }}" rel="stylesheet"/>
+{% endblock %}
+{% block other_layui_link %}
+{% endblock %}
+{% block content %}
+    <div id="content">
+        <div class="padidng-body">
+            <div class="cont-topnav">
+                <span class="layui-breadcrumb"> <a href="/budget">预算总表</a><a href="">拍摄设备编辑</a><a
+                        href="">拍摄设备费用：{{ budget_data.Code }}_v{{ budget_data.Version }}</a></span>
+            </div>
+            <blockquote class="cont-wrapud10">
+                <button class="layui-btn layui-btn-small" id="addcostTR">添加</button>
+                <button class="layui-btn layui-btn-small layui-btn-danger" id="delCostTR">删除</button>
+                <button class="layui-btn layui-btn-small" id="savecostTR">保存</button>
+            </blockquote>
+
+            <table class="layui-table layui-form" id="costEditTable">
+                <colgroup>
+                    <col width="50">
+                    <col width="220">
+                    <col width="100">
+                    <col width="190">
+                    <col width="100">
+                    <col width="100">
+                    <col width="100">
+                    <col width="300">
+                </colgroup>
+                <thead>
+                <tr>
+                    <th><input type="checkbox" name="costItems" title="" id="costAllCheck" lay-skin="primary"
+                               lay-filter="allChoose"/></th>
+                    <th>编码</th>
+                    <th>器材类型</th>
+                    <th>部门</th>
+                    <th>项目类型</th>
+                    <th>标准金额</th>
+                    <th>单位</th>
+                    <th>时间</th>
+                    <th>数量</th>
+                    <th>总计</th>
+                    <th>备注</th>
+
+                </tr>
+                </thead>
+                <tbody id="id-budget-tbody">
+                <tfoot>
+                <tr>
+                    <td></td>
+                    <td>总计</td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td id="costToptal">30000</td>
+                    <td></td>
+                </tr>
+                </tfoot>
+                </tbody>
+            </table>
+            <!--分页-->
+            <div id="costTablePage"></div>
+        </div>
+    </div>
+{% endblock %}
+
+{% block footer %}
+{% endblock %}
+
+{% block script %}
+    <script type="text/javascript" src="{{ url_for('static',filename='plus/layui.all.js') }}"></script>
+    <script type="application/javascript">
+        ;!function () {
+            var table = layui.table,
+                form = layui.form
+                , laypage = layui.laypage;
+
+            //类型下拉自定义
+            $(document).on('change', '.costSelect', function () {
+                var checkValue = $(this).val();
+                $(this).parent().prev().text(checkValue);
+                if (checkValue == "" || checkValue[0] === "C") {
+                    $(this).next().show();
+                } else {
+                    $(this).next().hide()
+                }
+            })
+
+            //单位下拉自定义
+            $(document).on('change', '.unitSelect,.departmentSelect,.projectSelect', function () {
+                var checkValue = $(this).val();
+                if (checkValue == "自定义"|| checkValue[0] === "C") {
+                    $(this).next().show();
+                } else {
+                    $(this).next().hide()
+                }
+            })
+
+
+            //全选
+            form.on('checkbox(allChoose)', function (data) {
+                $('.cost-checkbox-item').each(function (index, item) {
+                    item.checked = data.elem.checked;
+                    //清空增删选择项标记
+
+                });
+                if (!data.elem.checked) {//反选
+                    $("#addcostTR").data("addTrIndex", "");
+                } else {//全选
+                    $("#addcostTR").data("addTrIndex", $('#costEditTable tbody tr').length - 1);//最后一行索引，默认全选再最后一行插入
+
+                }
+                form.render('checkbox');
+            });
+
+          	//单选
+            form.on('checkbox(checkboxCostItem)', function (data) {
+                //增加行
+                var theItemIdx = $(data.elem).parent().parent().index();
+                $("#addcostTR").data("addTrIndex", theItemIdx);
+
+            });
+
+            //加一行
+            $("#addcostTR").on('click', function () {
+
+                var costTrIdx = $("#addcostTR").data("addTrIndex");
+                newTrHtml = ['<tr>',
+                             '              <td><input type="checkbox" name="costItem" title="" class="cost-checkbox-item" lay-skin="primary" lay-filter="checkboxCostItem"><div class="layui-unselect layui-form-checkbox" lay-skin="primary"><i class="layui-icon"></i></div> </td>',
+                             '            <td class="cost-budget-code">'+ select_eq[select_eq.length-1]["Code"]  +'</td>',
+                             '            <td>',
+                             '                <select name="cost" lay-ignore="" class="costSelect" style="display: inline-block;">'];
+
+							newTrHtml = newTrHtml.concat(eqToOption(),  // 器材类型下拉
+
+							['                </select>',
+                             '                 <input type="text" val="" class="cost-custom-input" style="display: inline-block;">',
+                             '            </td>',
+                             '            <td><select name="unit" lay-ignore="" id="unitSelect" class="departmentSelect" style="display: inline-block;">']);
+							newTrHtml = newTrHtml.concat(departmentToOption(),  // 部门类型下拉
+							['                </select>',
+                             '           	   <input type="text" val="0" class="department-custom-input" style="display: inline-block;">',
+							 '			  </td>',
+                             '            <td><select name="unit" lay-ignore="" id="proType" class="projectSelect" style="display: inline-block;">']);
+							newTrHtml = newTrHtml.concat(projectToOption(),  // 项目类型下拉
+
+							['                </select>',
+                             '            </td>',
+                             '            <td><input type="text" val="0" class="cost-amount-input"></td>',
+                             '            <td><select name="unit" lay-ignore="" class="unitSelect" style="display: inline-block;">']);
+							newTrHtml = newTrHtml.concat(unitToOption(),  // 单位类型下拉
+                            ['               </select>',
+                             '                <input type="text" val="自定义" class="cost-custom-input" style="display: inline-block;"></td>',
+                             '            <td><input type="text" val="0" class="cost-time-input"></td>',
+                             '            <td><input type="text" val="0" class="cost-num-input"> </td>',
+                             '            <td><input type="text" val="0" class="cost-add-input"> </td>',
+                             '            <td><input type="text" val="0" class="cost-mark-input"> </td>',
+                             '          </tr>']);
+
+               	newTrHtml = newTrHtml.join("")  // 拼接html
+
+				if($("#costEditTable tbody tr").length==0){
+					$("#costEditTable tbody").append(newTrHtml);
+					}
+				if(costTrIdx!==""&&costTrIdx!==undefined){
+					var $curTr = $("#costEditTable tbody tr").eq(costTrIdx);//表头占一个索引
+
+				}else{
+					var $curTr =  $("#costEditTable tbody tr").eq(0)
+				}
+				$curTr.after(newTrHtml);
+				     form.render();
+
+
+            })
+
+            //删除（隐藏）
+            $("#delCostTR").on('click', function () {
+                $('.cost-checkbox-item').each(function (index, item) {
+                    if (item.checked) {//选中
+                        $(item).parent().parent().hide().attr("data-staus", "0");
+                    } else {//全选
+                        return
+                    }
+                });
+            })
+
+            // 保存
+            $(document).on("click", "#savecostTR", function(){
+        		var data_list = [];
+				$('#costEditTable tbody tr').each(function(index, item){
+
+					var row_data = {};
+					var budget_id = $(item).attr("data-budgetid");
+					if(budget_id != undefined){
+						row_data['id'] = budget_id;
+					}
+
+					row_data["code"] = $(item).find(".cost-budget-code").text();
+					eq_code = $(item).find(".costSelect option:selected").val(); // 器材类型
+					department_code = $(item).find(".departmentSelect option:selected").val(); // 部门类型
+					unit_code = $(item).find(".unitSelect option:selected").val();
+
+					if (eq_code[0] == 'C'){
+						row_data["equipment_type"] = $(item).find(".cost-custom-input").val();
+					} else {
+						row_data["equipment_type"] = $(item).find(".costSelect option:selected").text();
+					}
+					if (department_code[0] == 'C'){
+						row_data["department"] = $(item).find(".department-custom-input").val();
+					} else {
+						row_data["department"] = $(item).find(".departmentSelect option:selected").text();
+					}
+
+					row_data["project_type"] = $(item).find(".projectSelect option:selected").val();
+
+					row_data["per_money"] = $(item).find(".cost-amount-input").val();
+
+					if (unit_code == '自定义'){
+						row_data["unit"] = $(item).find(".unit-custom-input").val();
+					} else {
+						row_data["unit"] = $(item).find(".unitSelect option:selected").text();
+					}
+
+					row_data["time"] = $(item).find(".cost-time-input").val();
+					row_data["amount"] = $(item).find(".cost-num-input").val();
+					row_data["total"] = $(item).find(".cost-add-input").val();
+					row_data["remark"] = $(item).find(".cost-mark-input").val();
+					var delete_flag = $(item).attr("data-staus");
+					if (delete_flag!=undefined && delete_flag==0){
+						row_data["delete"] = 1
+					}
+					data_list.push(row_data);
+
+				});
+		/* 		console.log(data_list) */
+				var data = {};
+				data["budget_id"] = "{{ budget_data.Id }}";
+				data["budget_list"] = data_list;
+				/* console.log(data); */
+				$.ajax({
+					type: 'post',
+					url: '/budget/api/save/equipment_budget',
+					data: JSON.stringify(data),
+					contentType: "application/json; charset=utf-8",
+					success: function (re) {
+						var jsons = jQuery.parseJSON(re);
+						if (jsons.result == 1) {
+							if (jsons.status == 1) {
+								$dialog.msg(jsons.msg);
+								updateTableList("1");
+							} else {
+								$dialog.msg(jsons.msg);
+							}
+						} else {
+							$dialog.msg(jsons.msg);
+						}
+					}
+				});
+            })
+
+            //数字信息合计,总计=薪酬标准*数量
+            var totalTrVal = function () {
+                var allTotalVal = 0;
+                $('#costEditTable tbody tr').each(function (index, item) {
+
+                    var $wagesInput = $(item).find(".cost-amount-input")//薪金
+                    	, $timeInput =  $(item).find(".cost-time-input")//时间
+                        , $numInput = $(item).find(".cost-num-input")//数量
+                        , trItemAddUpVal = $wagesInput.val() * $timeInput.val()*$numInput.val();//单行总计
+
+                    $(item).find(".cost-add-input").val(trItemAddUpVal);
+                    allTotalVal += trItemAddUpVal;
+                });
+
+                $("#costToptal").text(allTotalVal);
+            };
+
+
+            $(document).on("input propertychange",".cost-amount-input,.cost-time-input,.cost-num-input",function(){
+                totalTrVal();
+            })
+
+
+         	// 获取器材类型
+            var select_eq = update_eq_select();
+
+         	// 获取器材类型下拉(优先)
+            function update_eq_select(){
+	            $.ajax({
+		        type: "GET",
+		        url: "/budget/api/kind",
+		        data: {"menu_id":"{{ budget_data.Kind }}"},
+		        dataType: "json",
+		        success: function (response) {
+		            if (response.status == 1 && response.result==1) {
+		        		select_eq = response.data;
+		            } else {
+		                layer.msg(response.msg, {skin:"alert-textcenter", time: 3*1000});
+		            }
+		        	}
+		    	});
+            }
+
+         	// 拼接器材类型下拉
+			function eqToOption(){
+
+				option_list = []
+				for(var index=0; index<select_eq.length-1; index++){
+					option_list.push('<option value="' + select_eq[index]["Code"] + '">' + select_eq[index]["Name"] + '</option>');
+				}
+				option_list.push('<option value="' + select_eq[select_eq.length-1]["Code"] + '"' +  ' selected="selected" >' + select_eq[select_eq.length-1]["Name"] + '</option>');
+				return option_list
+			}
+
+
+
+         	// 获取部门
+            var select_department = update_department_select();
+
+            // 部门下拉(优先)
+            function update_department_select(){
+	            $.ajax({
+		        type: "GET",
+		        url: "/budget/api/department",
+		        data: {"menu_id":"{{ budget_data.Kind }}"},
+		        dataType: "json",
+		        success: function (response) {
+		            if (response.status == 1 && response.result==1) {
+		        		select_department = response.data;
+		            } else {
+		                layer.msg(response.msg, {skin:"alert-textcenter", time: 3*1000});
+		            }
+		        	}
+		    	});
+        	}
+
+         	// 拼接器部门下拉
+			function departmentToOption(){
+				option_list = []
+				for(var index=0; index<select_department.length-1; index++){
+					option_list.push('<option value="' + select_department[index]["Code"] + '">' + select_department[index]["DepartmentName"] + '</option>');
+				}
+				option_list.push('<option value="' + select_department[select_department.length-1]["Code"] + '"' +  ' selected="selected" >' + select_department[select_department.length-1]["DepartmentName"] + '</option>');
+				return option_list
+			}
+
+			// 项目类型下拉
+		    var select_project = ["租赁", "购买"]
+
+            // 拼接项目下拉
+		    function projectToOption(){
+				option_list = []
+				for(var index=0; index<select_project.length-1; index++){
+					option_list.push('<option value="' + select_project[index] + '">' + select_project[index] + '</option>');
+				}
+				option_list.push('<option value="' + select_project[select_project.length-1] + '" selected="selected">' + select_project[select_project.length-1] + '</option>');
+			/* 	console.log(option_list); */
+				return option_list
+			}
+
+            // 单位下拉
+            var select_unit = ["集", "天", "周", "月", "包", "套", "自定义"]
+
+	        // 拼接单位下拉
+			function unitToOption(){
+				option_list = []
+				for(var index=0; index<select_unit.length-1; index++){
+					option_list.push('<option value="' + select_unit[index] + '">' + select_unit[index] + '</option>');
+				}
+				option_list.push('<option value="' + select_unit[select_unit.length-1] + '" selected="selected">' + select_unit[select_unit.length-1] + '</option>');
+			/* 	console.log(option_list); */
+				return option_list
+			}
+
+         	// 开始加载数据第一页数据
+			updateTableList("1");
+
+			// 更新数据
+			function updateTableList(page_no){
+			    var url = '/budget/api/equipment_budget';
+				$.ajax({
+				        type: "GET",
+				        url: url,
+				        data: {"budget_id":"{{ budget_data.Id }}", "page_no": page_no},
+				        dataType: "json",
+				        success: function (response) {
+				            if (response.status == 1 && response.result==1) {
+				        		var data = response.data;
+				        		data["select_eq"] = select_eq;
+				        		data["select_department"] = select_department;
+				        		data["select_project"] = select_project;
+				        		data["select_unit"] = select_unit;
+				        		console.log("budget_Id:","{{ budget_data.Id }}");
+				        		console.log(data);
+				        		// 设置页数
+				        		laypage.render({
+					                elem: 'costTablePage' //注意，这里的 test1 是 ID，不用加 # 号
+					                , count: data.total_counter //数据总数，从服务端得到
+					                , limit: data.per_page
+					                , curr: page_no
+									, jump: function (obj, first) {
+										if (!first)	{
+										    updateTableList(obj.curr);
+									/* 		console.log('jump', obj) */
+										}
+									}
+					            });
+				        		var body = template('tmp-budget-data', data);
+				        		var tbody = $('#id-budget-tbody');
+				        	    tbody.html(body);
+				        	    form.render();
+				        	  	totalTrVal();
+				            } else {
+				                layer.msg(response.msg, {skin:"alert-textcenter", time: 3*1000});
+				            }
+
+				        }
+				    });
+			};
+
+        }();
+
+
+
+    </script>
+{% endblock %}
+
+{% block other_html %}
+    {% raw %}
+
+    <!--数据填充-->
+    <script id="tmp-budget-data" type="text/html">
+        {{each $data.budget value }}
+        <tr data-budgetid="{{ value.Id }}">
+            <td><input type="checkbox" name="costItem" title="" class="cost-checkbox-item" lay-skin="primary"
+                       lay-filter="checkboxCostItem"/></td>
+            <td class="cost-budget-code">{{ value.Code }}</td>
+            <td>
+				<select name="eq" lay-ignore class="costSelect">
+					{{each $data.select_eq eq_val }}
+ 						<option value="{{ eq_val.Code }}" {{ if eq_val.Code==value.Code }} selected = "selected" {{/if}}>
+							{{ eq_val.Name }}
+						</option>
+					{{/each}}
+				</select>
+				{{ if (!value.Code.indexOf("C"))  }}
+					<input type="text" value="{{value.EquipmentType}}" class="cost-custom-input" style="display: inline-block;"/>
+				{{ else }}
+					<input type="text" value="" class="cost-custom-input"/>
+				{{/if}}
+  			</td>
+            <td>
+				<select name="department" lay-ignore class="departmentSelect">
+					{{each $data.select_department department_val }}
+ 						<option value="{{ department_val.Code }}" {{ if department_val.Code==value.Code }} selected = "selected" {{/if}}>
+							{{ department_val.DepartmentName }}
+						</option>
+					{{/each}}
+				</select>
+				{{ if (!value.Code.indexOf("C"))  }}
+					<input type="text" value="{{value.Department}}" class="department-custom-input" style="display: inline-block;"/>
+				{{ else }}
+					<input type="text" value="" class="department-custom-input"/>
+				{{/if}}
+			</td>
+			<td>
+				<select name="project" lay-ignore class="projectSelect">
+					{{each $data.select_project project_val }}
+					<option value="{{ project_val }}" {{ if project_val==value.Unit || $data.select_project.indexOf(value.Unit) }} selected = "selected" {{/if}}>
+						{{ project_val }}
+					</option>
+					{{/each}}
+				</select>
+			</td>
+            <td><input type='text' val='0' class='cost-amount-input' value="{{value.PerMoney}}"/></td>
+            <td>
+				<select name="unit" lay-ignore class="unitSelect">
+					{{each $data.select_unit select_unit }}
+					<option value="{{ select_unit }}" {{ if select_unit==value.Unit || $data.select_unit.indexOf(value.Unit) }} selected = "selected" {{/if}}>
+						{{ select_unit }}
+					</option>
+					{{/each}}
+				</select>
+				{{ if ($data.select_unit.indexOf(value.Unit))  }}
+				<input type="text" value="{{value.Unit}}" class="unit-custom-input"/>
+				{{ else }}
+				<input type="text" value="" class="unit-custom-input"/>
+				{{/if}}
+			</td>
+            <td><input type='text' val='0' class='cost-time-input' value="{{value.Time}}"/></td>
+            <td><input type='text' val='0' class='cost-num-input' value="{{value.Amount}}"/></td>
+            <td><input type='text' val='0' class='cost-add-input' value="{{value.Total}}"/></td>
+            <td><input type='text' val='0' class='cost-mark-input' value="{{value.Remark}}"/></td>
+
+        </tr>
+        {{/each}}
+
+    </script>
+
+    {% endraw %}
+{% endblock %}
+

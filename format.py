@@ -1,0 +1,1 @@
+print 'this is a {1} called {1}'.format('language','python')

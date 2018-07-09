@@ -1,0 +1,1 @@
+print 	'%(name)s:%(score)06.1f' %{'score':9.5,'name':'newsim'}

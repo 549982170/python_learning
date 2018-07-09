@@ -1,0 +1,3 @@
+dev: http://dev2.moxian.com:8080/mo_common_fileuploadservice/m1/upload
+
+moxiancn: http://www.moxiancn.com/mo_common_fileuploadservice/m1/upload

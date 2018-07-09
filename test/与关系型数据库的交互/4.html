@@ -1,0 +1,389 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <meta name="csrf-token"
+          content="IjY0MzI5NDkyZjc2OTIzMDNlN2I1ZDI5ZTc0OGMyZjAxY2VlOWY5NTgi.DDNwNQ.F3ZNUuC9-zvV5axnEu-1OpEphKY">
+    <title>演员介绍</title>
+    <meta charset="utf-8"/>
+    <link href="/static/css/common.css?v=1.02" rel="stylesheet"/>
+    <link href="/static/plus/css/layui.css?v=1.02"
+    " rel="stylesheet"/>
+    <!--other_link-->
+    <link href="/static/css/role.css?v=1.02"
+    " rel="stylesheet"/>
+    <!--other_link-->
+    <script type="text/javascript" src="/static/js/lib/jquery-3.1.1.min.js?v=1.1.2"></script>
+    <script type="text/javascript" src="/static/js/lib/jspdf/jspdf.debug.js?v=1.1.2"></script>
+    <script type="text/javascript" src="/static/js/lib/jspdf/html2canvas.js?v=1.1.2"></script>
+    <script type="text/javascript" src="/static/js/lib/wdatepicker/WdatePicker.js?v=1.1.2"></script>
+    <script type="text/javascript" src="/static/js/main.js?v=1.1.2"></script>
+    <script type="text/javascript" src="/static/js/common.js?v=1.1.2"></script>
+    <script type="text/javascript" src="/static/plus/layui.js?v=1.1.2"></script>
+    <!--other_script-->
+    <!--other_script-->
+</head>
+<body>
+<div id="box">
+    <!--other_div-->
+    <a id="dlink" style="display:none;"></a>  <!--用于导出excel-->
+    <!--other_div-->
+    <!--other_css-->
+    <!--other_css-->
+    <!--head-->
+    <div id="top">
+        <a href="/"><h1 class="logo"></h1></a>
+        <div class="object">
+            <b>项目名称1</b>
+            <a href="/project/projectmanagement">切换项目</a>
+        </div>
+        <div class="menu-container">
+            <div id="menu" class="select">
+                <p>数据管理</p>
+                <div>
+                    <a href="/script/scripttable">剧本拆分表</a>
+                    <a href="/chart/worldview">世界观地图</a>
+                    <a href="/chart/story">故事板</a>
+                    <a href="/chart/role">角色照片</a>
+                    <a href="/chart/scene">场景照片</a>
+                    <!--                 <a>预算</a> -->
+                    <!--                 <a>统筹计划表</a> -->
+                    <!--                 <a>日历</a> -->
+                    <!--                 <a>进度</a> -->
+                    <!--  <a>表格管理</a>-->
+                    <a href="/chart/concept">概念图</a>
+                    <a href="/chart/moodchart">心情图</a>
+
+                    <a href="/files/upload">素材上传</a>
+                </div>
+            </div>
+            <div class="msg">
+                <a id="msg">
+                    <i>0</i>
+                </a>
+                <div>
+                    <p>09:00:00 AM 编号：00001 剧本有更新，请您审核！</p>
+                    <p>09:00:00 AM 编号：00001 剧本有更新，请您审核！</p>
+                    <p>09:00:00 AM 编号：00001 剧本有更新，请您审核！</p>
+                    <p>09:00:00 AM 编号：00001 剧本有更新，请您审核！</p>
+                </div>
+            </div>
+            <div class="user">
+            <span>
+ 您好,王鑫             </span>
+            </div>
+            <div id="setting" class="setting">
+                <span></span>
+                <div>
+                    <a href="/user/changepasswd">修改密码</a>
+                    <a>系统管理</a>
+                    <a href="/user/logout">退出登录</a>
+                </div>
+            </div>
+            <div class="retreat">
+                <a onClick="javascript :history.go(-1);"><img src="/static/img/index/icon-retreat.png"/><span>返回</span></a>
+            </div>
+        </div>
+    </div>     <!--head-->
+    <!--top-->
+    <!--top-->
+    <!--content-->
+    <div id="content">
+        <div class="layui-body padidng-body role">
+            <!--横向导航条-->
+            <div class="r-navbar">
+                <ul>
+                    <li><a href="#" class="text"><i class="ico-tj"></i><span>角色统计</span></a></li>
+                    <li><a href="#" class="text"><i class="ico-xz"></i><span>人物小传</span></a></li>
+                    <li><a href="#" class="text"><i class="ico-gx"></i><span>人物关系图</span></a></li>
+                    <li><a href="#" class="text"><i class="ico-gn"></i><span>人物概念图</span></a></li>
+                    <li><a href="#" class="text"><i class="ico-xq"></i><span>心情图</span></a></li>
+                    <li><i class="ico-zp"></i><a href="#" class="text"><span>演员照片</span></a></li>
+                </ul>
+            </div>             <!--导航面包屑-->
+            <div class="scriptlist-form-container  clearfix">
+
+                  <span class="layui-breadcrumb">
+                      <a href="">演员信息</a>
+                      <a href="">演员介绍</a>
+                  </span>
+
+                <button class="layui-btn layui-btn-small fr">保存</button>
+            </div>
+            <!--选择角色-->
+            <div id="roleSelect" class="role-edit-item">
+                <blockquote class="layui-elem-quote">选择角色</blockquote>
+                <form class="layui-form" action="">
+                    <div class="layui-form-item" style="width: 200px">
+                        <select name="city" lay-verify="required">
+                            <option value="">角色：顾天成</option>
+                            <optgroup label="演员">
+                                <option value="0">林丹</option>
+                                <option value="1">甄子丹</option>
+                                <option value="2">郭德纲</option>
+                            </optgroup>
+                            <optgroup label="特约">
+                                <option value="0">刘德华</option>
+                                <option value="1">韦小宝</option>
+                            </optgroup>
+
+
+                        </select>
+                    </div>
+                </form>
+            </div>
+            <!--尺码信息-->
+            <div id="roleInfo" class="role-edit-item">
+                <blockquote class="layui-elem-quote">尺码信息</blockquote>
+
+                <div class="layui-form role-edit-baseinfo">
+
+                    <div class="layui-form-item">
+                        <label class="layui-form-label"><span class="f-red">*</span>中文名：</label>
+                        <div class="layui-input-inline">
+                            <input type="text" name="" autocomplete="off" class="layui-input">
+                        </div>
+                        <label class="layui-form-label"><span class="f-red">*</span>经纪人：</label>
+                        <div class="layui-input-inline">
+                            <input type="text" name="" autocomplete="off" class="layui-input" placeholder="经纪人姓名">
+                        </div>
+                    </div>
+                    <div class="layui-form-item">
+                        <label class="layui-form-label">英文名：</label>
+                        <div class="layui-input-inline">
+                            <input type="text" name="" autocomplete="off" class="layui-input">
+                        </div>
+                        <label class="layui-form-label"><span class="f-red">*</span>联系方式：</label>
+                        <div class="layui-input-inline">
+                            <input type="text" name="" autocomplete="off" class="layui-input" placeholder="经纪人电话">
+                        </div>
+                    </div>
+                    <div class="layui-form-item">
+                        <label class="layui-form-label">别名：</label>
+                        <div class="layui-input-inline">
+                            <input type="text" name="" autocomplete="off" class="layui-input">
+                        </div>
+                        <label class="layui-form-label">血型：</label>
+                        <div class="layui-input-inline">
+                            <input type="text" name="" autocomplete="off" class="layui-input">
+                        </div>
+                    </div>
+                    <div class="layui-form-item">
+                        <label class="layui-form-label"><span class="f-red">*</span>性别：</label>
+                        <div class="layui-input-inline">
+                            <input type="text" name="" autocomplete="off" class="layui-input">
+                        </div>
+
+                        <label class="layui-form-label">出生地：</label>
+                        <div class="layui-input-inline">
+                            <input type="text" name="" autocomplete="off" class="layui-input">
+                        </div>
+                    </div>
+                    <div class="layui-form-item">
+                        <label class="layui-form-label">国籍：</label>
+                        <div class="layui-input-inline">
+                            <input type="text" name="" autocomplete="off" class="layui-input">
+                        </div>
+                        <label class="layui-form-label">出生日期：</label>
+                        <div class="layui-input-inline">
+                            <input type="text" name="" autocomplete="off" class="layui-input">
+                        </div>
+                    </div>
+                    <div class="layui-form-item">
+                        <label class="layui-form-label">民族：</label>
+                        <div class="layui-input-inline">
+                            <input type="text" name="" autocomplete="off" class="layui-input">
+                        </div>
+                        <label class="layui-form-label">星座：</label>
+                        <div class="layui-input-inline">
+                            <input type="text" name="" autocomplete="off" class="layui-input">
+                        </div>
+                    </div>
+                    <div class="layui-form-item">
+                        <label class="layui-form-label">备注：</label>
+                        <div class="layui-input-block">
+                            <textarea name="desc" placeholder="可添加官网介绍链接" class="layui-textarea"></textarea>
+                        </div>
+                    </div>
+                    <div class="upload-user-photo"><input type="file" name="file" class="layui-upload-file"
+                                                          id="roleUserhead" lay-ext="jpg|png|gif" lay-title="头像上传">
+                    </div>
+
+                </div>
+
+            </div>
+            <!--尺码信息-->
+            <div id="clothingInfo" class="role-edit-item">
+                <blockquote class="layui-elem-quote">身高：</blockquote>
+
+                <div class="layui-form role-edit-baseinfo">
+
+                    <div class="layui-form-item">
+                        <label class="layui-form-label"><span class="f-red">*</span>袖长：</label>
+                        <div class="layui-input-inline">
+                            <input type="text" name="" autocomplete="off" class="layui-input">
+                            <div class="layui-form-mid layui-word-aux">CM</div>
+                        </div>
+
+                        <label class="layui-form-label"><span class="f-red">*</span>袖長：</label>
+                        <div class="layui-input-inline">
+                            <input type="text" name="" autocomplete="off" class="layui-input">
+                            <div class="layui-form-mid layui-word-aux">CM</div>
+                        </div>
+                        <label class="layui-form-label"><span class="f-red">*</span>鞋号：</label>
+                        <div class="layui-input-inline">
+                            <input type="text" name="" autocomplete="off" class="layui-input">
+                            <div class="layui-form-mid layui-word-aux">码</div>
+                        </div>
+                    </div>
+                    <div class="layui-form-item">
+                        <label class="layui-form-label">体重：</label>
+                        <div class="layui-input-inline">
+                            <input type="text" name="" autocomplete="off" class="layui-input">
+                            <div class="layui-form-mid layui-word-aux">KG</div>
+                        </div>
+                        <label class="layui-form-label"><span class="f-red">*</span>碗口：</label>
+                        <div class="layui-input-inline">
+                            <input type="text" name="" autocomplete="off" class="layui-input">
+                            <div class="layui-form-mid layui-word-aux">CM</div>
+                        </div>
+                    </div>
+                    <div class="layui-form-item">
+                        <label class="layui-form-label">头围：</label>
+                        <div class="layui-input-inline">
+                            <input type="text" name="" autocomplete="off" class="layui-input">
+                            <div class="layui-form-mid layui-word-aux">MM</div>
+                        </div>
+                        <label class="layui-form-label">大腿：</label>
+                        <div class="layui-input-inline">
+                            <input type="text" name="" autocomplete="off" class="layui-input">
+                            <div class="layui-form-mid layui-word-aux">MM</div>
+                        </div>
+                    </div>
+                    <div class="layui-form-item">
+                        <label class="layui-form-label"><span class="f-red">*</span>领围：</label>
+                        <div class="layui-input-inline">
+                            <input type="text" name="" autocomplete="off" class="layui-input">
+                            <div class="layui-form-mid layui-word-aux">MM</div>
+                        </div>
+
+                        <label class="layui-form-label">小腿：</label>
+                        <div class="layui-input-inline">
+                            <input type="text" name="" autocomplete="off" class="layui-input">
+                            <div class="layui-form-mid layui-word-aux">MM</div>
+                        </div>
+                    </div>
+                    <div class="layui-form-item">
+                        <label class="layui-form-label">肩宽：</label>
+                        <div class="layui-input-inline">
+                            <input type="text" name="" autocomplete="off" class="layui-input">
+                            <div class="layui-form-mid layui-word-aux">MM</div>
+                        </div>
+                        <label class="layui-form-label">裆：</label>
+                        <div class="layui-input-inline">
+                            <input type="text" name="" autocomplete="off" class="layui-input">
+                            <div class="layui-form-mid layui-word-aux">MM</div>
+                        </div>
+                    </div>
+                    <div class="layui-form-item">
+                        <label class="layui-form-label">胸围：</label>
+                        <div class="layui-input-inline">
+                            <input type="text" name="" autocomplete="off" class="layui-input">
+                            <div class="layui-form-mid layui-word-aux">CM</div>
+                        </div>
+                        <label class="layui-form-label">衫长：</label>
+                        <div class="layui-input-inline">
+                            <input type="text" name="" autocomplete="off" class="layui-input">
+                            <div class="layui-form-mid layui-word-aux">CM</div>
+                        </div>
+                    </div>
+                    <div class="layui-form-item">
+                        <label class="layui-form-label">臀围：</label>
+                        <div class="layui-input-inline">
+                            <input type="text" name="" autocomplete="off" class="layui-input">
+                            <div class="layui-form-mid layui-word-aux">MM</div>
+                        </div>
+                        <label class="layui-form-label">衫码：</label>
+                        <div class="layui-input-inline">
+                            <select name="city">
+                                <option value="0">XL</option>
+                                <option value="1">XXL</option>
+                            </select>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+            <!--照片集-->
+            <div id="rolePhone" class="role-edit-item">
+                <blockquote class="layui-elem-quote">照片集</blockquote>
+                <ul class="upload-photo">
+                    <li><input type="file" name="file" class="layui-upload-file" lay-ext="jpg|png|gif" id="photoList"
+                               lay-title="照片上传"></li>
+                    <li><img src="/static/img/upload/ph.png" width="148" height="103"/></li>
+                    <li><img src="/static/img/upload/ph.png" width="148" height="103"/></li>
+                    <li><img src="/static/img/upload/ph.png" width="148" height="103"/></li>
+                    <li><img src="/static/img/upload/ph.png" width="148" height="103"/></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <!--content-->
+    <!--other_div-->
+    <!--other_div-->
+    <!--foot-->
+    <div id="footer">© Copyright 2017 首汇焦点</div>     <!--foot-->
+    <!--script-->
+    <script>
+
+        layui.use('upload', function () {
+            layui.upload({
+                elem: '#roleUserhead'
+                , title: '头像上传'
+                , url: '上传接口url'
+                , success: function (res) {
+                    console.log(res); //上传成功返回值，必须为json格式
+                }
+            });
+            layui.upload({
+                elem: '#photoList'
+                , title: '照片集上传'
+                , url: '上传接口url'
+                , success: function (res) {
+                    console.log(res); //上传成功返回值，必须为json格式
+                }
+            });
+
+        });
+
+        <!--script-->
+        </div >
+        < / body >
+
+        < script >
+        layui.config({
+            base: '/static/plus/lay/modules/' //你的模块目录
+        }).use('index'); //加载入口
+    </script>
+
+    <script type="text/javascript">
+        var csrf_token = $('meta[name=csrf-token]').attr('content');
+        <!-- ajax请求追加csrf_token -->
+        $.ajaxSetup({
+            beforeSend: function (xhr, settings) {
+                if (!/^(GET|HEAD|OPTIONS|TRACE)$/i.test(settings.type) && !this.crossDomain) {
+                    xhr.setRequestHeader("X-CSRFToken", csrf_token)
+                }
+            }
+        });
+        <!-- form表单提交追加csrf_token -->
+        $('form').submit(function () {
+            var ipt = document.createElement("input");
+            ipt.setAttribute("type", "hidden");
+            ipt.setAttribute("name", "csrf_token");
+            ipt.setAttribute("value", csrf_token);
+            this.appendChild(ipt);
+        })
+
+    </script>
+</html>

@@ -1,0 +1,4 @@
+ # -*- coding:gb2312 -*-
+ if __name__ == '__main__':
+        WriterLog() #–¥≤‚ ‘»’÷æ
+        GetUser() # TestCase Ω≈±æ

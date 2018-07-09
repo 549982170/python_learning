@@ -1,0 +1,46 @@
+{
+"master":{"roothost":"localhost","rootport":11001,"webport":12001},
+"servers":{
+	"net":{"netport":14001,"name":"net","remoteport":[{"rootport":10001,"rootname":"gate"}],"app":"app.netserver"},
+	"gate":{"rootport":10001,"name":"gate","db":true,"mem":false,"redis":false,"app":"app.gateserver","gameId":"1","serverId":"1"},
+	"dbfront":{"name":"dbfront","db":true,"mem":true,"redis":true,"app":"app.dbfrontserver"},
+	"admin":{"remoteport":[{"rootport":10001,"rootname":"gate"}],"webport":13001,"name":"admin","db":true,"mem":true,"redis":true,"app":"app.adminserver"},
+	"game1":{"remoteport":[{"rootport":10001,"rootname":"gate"}],"name":"game1","db":true,"mem":true,"redis":true,"app":"app.gameserver","maxUserNum":6000},
+	"game2":{"remoteport":[{"rootport":10001,"rootname":"gate"}],"name":"game2","db":true,"mem":true,"redis":true,"app":"app.gameserver","maxUserNum":6000},
+	"game3":{"remoteport":[{"rootport":10001,"rootname":"gate"}],"name":"game3","db":true,"mem":true,"redis":true,"app":"app.gameserver","maxUserNum":6000},
+	"game4":{"remoteport":[{"rootport":10001,"rootname":"gate"}],"name":"game4","db":true,"mem":true,"redis":true,"app":"app.gameserver","maxUserNum":6000},
+	"game5":{"remoteport":[{"rootport":10001,"rootname":"gate"}],"name":"game5","db":true,"mem":true,"redis":true,"app":"app.gameserver","maxUserNum":6000},
+	"game6":{"remoteport":[{"rootport":10001,"rootname":"gate"}],"name":"game6","db":true,"mem":true,"redis":true,"app":"app.gameserver","maxUserNum":6000},
+	"game7":{"remoteport":[{"rootport":10001,"rootname":"gate"}],"name":"game7","db":true,"mem":true,"redis":true,"app":"app.gameserver","maxUserNum":6000},
+	"game8":{"remoteport":[{"rootport":10001,"rootname":"gate"}],"name":"game8","db":true,"mem":true,"redis":true,"app":"app.gameserver","maxUserNum":6000}
+},
+"db":{
+	"main":{
+		"host":"192.168.11.211",
+		"user":"root",
+		"passwd":"root",
+		"port":3306,
+		"db":"dmbj_trunk",
+		"charset":"utf8"
+	},
+	"admin":{
+		"host":"192.168.11.211",
+		"user":"root",
+		"passwd":"root",
+		"port":3306,
+		"db":"gameadmin_trunk",
+		"charset":"utf8"
+	}
+},
+"memcached":{
+	"urls":["127.0.0.1:11201"],
+	"hostname":"app01"
+},
+"redis":{
+	"host":"localhost",
+	"password":"zcjoy@Redis",
+	"port":6301,
+	"db":0
+},
+"locale":"zh_CN"
+}

@@ -1,0 +1,10 @@
+{
+	"admin":{
+		"host":"563723121decb.gz.cdb.myqcloud.com",
+		"user":"cdb_outerroot",
+		"passwd":"W7kflyoYZU",
+		"port":3456,
+		"db":"gameadmin",
+		"charset":"utf8"
+	}
+}

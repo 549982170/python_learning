@@ -1,0 +1,3201 @@
+:mo_ad:clean UP-TO-DATE
+:mo_common:compileJava/data/moxian_package/code_moxian_m1/moxian_m1/mo_common/src/main/java/com/moxian/common/util/CryptUtil.java:16: warning: BASE64Decoder is internal proprietary API and may be removed in a future release
+import sun.misc.BASE64Decoder;
+               ^
+/data/moxian_package/code_moxian_m1/moxian_m1/mo_common/src/main/java/com/moxian/common/util/CryptUtil.java:17: warning: BASE64Encoder is internal proprietary API and may be removed in a future release
+import sun.misc.BASE64Encoder;
+               ^
+/data/moxian_package/code_moxian_m1/moxian_m1/mo_common/src/main/java/com/moxian/common/util/CryptUtil.java:16: warning: BASE64Decoder is internal proprietary API and may be removed in a future release
+import sun.misc.BASE64Decoder;
+               ^
+/data/moxian_package/code_moxian_m1/moxian_m1/mo_common/src/main/java/com/moxian/common/util/CryptUtil.java:17: warning: BASE64Encoder is internal proprietary API and may be removed in a future release
+import sun.misc.BASE64Encoder;
+               ^
+/data/moxian_package/code_moxian_m1/moxian_m1/mo_common/src/main/java/com/moxian/common/util/CryptUtil.java:16: warning: BASE64Decoder is internal proprietary API and may be removed in a future release
+import sun.misc.BASE64Decoder;
+               ^
+/data/moxian_package/code_moxian_m1/moxian_m1/mo_common/src/main/java/com/moxian/common/util/CryptUtil.java:17: warning: BASE64Encoder is internal proprietary API and may be removed in a future release
+import sun.misc.BASE64Encoder;
+               ^
+/data/moxian_package/code_moxian_m1/moxian_m1/mo_common/src/main/java/com/moxian/common/util/CryptUtil.java:16: warning: BASE64Decoder is internal proprietary API and may be removed in a future release
+import sun.misc.BASE64Decoder;
+               ^
+/data/moxian_package/code_moxian_m1/moxian_m1/mo_common/src/main/java/com/moxian/common/util/CryptUtil.java:17: warning: BASE64Encoder is internal proprietary API and may be removed in a future release
+import sun.misc.BASE64Encoder;
+               ^
+/data/moxian_package/code_moxian_m1/moxian_m1/mo_common/src/main/java/com/moxian/common/util/CryptUtil.java:93: warning: BASE64Encoder is internal proprietary API and may be removed in a future release
+        return new BASE64Encoder().encode(dataByte);
+                   ^
+/data/moxian_package/code_moxian_m1/moxian_m1/mo_common/src/main/java/com/moxian/common/util/CryptUtil.java:104: warning: BASE64Decoder is internal proprietary API and may be removed in a future release
+        return new BASE64Decoder().decodeBuffer(datasource);
+                   ^
+/data/moxian_package/code_moxian_m1/moxian_m1/mo_common/src/main/java/com/moxian/common/util/CryptUtil.java:160: warning: BASE64Encoder is internal proprietary API and may be removed in a future release
+            BASE64Encoder be = new BASE64Encoder();
+            ^
+/data/moxian_package/code_moxian_m1/moxian_m1/mo_common/src/main/java/com/moxian/common/util/CryptUtil.java:160: warning: BASE64Encoder is internal proprietary API and may be removed in a future release
+            BASE64Encoder be = new BASE64Encoder();
+                                   ^
+/data/moxian_package/code_moxian_m1/moxian_m1/mo_common/src/main/java/com/moxian/common/util/CryptUtil.java:199: warning: BASE64Decoder is internal proprietary API and may be removed in a future release
+            BASE64Decoder bd = new BASE64Decoder();
+            ^
+/data/moxian_package/code_moxian_m1/moxian_m1/mo_common/src/main/java/com/moxian/common/util/CryptUtil.java:199: warning: BASE64Decoder is internal proprietary API and may be removed in a future release
+            BASE64Decoder bd = new BASE64Decoder();
+                                   ^
+Note: /data/moxian_package/code_moxian_m1/moxian_m1/mo_common/src/main/java/com/moxian/common/rest/RestBase.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+14 warnings
+
+:mo_common:processResources
+:mo_common:classes
+:mo_common:jar
+:mo_common_redispools:compileJava
+:mo_common_redispools:processResources UP-TO-DATE
+:mo_common_redispools:classes
+:mo_common_redispools:jar
+:mo_ad:compileJava/data/moxian_package/code_moxian_m1/moxian_m1/mo_ad/src/main/java/com/moxian/ad/rest/InitPageResource.java:68: warning: @NonNull is meaningless on a primitive.
+	public BoUtil getLatestInitPage(@NonNull @QueryParam("city") long city){ 
+	                                ^
+/data/moxian_package/code_moxian_m1/moxian_m1/mo_ad/src/main/java/com/moxian/ad/rest/InitPageResource.java:95: warning: @NonNull is meaningless on a primitive.
+	public BoUtil getMoBizInitPage(@NonNull @QueryParam("city") long city,@NonNull @QueryParam("pageVersion") long pageVersion){ 
+	                               ^
+/data/moxian_package/code_moxian_m1/moxian_m1/mo_ad/src/main/java/com/moxian/ad/rest/InitPageResource.java:95: warning: @NonNull is meaningless on a primitive.
+	public BoUtil getMoBizInitPage(@NonNull @QueryParam("city") long city,@NonNull @QueryParam("pageVersion") long pageVersion){ 
+	                                                                      ^
+Note: /data/moxian_package/code_moxian_m1/moxian_m1/mo_ad/src/main/java/com/moxian/ad/BeanConfig.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+Note: /data/moxian_package/code_moxian_m1/moxian_m1/mo_ad/src/main/java/com/moxian/ad/dao/impl/MxCityDaoMyBatisImpl.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+3 warnings
+
+:mo_ad:processResources
+:mo_ad:classes
+:mo_ad:war
+
+BUILD SUCCESSFUL
+
+Total time: 16.311 secs
+
+This build could be faster, please consider using the Gradle Daemon: http://gradle.org/docs/2.4/userguide/gradle_daemon.html
+:mo_ad:clean
+:mo_common:compileJava UP-TO-DATE
+:mo_common:processResources UP-TO-DATE
+:mo_common:classes UP-TO-DATE
+:mo_common:jar UP-TO-DATE
+:mo_common_redispools:compileJava UP-TO-DATE
+:mo_common_redispools:processResources UP-TO-DATE
+:mo_common_redispools:classes UP-TO-DATE
+:mo_common_redispools:jar UP-TO-DATE
+:mo_ad:compileJava/data/moxian_package/code_moxian_m1/moxian_m1/mo_ad/src/main/java/com/moxian/ad/rest/InitPageResource.java:68: warning: @NonNull is meaningless on a primitive.
+	public BoUtil getLatestInitPage(@NonNull @QueryParam("city") long city){ 
+	                                ^
+/data/moxian_package/code_moxian_m1/moxian_m1/mo_ad/src/main/java/com/moxian/ad/rest/InitPageResource.java:95: warning: @NonNull is meaningless on a primitive.
+	public BoUtil getMoBizInitPage(@NonNull @QueryParam("city") long city,@NonNull @QueryParam("pageVersion") long pageVersion){ 
+	                               ^
+/data/moxian_package/code_moxian_m1/moxian_m1/mo_ad/src/main/java/com/moxian/ad/rest/InitPageResource.java:95: warning: @NonNull is meaningless on a primitive.
+	public BoUtil getMoBizInitPage(@NonNull @QueryParam("city") long city,@NonNull @QueryParam("pageVersion") long pageVersion){ 
+	                                                                      ^
+Note: /data/moxian_package/code_moxian_m1/moxian_m1/mo_ad/src/main/java/com/moxian/ad/BeanConfig.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+Note: /data/moxian_package/code_moxian_m1/moxian_m1/mo_ad/src/main/java/com/moxian/ad/dao/impl/MxCityDaoMyBatisImpl.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+3 warnings
+
+:mo_ad:processResources
+:mo_ad:classes
+:mo_ad:war
+
+BUILD SUCCESSFUL
+
+Total time: 14.351 secs
+
+This build could be faster, please consider using the Gradle Daemon: http://gradle.org/docs/2.4/userguide/gradle_daemon.html
+:mo_biz:clean UP-TO-DATE
+:mo_common:compileJava UP-TO-DATE
+:mo_common:processResources UP-TO-DATE
+:mo_common:classes UP-TO-DATE
+:mo_common:jar UP-TO-DATE
+:mo_common_kafka:compileJavaNote: Some input files use unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+
+:mo_common_kafka:processResources
+:mo_common_kafka:classes
+:mo_common_kafka:jar
+:mo_common_redispools:compileJava UP-TO-DATE
+:mo_common_redispools:processResources UP-TO-DATE
+:mo_common_redispools:classes UP-TO-DATE
+:mo_common_redispools:jar UP-TO-DATE
+:mo_common_thrift:compileJava
+:mo_common_thrift:processResources UP-TO-DATE
+:mo_common_thrift:classes
+:mo_common_thrift:jar
+:mo_biz:compileJava/data/moxian_package/code_moxian_m1/moxian_m1/mo_biz/src/main/java/com/moxian/biz/BeanConfig.java:251: warning: Generating equals/hashCode implementation but without a call to superclass, even though this class does not extend java.lang.Object. If this is intentional, add '@EqualsAndHashCode(callSuper=false)' to your type.
+	@Data
+	^
+/data/moxian_package/code_moxian_m1/moxian_m1/mo_biz/src/main/java/com/moxian/biz/BeanConfig.java:257: warning: Generating equals/hashCode implementation but without a call to superclass, even though this class does not extend java.lang.Object. If this is intentional, add '@EqualsAndHashCode(callSuper=false)' to your type.
+	@Data
+	^
+/data/moxian_package/code_moxian_m1/moxian_m1/mo_biz/src/main/java/com/moxian/biz/BeanConfig.java:283: warning: Generating equals/hashCode implementation but without a call to superclass, even though this class does not extend java.lang.Object. If this is intentional, add '@EqualsAndHashCode(callSuper=false)' to your type.
+	@Data
+	^
+Note: Some input files use or override a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+Note: Some input files use unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+3 warnings
+
+:mo_biz:processResources
+:mo_biz:classes
+:mo_biz:war
+
+BUILD SUCCESSFUL
+
+Total time: 24.032 secs
+
+This build could be faster, please consider using the Gradle Daemon: http://gradle.org/docs/2.4/userguide/gradle_daemon.html
+:mo_comment:clean UP-TO-DATE
+:mo_common:compileJava UP-TO-DATE
+:mo_common:processResources UP-TO-DATE
+:mo_common:classes UP-TO-DATE
+:mo_common:jar UP-TO-DATE
+:mo_comment:compileJavaNote: /data/moxian_package/code_moxian_m1/moxian_m1/mo_comment/src/main/java/com/moxian/comment/BeanConfig.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+
+:mo_comment:processResources
+:mo_comment:classes
+:mo_comment:war
+
+BUILD SUCCESSFUL
+
+Total time: 13.969 secs
+
+This build could be faster, please consider using the Gradle Daemon: http://gradle.org/docs/2.4/userguide/gradle_daemon.html
+:mo_common_appsetting:clean UP-TO-DATE
+:mo_common:compileJava UP-TO-DATE
+:mo_common:processResources UP-TO-DATE
+:mo_common:classes UP-TO-DATE
+:mo_common:jar UP-TO-DATE
+:mo_common_thrift:compileJava UP-TO-DATE
+:mo_common_thrift:processResources UP-TO-DATE
+:mo_common_thrift:classes UP-TO-DATE
+:mo_common_thrift:jar UP-TO-DATE
+:mo_common_appsetting:compileJavaNote: /data/moxian_package/code_moxian_m1/moxian_m1/mo_common_appsetting/src/main/java/com/moxian/common/setting/BeanConfig.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+
+:mo_common_appsetting:processResources
+:mo_common_appsetting:classes
+:mo_common_appsetting:war
+
+BUILD SUCCESSFUL
+
+Total time: 15.289 secs
+
+This build could be faster, please consider using the Gradle Daemon: http://gradle.org/docs/2.4/userguide/gradle_daemon.html
+:mo_common_emailservice:clean UP-TO-DATE
+:mo_common:compileJava UP-TO-DATE
+:mo_common:processResources UP-TO-DATE
+:mo_common:classes UP-TO-DATE
+:mo_common:jar UP-TO-DATE
+:mo_common_kafka:compileJava UP-TO-DATE
+:mo_common_kafka:processResources UP-TO-DATE
+:mo_common_kafka:classes UP-TO-DATE
+:mo_common_kafka:jar UP-TO-DATE
+:mo_common_emailservice:compileJavaNote: /data/moxian_package/code_moxian_m1/moxian_m1/mo_common_emailservice/src/main/java/com/moxian/common/emailservice/BeanConfig.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+
+:mo_common_emailservice:processResources
+:mo_common_emailservice:classes
+:mo_common_emailservice:war
+
+BUILD SUCCESSFUL
+
+Total time: 13.121 secs
+
+This build could be faster, please consider using the Gradle Daemon: http://gradle.org/docs/2.4/userguide/gradle_daemon.html
+:mo_common_fileuploadservice:clean UP-TO-DATE
+:mo_common:compileJava UP-TO-DATE
+:mo_common:processResources UP-TO-DATE
+:mo_common:classes UP-TO-DATE
+:mo_common:jar UP-TO-DATE
+:mo_common_thrift:compileJava UP-TO-DATE
+:mo_common_thrift:processResources UP-TO-DATE
+:mo_common_thrift:classes UP-TO-DATE
+:mo_common_thrift:jar UP-TO-DATE
+:mo_common_fileuploadservice:compileJavaNote: Some input files use or override a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+
+:mo_common_fileuploadservice:processResources
+:mo_common_fileuploadservice:classes
+:mo_common_fileuploadservice:war
+
+BUILD SUCCESSFUL
+
+Total time: 13.952 secs
+
+This build could be faster, please consider using the Gradle Daemon: http://gradle.org/docs/2.4/userguide/gradle_daemon.html
+:mo_common_gps:clean UP-TO-DATE
+:mo_common:compileJava UP-TO-DATE
+:mo_common:processResources UP-TO-DATE
+:mo_common:classes UP-TO-DATE
+:mo_common:jar UP-TO-DATE
+:mo_common_thrift:compileJava UP-TO-DATE
+:mo_common_thrift:processResources UP-TO-DATE
+:mo_common_thrift:classes UP-TO-DATE
+:mo_common_thrift:jar UP-TO-DATE
+:mo_common_gps:compileJavaNote: /data/moxian_package/code_moxian_m1/moxian_m1/mo_common_gps/src/main/java/com/moxian/gps/BeanConfig.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+
+:mo_common_gps:processResources
+:mo_common_gps:classes
+:mo_common_gps:war
+
+BUILD SUCCESSFUL
+
+Total time: 16.902 secs
+
+This build could be faster, please consider using the Gradle Daemon: http://gradle.org/docs/2.4/userguide/gradle_daemon.html
+:mo_common_login:clean UP-TO-DATE
+:mo_common:compileJava UP-TO-DATE
+:mo_common:processResources UP-TO-DATE
+:mo_common:classes UP-TO-DATE
+:mo_common:jar UP-TO-DATE
+:mo_common_redispools:compileJava UP-TO-DATE
+:mo_common_redispools:processResources UP-TO-DATE
+:mo_common_redispools:classes UP-TO-DATE
+:mo_common_redispools:jar UP-TO-DATE
+:mo_common_thrift:compileJava UP-TO-DATE
+:mo_common_thrift:processResources UP-TO-DATE
+:mo_common_thrift:classes UP-TO-DATE
+:mo_common_thrift:jar UP-TO-DATE
+:mo_common_login:compileJavaNote: /data/moxian_package/code_moxian_m1/moxian_m1/mo_common_login/src/main/java/com/moxian/common/login/BeanConfig.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+
+:mo_common_login:processResources
+:mo_common_login:classes
+:mo_common_login:war
+
+BUILD SUCCESSFUL
+
+Total time: 14.875 secs
+
+This build could be faster, please consider using the Gradle Daemon: http://gradle.org/docs/2.4/userguide/gradle_daemon.html
+:mo_common_sms:clean UP-TO-DATE
+:mo_common:compileJava UP-TO-DATE
+:mo_common:processResources UP-TO-DATE
+:mo_common:classes UP-TO-DATE
+:mo_common:jar UP-TO-DATE
+:mo_common_kafka:compileJava UP-TO-DATE
+:mo_common_kafka:processResources UP-TO-DATE
+:mo_common_kafka:classes UP-TO-DATE
+:mo_common_kafka:jar UP-TO-DATE
+:mo_common_thrift:compileJava UP-TO-DATE
+:mo_common_thrift:processResources UP-TO-DATE
+:mo_common_thrift:classes UP-TO-DATE
+:mo_common_thrift:jar UP-TO-DATE
+:mo_common_sms:compileJavaNote: /data/moxian_package/code_moxian_m1/moxian_m1/mo_common_sms/src/main/java/com/moxian/common/sms/BeanConfig.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+
+:mo_common_sms:processResources
+:mo_common_sms:classes
+:mo_common_sms:war
+
+BUILD SUCCESSFUL
+
+Total time: 15.322 secs
+
+This build could be faster, please consider using the Gradle Daemon: http://gradle.org/docs/2.4/userguide/gradle_daemon.html
+:mo_common_smsservice:clean UP-TO-DATE
+:mo_common:compileJava UP-TO-DATE
+:mo_common:processResources UP-TO-DATE
+:mo_common:classes UP-TO-DATE
+:mo_common:jar UP-TO-DATE
+:mo_common_kafka:compileJava UP-TO-DATE
+:mo_common_kafka:processResources UP-TO-DATE
+:mo_common_kafka:classes UP-TO-DATE
+:mo_common_kafka:jar UP-TO-DATE
+:mo_common_smsservice:compileJavaNote: /data/moxian_package/code_moxian_m1/moxian_m1/mo_common_smsservice/src/main/java/com/moxian/common/smsservice/BeanConfig.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+
+:mo_common_smsservice:processResources
+:mo_common_smsservice:classes
+:mo_common_smsservice:war
+
+BUILD SUCCESSFUL
+
+Total time: 14.213 secs
+
+This build could be faster, please consider using the Gradle Daemon: http://gradle.org/docs/2.4/userguide/gradle_daemon.html
+:mo_common_sso:clean UP-TO-DATE
+:mo_common:compileJava UP-TO-DATE
+:mo_common:processResources UP-TO-DATE
+:mo_common:classes UP-TO-DATE
+:mo_common:jar UP-TO-DATE
+:mo_common_kafka:compileJava UP-TO-DATE
+:mo_common_kafka:processResources UP-TO-DATE
+:mo_common_kafka:classes UP-TO-DATE
+:mo_common_kafka:jar UP-TO-DATE
+:mo_common_redispools:compileJava UP-TO-DATE
+:mo_common_redispools:processResources UP-TO-DATE
+:mo_common_redispools:classes UP-TO-DATE
+:mo_common_redispools:jar UP-TO-DATE
+:mo_common_thrift:compileJava UP-TO-DATE
+:mo_common_thrift:processResources UP-TO-DATE
+:mo_common_thrift:classes UP-TO-DATE
+:mo_common_thrift:jar UP-TO-DATE
+:mo_common_sso:compileJava/data/moxian_package/code_moxian_m1/moxian_m1/mo_common_sso/src/main/java/com/moxian/common/sso/util/HMacMD5.java:19: warning: BASE64Decoder is internal proprietary API and may be removed in a future release
+import sun.misc.BASE64Decoder;
+               ^
+/data/moxian_package/code_moxian_m1/moxian_m1/mo_common_sso/src/main/java/com/moxian/common/sso/util/HMacMD5.java:20: warning: BASE64Encoder is internal proprietary API and may be removed in a future release
+import sun.misc.BASE64Encoder;
+               ^
+/data/moxian_package/code_moxian_m1/moxian_m1/mo_common_sso/src/main/java/com/moxian/common/sso/util/HMacMD5.java:19: warning: BASE64Decoder is internal proprietary API and may be removed in a future release
+import sun.misc.BASE64Decoder;
+               ^
+/data/moxian_package/code_moxian_m1/moxian_m1/mo_common_sso/src/main/java/com/moxian/common/sso/util/HMacMD5.java:20: warning: BASE64Encoder is internal proprietary API and may be removed in a future release
+import sun.misc.BASE64Encoder;
+               ^
+/data/moxian_package/code_moxian_m1/moxian_m1/mo_common_sso/src/main/java/com/moxian/common/sso/util/HMacMD5.java:19: warning: BASE64Decoder is internal proprietary API and may be removed in a future release
+import sun.misc.BASE64Decoder;
+               ^
+/data/moxian_package/code_moxian_m1/moxian_m1/mo_common_sso/src/main/java/com/moxian/common/sso/util/HMacMD5.java:20: warning: BASE64Encoder is internal proprietary API and may be removed in a future release
+import sun.misc.BASE64Encoder;
+               ^
+/data/moxian_package/code_moxian_m1/moxian_m1/mo_common_sso/src/main/java/com/moxian/common/sso/util/HMacMD5.java:19: warning: BASE64Decoder is internal proprietary API and may be removed in a future release
+import sun.misc.BASE64Decoder;
+               ^
+/data/moxian_package/code_moxian_m1/moxian_m1/mo_common_sso/src/main/java/com/moxian/common/sso/util/HMacMD5.java:20: warning: BASE64Encoder is internal proprietary API and may be removed in a future release
+import sun.misc.BASE64Encoder;
+               ^
+/data/moxian_package/code_moxian_m1/moxian_m1/mo_common_sso/src/main/java/com/moxian/common/sso/util/HMacMD5.java:64: warning: BASE64Decoder is internal proprietary API and may be removed in a future release
+       return (new BASE64Decoder()).decodeBuffer(key);
+                   ^
+/data/moxian_package/code_moxian_m1/moxian_m1/mo_common_sso/src/main/java/com/moxian/common/sso/util/HMacMD5.java:76: warning: BASE64Encoder is internal proprietary API and may be removed in a future release
+       return (new BASE64Encoder()).encodeBuffer(key);
+                   ^
+Note: Some input files use or override a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+10 warnings
+
+:mo_common_sso:processResources
+:mo_common_sso:classes
+:mo_common_sso:war
+
+BUILD SUCCESSFUL
+
+Total time: 18.981 secs
+
+This build could be faster, please consider using the Gradle Daemon: http://gradle.org/docs/2.4/userguide/gradle_daemon.html
+:mo_fans:clean UP-TO-DATE
+:mo_common:compileJava UP-TO-DATE
+:mo_common:processResources UP-TO-DATE
+:mo_common:classes UP-TO-DATE
+:mo_common:jar UP-TO-DATE
+:mo_common_kafka:compileJava UP-TO-DATE
+:mo_common_kafka:processResources UP-TO-DATE
+:mo_common_kafka:classes UP-TO-DATE
+:mo_common_kafka:jar UP-TO-DATE
+:mo_common_thrift:compileJava UP-TO-DATE
+:mo_common_thrift:processResources UP-TO-DATE
+:mo_common_thrift:classes UP-TO-DATE
+:mo_common_thrift:jar UP-TO-DATE
+:mo_fans:compileJavaNote: /data/moxian_package/code_moxian_m1/moxian_m1/mo_fans/src/main/java/com/moxian/fans/BeanConfig.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+
+:mo_fans:processResources
+:mo_fans:classes
+:mo_fans:war
+
+BUILD SUCCESSFUL
+
+Total time: 14.521 secs
+
+This build could be faster, please consider using the Gradle Daemon: http://gradle.org/docs/2.4/userguide/gradle_daemon.html
+:mo_goods:clean UP-TO-DATE
+:mo_common:compileJava UP-TO-DATE
+:mo_common:processResources UP-TO-DATE
+:mo_common:classes UP-TO-DATE
+:mo_common:jar UP-TO-DATE
+:mo_common_kafka:compileJava UP-TO-DATE
+:mo_common_kafka:processResources UP-TO-DATE
+:mo_common_kafka:classes UP-TO-DATE
+:mo_common_kafka:jar UP-TO-DATE
+:mo_common_redispools:compileJava UP-TO-DATE
+:mo_common_redispools:processResources UP-TO-DATE
+:mo_common_redispools:classes UP-TO-DATE
+:mo_common_redispools:jar UP-TO-DATE
+:mo_common_thrift:compileJava UP-TO-DATE
+:mo_common_thrift:processResources UP-TO-DATE
+:mo_common_thrift:classes UP-TO-DATE
+:mo_common_thrift:jar UP-TO-DATE
+:mo_goods:compileJavaNote: /data/moxian_package/code_moxian_m1/moxian_m1/mo_goods/src/main/java/com/moxian/goods/BeanConfig.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+Note: Some input files use unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+
+:mo_goods:processResources
+:mo_goods:classes
+:mo_goods:war
+
+BUILD SUCCESSFUL
+
+Total time: 19.779 secs
+
+This build could be faster, please consider using the Gradle Daemon: http://gradle.org/docs/2.4/userguide/gradle_daemon.html
+:mo_marketing:clean UP-TO-DATE
+:mo_common:compileJava UP-TO-DATE
+:mo_common:processResources UP-TO-DATE
+:mo_common:classes UP-TO-DATE
+:mo_common:jar UP-TO-DATE
+:mo_common_kafka:compileJava UP-TO-DATE
+:mo_common_kafka:processResources UP-TO-DATE
+:mo_common_kafka:classes UP-TO-DATE
+:mo_common_kafka:jar UP-TO-DATE
+:mo_common_redispools:compileJava UP-TO-DATE
+:mo_common_redispools:processResources UP-TO-DATE
+:mo_common_redispools:classes UP-TO-DATE
+:mo_common_redispools:jar UP-TO-DATE
+:mo_common_thrift:compileJava UP-TO-DATE
+:mo_common_thrift:processResources UP-TO-DATE
+:mo_common_thrift:classes UP-TO-DATE
+:mo_common_thrift:jar UP-TO-DATE
+:mo_marketing:compileJavaNote: /data/moxian_package/code_moxian_m1/moxian_m1/mo_marketing/src/main/java/com/moxian/marketing/BeanConfig.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+Note: Some input files use unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+
+:mo_marketing:processResources
+:mo_marketing:classes
+:mo_marketing:war
+
+BUILD SUCCESSFUL
+
+Total time: 21.134 secs
+
+This build could be faster, please consider using the Gradle Daemon: http://gradle.org/docs/2.4/userguide/gradle_daemon.html
+:mo_moment:clean UP-TO-DATE
+:mo_common:compileJava/data/moxian_package/code_moxian_outsource/moxian_outsource/mo_common/src/main/java/com/moxian/common/util/CryptUtil.java:16: warning: BASE64Decoder is internal proprietary API and may be removed in a future release
+import sun.misc.BASE64Decoder;
+               ^
+/data/moxian_package/code_moxian_outsource/moxian_outsource/mo_common/src/main/java/com/moxian/common/util/CryptUtil.java:17: warning: BASE64Encoder is internal proprietary API and may be removed in a future release
+import sun.misc.BASE64Encoder;
+               ^
+/data/moxian_package/code_moxian_outsource/moxian_outsource/mo_common/src/main/java/com/moxian/common/util/CryptUtil.java:16: warning: BASE64Decoder is internal proprietary API and may be removed in a future release
+import sun.misc.BASE64Decoder;
+               ^
+/data/moxian_package/code_moxian_outsource/moxian_outsource/mo_common/src/main/java/com/moxian/common/util/CryptUtil.java:17: warning: BASE64Encoder is internal proprietary API and may be removed in a future release
+import sun.misc.BASE64Encoder;
+               ^
+/data/moxian_package/code_moxian_outsource/moxian_outsource/mo_common/src/main/java/com/moxian/common/util/CryptUtil.java:16: warning: BASE64Decoder is internal proprietary API and may be removed in a future release
+import sun.misc.BASE64Decoder;
+               ^
+/data/moxian_package/code_moxian_outsource/moxian_outsource/mo_common/src/main/java/com/moxian/common/util/CryptUtil.java:17: warning: BASE64Encoder is internal proprietary API and may be removed in a future release
+import sun.misc.BASE64Encoder;
+               ^
+/data/moxian_package/code_moxian_outsource/moxian_outsource/mo_common/src/main/java/com/moxian/common/util/CryptUtil.java:16: warning: BASE64Decoder is internal proprietary API and may be removed in a future release
+import sun.misc.BASE64Decoder;
+               ^
+/data/moxian_package/code_moxian_outsource/moxian_outsource/mo_common/src/main/java/com/moxian/common/util/CryptUtil.java:17: warning: BASE64Encoder is internal proprietary API and may be removed in a future release
+import sun.misc.BASE64Encoder;
+               ^
+/data/moxian_package/code_moxian_outsource/moxian_outsource/mo_common/src/main/java/com/moxian/common/util/CryptUtil.java:93: warning: BASE64Encoder is internal proprietary API and may be removed in a future release
+        return new BASE64Encoder().encode(dataByte);
+                   ^
+/data/moxian_package/code_moxian_outsource/moxian_outsource/mo_common/src/main/java/com/moxian/common/util/CryptUtil.java:104: warning: BASE64Decoder is internal proprietary API and may be removed in a future release
+        return new BASE64Decoder().decodeBuffer(datasource);
+                   ^
+/data/moxian_package/code_moxian_outsource/moxian_outsource/mo_common/src/main/java/com/moxian/common/util/CryptUtil.java:160: warning: BASE64Encoder is internal proprietary API and may be removed in a future release
+            BASE64Encoder be = new BASE64Encoder();
+            ^
+/data/moxian_package/code_moxian_outsource/moxian_outsource/mo_common/src/main/java/com/moxian/common/util/CryptUtil.java:160: warning: BASE64Encoder is internal proprietary API and may be removed in a future release
+            BASE64Encoder be = new BASE64Encoder();
+                                   ^
+/data/moxian_package/code_moxian_outsource/moxian_outsource/mo_common/src/main/java/com/moxian/common/util/CryptUtil.java:199: warning: BASE64Decoder is internal proprietary API and may be removed in a future release
+            BASE64Decoder bd = new BASE64Decoder();
+            ^
+/data/moxian_package/code_moxian_outsource/moxian_outsource/mo_common/src/main/java/com/moxian/common/util/CryptUtil.java:199: warning: BASE64Decoder is internal proprietary API and may be removed in a future release
+            BASE64Decoder bd = new BASE64Decoder();
+                                   ^
+Note: /data/moxian_package/code_moxian_outsource/moxian_outsource/mo_common/src/main/java/com/moxian/common/rest/RestBase.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+14 warnings
+
+:mo_common:processResources
+:mo_common:classes
+:mo_common:jar
+:mo_common_kafka:compileJavaNote: Some input files use unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+
+:mo_common_kafka:processResources
+:mo_common_kafka:classes
+:mo_common_kafka:jar
+:mo_common_redispools:compileJava
+:mo_common_redispools:processResources UP-TO-DATE
+:mo_common_redispools:classes
+:mo_common_redispools:jar
+:mo_common_thrift:compileJava
+:mo_common_thrift:processResources
+:mo_common_thrift:classes
+:mo_common_thrift:jar
+:mo_moment:compileJavaNote: /data/moxian_package/code_moxian_outsource/moxian_outsource/mo_moment/src/main/java/com/moxian/moment/BeanConfig.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+Note: Some input files use unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+
+:mo_moment:processResources
+:mo_moment:classes
+:mo_moment:war
+
+BUILD SUCCESSFUL
+
+Total time: 20.052 secs
+
+This build could be faster, please consider using the Gradle Daemon: http://gradle.org/docs/2.4/userguide/gradle_daemon.html
+:mo_moxian:clean UP-TO-DATE
+:mo_common:compileJava UP-TO-DATE
+:mo_common:processResources UP-TO-DATE
+:mo_common:classes UP-TO-DATE
+:mo_common:jar UP-TO-DATE
+:mo_common_kafka:compileJava UP-TO-DATE
+:mo_common_kafka:processResources UP-TO-DATE
+:mo_common_kafka:classes UP-TO-DATE
+:mo_common_kafka:jar UP-TO-DATE
+:mo_common_redispools:compileJava UP-TO-DATE
+:mo_common_redispools:processResources UP-TO-DATE
+:mo_common_redispools:classes UP-TO-DATE
+:mo_common_redispools:jar UP-TO-DATE
+:mo_common_thrift:compileJava UP-TO-DATE
+:mo_common_thrift:processResources UP-TO-DATE
+:mo_common_thrift:classes UP-TO-DATE
+:mo_common_thrift:jar UP-TO-DATE
+:mo_moxian:compileJavaNote: /data/moxian_package/code_moxian_m1/moxian_m1/mo_moxian/src/main/java/com/moxian/common/moxian/BeanConfig.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+
+:mo_moxian:processResources
+:mo_moxian:classes
+:mo_moxian:war
+
+BUILD SUCCESSFUL
+
+Total time: 18.422 secs
+
+This build could be faster, please consider using the Gradle Daemon: http://gradle.org/docs/2.4/userguide/gradle_daemon.html
+:mo_pal:clean UP-TO-DATE
+:mo_common:compileJava UP-TO-DATE
+:mo_common:processResources UP-TO-DATE
+:mo_common:classes UP-TO-DATE
+:mo_common:jar UP-TO-DATE
+:mo_common_kafka:compileJava UP-TO-DATE
+:mo_common_kafka:processResources UP-TO-DATE
+:mo_common_kafka:classes UP-TO-DATE
+:mo_common_kafka:jar UP-TO-DATE
+:mo_common_redispools:compileJava UP-TO-DATE
+:mo_common_redispools:processResources UP-TO-DATE
+:mo_common_redispools:classes UP-TO-DATE
+:mo_common_redispools:jar UP-TO-DATE
+:mo_common_thrift:compileJava UP-TO-DATE
+:mo_common_thrift:processResources UP-TO-DATE
+:mo_common_thrift:classes UP-TO-DATE
+:mo_common_thrift:jar UP-TO-DATE
+:mo_pal:generateMetaModel
+Prepare dictionary structures  [/data/moxian_package/code_moxian_outsource/moxian_outsource/mo_pal/src/main/generated]
+Note: Hibernate JPA 2 Static-Metamodel Generator 4.3.1.Final
+:mo_pal:compileJavaNote: Some input files use or override a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+Note: Some input files use unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+
+:mo_pal:processResources
+:mo_pal:classes
+:mo_pal:war
+
+BUILD SUCCESSFUL
+
+Total time: 21.053 secs
+
+This build could be faster, please consider using the Gradle Daemon: http://gradle.org/docs/2.4/userguide/gradle_daemon.html
+:mo_ad:clean
+:mo_common:compileJava UP-TO-DATE
+:mo_common:processResources UP-TO-DATE
+:mo_common:classes UP-TO-DATE
+:mo_common:jar UP-TO-DATE
+:mo_common_redispools:compileJava UP-TO-DATE
+:mo_common_redispools:processResources UP-TO-DATE
+:mo_common_redispools:classes UP-TO-DATE
+:mo_common_redispools:jar UP-TO-DATE
+:mo_ad:compileJava/data/moxian_package/code_moxian_m1/moxian_m1/mo_ad/src/main/java/com/moxian/ad/rest/InitPageResource.java:68: warning: @NonNull is meaningless on a primitive.
+	public BoUtil getLatestInitPage(@NonNull @QueryParam("city") long city){ 
+	                                ^
+/data/moxian_package/code_moxian_m1/moxian_m1/mo_ad/src/main/java/com/moxian/ad/rest/InitPageResource.java:95: warning: @NonNull is meaningless on a primitive.
+	public BoUtil getMoBizInitPage(@NonNull @QueryParam("city") long city,@NonNull @QueryParam("pageVersion") long pageVersion){ 
+	                               ^
+/data/moxian_package/code_moxian_m1/moxian_m1/mo_ad/src/main/java/com/moxian/ad/rest/InitPageResource.java:95: warning: @NonNull is meaningless on a primitive.
+	public BoUtil getMoBizInitPage(@NonNull @QueryParam("city") long city,@NonNull @QueryParam("pageVersion") long pageVersion){ 
+	                                                                      ^
+Note: /data/moxian_package/code_moxian_m1/moxian_m1/mo_ad/src/main/java/com/moxian/ad/BeanConfig.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+Note: /data/moxian_package/code_moxian_m1/moxian_m1/mo_ad/src/main/java/com/moxian/ad/dao/impl/MxCityDaoMyBatisImpl.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+3 warnings
+
+:mo_ad:processResources
+:mo_ad:classes
+:mo_ad:war
+
+BUILD SUCCESSFUL
+
+Total time: 13.948 secs
+
+This build could be faster, please consider using the Gradle Daemon: http://gradle.org/docs/2.4/userguide/gradle_daemon.html
+:mo_biz:clean
+:mo_common:compileJava UP-TO-DATE
+:mo_common:processResources UP-TO-DATE
+:mo_common:classes UP-TO-DATE
+:mo_common:jar UP-TO-DATE
+:mo_common_kafka:compileJava UP-TO-DATE
+:mo_common_kafka:processResources UP-TO-DATE
+:mo_common_kafka:classes UP-TO-DATE
+:mo_common_kafka:jar UP-TO-DATE
+:mo_common_redispools:compileJava UP-TO-DATE
+:mo_common_redispools:processResources UP-TO-DATE
+:mo_common_redispools:classes UP-TO-DATE
+:mo_common_redispools:jar UP-TO-DATE
+:mo_common_thrift:compileJava UP-TO-DATE
+:mo_common_thrift:processResources UP-TO-DATE
+:mo_common_thrift:classes UP-TO-DATE
+:mo_common_thrift:jar UP-TO-DATE
+:mo_biz:compileJava/data/moxian_package/code_moxian_m1/moxian_m1/mo_biz/src/main/java/com/moxian/biz/BeanConfig.java:251: warning: Generating equals/hashCode implementation but without a call to superclass, even though this class does not extend java.lang.Object. If this is intentional, add '@EqualsAndHashCode(callSuper=false)' to your type.
+	@Data
+	^
+/data/moxian_package/code_moxian_m1/moxian_m1/mo_biz/src/main/java/com/moxian/biz/BeanConfig.java:257: warning: Generating equals/hashCode implementation but without a call to superclass, even though this class does not extend java.lang.Object. If this is intentional, add '@EqualsAndHashCode(callSuper=false)' to your type.
+	@Data
+	^
+/data/moxian_package/code_moxian_m1/moxian_m1/mo_biz/src/main/java/com/moxian/biz/BeanConfig.java:283: warning: Generating equals/hashCode implementation but without a call to superclass, even though this class does not extend java.lang.Object. If this is intentional, add '@EqualsAndHashCode(callSuper=false)' to your type.
+	@Data
+	^
+Note: Some input files use or override a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+Note: Some input files use unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+3 warnings
+
+:mo_biz:processResources
+:mo_biz:classes
+:mo_biz:war
+
+BUILD SUCCESSFUL
+
+Total time: 23.449 secs
+
+This build could be faster, please consider using the Gradle Daemon: http://gradle.org/docs/2.4/userguide/gradle_daemon.html
+:mo_comment:clean
+:mo_common:compileJava UP-TO-DATE
+:mo_common:processResources UP-TO-DATE
+:mo_common:classes UP-TO-DATE
+:mo_common:jar UP-TO-DATE
+:mo_comment:compileJavaNote: /data/moxian_package/code_moxian_m1/moxian_m1/mo_comment/src/main/java/com/moxian/comment/BeanConfig.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+
+:mo_comment:processResources
+:mo_comment:classes
+:mo_comment:war
+
+BUILD SUCCESSFUL
+
+Total time: 13.405 secs
+
+This build could be faster, please consider using the Gradle Daemon: http://gradle.org/docs/2.4/userguide/gradle_daemon.html
+:mo_common_appsetting:clean
+:mo_common:compileJava UP-TO-DATE
+:mo_common:processResources UP-TO-DATE
+:mo_common:classes UP-TO-DATE
+:mo_common:jar UP-TO-DATE
+:mo_common_thrift:compileJava UP-TO-DATE
+:mo_common_thrift:processResources UP-TO-DATE
+:mo_common_thrift:classes UP-TO-DATE
+:mo_common_thrift:jar UP-TO-DATE
+:mo_common_appsetting:compileJavaNote: /data/moxian_package/code_moxian_m1/moxian_m1/mo_common_appsetting/src/main/java/com/moxian/common/setting/BeanConfig.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+
+:mo_common_appsetting:processResources
+:mo_common_appsetting:classes
+:mo_common_appsetting:war
+
+BUILD SUCCESSFUL
+
+Total time: 15.367 secs
+
+This build could be faster, please consider using the Gradle Daemon: http://gradle.org/docs/2.4/userguide/gradle_daemon.html
+:mo_common_emailservice:clean
+:mo_common:compileJava UP-TO-DATE
+:mo_common:processResources UP-TO-DATE
+:mo_common:classes UP-TO-DATE
+:mo_common:jar UP-TO-DATE
+:mo_common_kafka:compileJava UP-TO-DATE
+:mo_common_kafka:processResources UP-TO-DATE
+:mo_common_kafka:classes UP-TO-DATE
+:mo_common_kafka:jar UP-TO-DATE
+:mo_common_emailservice:compileJavaNote: /data/moxian_package/code_moxian_m1/moxian_m1/mo_common_emailservice/src/main/java/com/moxian/common/emailservice/BeanConfig.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+
+:mo_common_emailservice:processResources
+:mo_common_emailservice:classes
+:mo_common_emailservice:war
+
+BUILD SUCCESSFUL
+
+Total time: 14.11 secs
+
+This build could be faster, please consider using the Gradle Daemon: http://gradle.org/docs/2.4/userguide/gradle_daemon.html
+:mo_common_fileuploadservice:clean
+:mo_common:compileJava UP-TO-DATE
+:mo_common:processResources UP-TO-DATE
+:mo_common:classes UP-TO-DATE
+:mo_common:jar UP-TO-DATE
+:mo_common_thrift:compileJava UP-TO-DATE
+:mo_common_thrift:processResources UP-TO-DATE
+:mo_common_thrift:classes UP-TO-DATE
+:mo_common_thrift:jar UP-TO-DATE
+:mo_common_fileuploadservice:compileJavaNote: Some input files use or override a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+
+:mo_common_fileuploadservice:processResources
+:mo_common_fileuploadservice:classes
+:mo_common_fileuploadservice:war
+
+BUILD SUCCESSFUL
+
+Total time: 14.517 secs
+
+This build could be faster, please consider using the Gradle Daemon: http://gradle.org/docs/2.4/userguide/gradle_daemon.html
+:mo_common_gps:clean
+:mo_common:compileJava UP-TO-DATE
+:mo_common:processResources UP-TO-DATE
+:mo_common:classes UP-TO-DATE
+:mo_common:jar UP-TO-DATE
+:mo_common_thrift:compileJava UP-TO-DATE
+:mo_common_thrift:processResources UP-TO-DATE
+:mo_common_thrift:classes UP-TO-DATE
+:mo_common_thrift:jar UP-TO-DATE
+:mo_common_gps:compileJavaNote: /data/moxian_package/code_moxian_m1/moxian_m1/mo_common_gps/src/main/java/com/moxian/gps/BeanConfig.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+
+:mo_common_gps:processResources
+:mo_common_gps:classes
+:mo_common_gps:war
+
+BUILD SUCCESSFUL
+
+Total time: 17.018 secs
+
+This build could be faster, please consider using the Gradle Daemon: http://gradle.org/docs/2.4/userguide/gradle_daemon.html
+:mo_common_login:clean
+:mo_common:compileJava UP-TO-DATE
+:mo_common:processResources UP-TO-DATE
+:mo_common:classes UP-TO-DATE
+:mo_common:jar UP-TO-DATE
+:mo_common_redispools:compileJava UP-TO-DATE
+:mo_common_redispools:processResources UP-TO-DATE
+:mo_common_redispools:classes UP-TO-DATE
+:mo_common_redispools:jar UP-TO-DATE
+:mo_common_thrift:compileJava UP-TO-DATE
+:mo_common_thrift:processResources UP-TO-DATE
+:mo_common_thrift:classes UP-TO-DATE
+:mo_common_thrift:jar UP-TO-DATE
+:mo_common_login:compileJavaNote: /data/moxian_package/code_moxian_m1/moxian_m1/mo_common_login/src/main/java/com/moxian/common/login/BeanConfig.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+
+:mo_common_login:processResources
+:mo_common_login:classes
+:mo_common_login:war
+
+BUILD SUCCESSFUL
+
+Total time: 15.226 secs
+
+This build could be faster, please consider using the Gradle Daemon: http://gradle.org/docs/2.4/userguide/gradle_daemon.html
+:mo_common_sms:clean
+:mo_common:compileJava UP-TO-DATE
+:mo_common:processResources UP-TO-DATE
+:mo_common:classes UP-TO-DATE
+:mo_common:jar UP-TO-DATE
+:mo_common_kafka:compileJava UP-TO-DATE
+:mo_common_kafka:processResources UP-TO-DATE
+:mo_common_kafka:classes UP-TO-DATE
+:mo_common_kafka:jar UP-TO-DATE
+:mo_common_thrift:compileJava UP-TO-DATE
+:mo_common_thrift:processResources UP-TO-DATE
+:mo_common_thrift:classes UP-TO-DATE
+:mo_common_thrift:jar UP-TO-DATE
+:mo_common_sms:compileJavaNote: /data/moxian_package/code_moxian_m1/moxian_m1/mo_common_sms/src/main/java/com/moxian/common/sms/BeanConfig.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+
+:mo_common_sms:processResources
+:mo_common_sms:classes
+:mo_common_sms:war
+
+BUILD SUCCESSFUL
+
+Total time: 15.986 secs
+
+This build could be faster, please consider using the Gradle Daemon: http://gradle.org/docs/2.4/userguide/gradle_daemon.html
+:mo_common_smsservice:clean
+:mo_common:compileJava UP-TO-DATE
+:mo_common:processResources UP-TO-DATE
+:mo_common:classes UP-TO-DATE
+:mo_common:jar UP-TO-DATE
+:mo_common_kafka:compileJava UP-TO-DATE
+:mo_common_kafka:processResources UP-TO-DATE
+:mo_common_kafka:classes UP-TO-DATE
+:mo_common_kafka:jar UP-TO-DATE
+:mo_common_smsservice:compileJavaNote: /data/moxian_package/code_moxian_m1/moxian_m1/mo_common_smsservice/src/main/java/com/moxian/common/smsservice/BeanConfig.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+
+:mo_common_smsservice:processResources
+:mo_common_smsservice:classes
+:mo_common_smsservice:war
+
+BUILD SUCCESSFUL
+
+Total time: 14.46 secs
+
+This build could be faster, please consider using the Gradle Daemon: http://gradle.org/docs/2.4/userguide/gradle_daemon.html
+:mo_common_sso:clean
+:mo_common:compileJava UP-TO-DATE
+:mo_common:processResources UP-TO-DATE
+:mo_common:classes UP-TO-DATE
+:mo_common:jar UP-TO-DATE
+:mo_common_kafka:compileJava UP-TO-DATE
+:mo_common_kafka:processResources UP-TO-DATE
+:mo_common_kafka:classes UP-TO-DATE
+:mo_common_kafka:jar UP-TO-DATE
+:mo_common_redispools:compileJava UP-TO-DATE
+:mo_common_redispools:processResources UP-TO-DATE
+:mo_common_redispools:classes UP-TO-DATE
+:mo_common_redispools:jar UP-TO-DATE
+:mo_common_thrift:compileJava UP-TO-DATE
+:mo_common_thrift:processResources UP-TO-DATE
+:mo_common_thrift:classes UP-TO-DATE
+:mo_common_thrift:jar UP-TO-DATE
+:mo_common_sso:compileJava/data/moxian_package/code_moxian_m1/moxian_m1/mo_common_sso/src/main/java/com/moxian/common/sso/util/HMacMD5.java:19: warning: BASE64Decoder is internal proprietary API and may be removed in a future release
+import sun.misc.BASE64Decoder;
+               ^
+/data/moxian_package/code_moxian_m1/moxian_m1/mo_common_sso/src/main/java/com/moxian/common/sso/util/HMacMD5.java:20: warning: BASE64Encoder is internal proprietary API and may be removed in a future release
+import sun.misc.BASE64Encoder;
+               ^
+/data/moxian_package/code_moxian_m1/moxian_m1/mo_common_sso/src/main/java/com/moxian/common/sso/util/HMacMD5.java:19: warning: BASE64Decoder is internal proprietary API and may be removed in a future release
+import sun.misc.BASE64Decoder;
+               ^
+/data/moxian_package/code_moxian_m1/moxian_m1/mo_common_sso/src/main/java/com/moxian/common/sso/util/HMacMD5.java:20: warning: BASE64Encoder is internal proprietary API and may be removed in a future release
+import sun.misc.BASE64Encoder;
+               ^
+/data/moxian_package/code_moxian_m1/moxian_m1/mo_common_sso/src/main/java/com/moxian/common/sso/util/HMacMD5.java:19: warning: BASE64Decoder is internal proprietary API and may be removed in a future release
+import sun.misc.BASE64Decoder;
+               ^
+/data/moxian_package/code_moxian_m1/moxian_m1/mo_common_sso/src/main/java/com/moxian/common/sso/util/HMacMD5.java:20: warning: BASE64Encoder is internal proprietary API and may be removed in a future release
+import sun.misc.BASE64Encoder;
+               ^
+/data/moxian_package/code_moxian_m1/moxian_m1/mo_common_sso/src/main/java/com/moxian/common/sso/util/HMacMD5.java:19: warning: BASE64Decoder is internal proprietary API and may be removed in a future release
+import sun.misc.BASE64Decoder;
+               ^
+/data/moxian_package/code_moxian_m1/moxian_m1/mo_common_sso/src/main/java/com/moxian/common/sso/util/HMacMD5.java:20: warning: BASE64Encoder is internal proprietary API and may be removed in a future release
+import sun.misc.BASE64Encoder;
+               ^
+/data/moxian_package/code_moxian_m1/moxian_m1/mo_common_sso/src/main/java/com/moxian/common/sso/util/HMacMD5.java:64: warning: BASE64Decoder is internal proprietary API and may be removed in a future release
+       return (new BASE64Decoder()).decodeBuffer(key);
+                   ^
+/data/moxian_package/code_moxian_m1/moxian_m1/mo_common_sso/src/main/java/com/moxian/common/sso/util/HMacMD5.java:76: warning: BASE64Encoder is internal proprietary API and may be removed in a future release
+       return (new BASE64Encoder()).encodeBuffer(key);
+                   ^
+Note: Some input files use or override a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+10 warnings
+
+:mo_common_sso:processResources
+:mo_common_sso:classes
+:mo_common_sso:war
+
+BUILD SUCCESSFUL
+
+Total time: 17.628 secs
+
+This build could be faster, please consider using the Gradle Daemon: http://gradle.org/docs/2.4/userguide/gradle_daemon.html
+:mo_fans:clean
+:mo_common:compileJava UP-TO-DATE
+:mo_common:processResources UP-TO-DATE
+:mo_common:classes UP-TO-DATE
+:mo_common:jar UP-TO-DATE
+:mo_common_kafka:compileJava UP-TO-DATE
+:mo_common_kafka:processResources UP-TO-DATE
+:mo_common_kafka:classes UP-TO-DATE
+:mo_common_kafka:jar UP-TO-DATE
+:mo_common_thrift:compileJava UP-TO-DATE
+:mo_common_thrift:processResources UP-TO-DATE
+:mo_common_thrift:classes UP-TO-DATE
+:mo_common_thrift:jar UP-TO-DATE
+:mo_fans:compileJavaNote: /data/moxian_package/code_moxian_m1/moxian_m1/mo_fans/src/main/java/com/moxian/fans/BeanConfig.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+
+:mo_fans:processResources
+:mo_fans:classes
+:mo_fans:war
+
+BUILD SUCCESSFUL
+
+Total time: 14.741 secs
+
+This build could be faster, please consider using the Gradle Daemon: http://gradle.org/docs/2.4/userguide/gradle_daemon.html
+:mo_goods:clean
+:mo_common:compileJava UP-TO-DATE
+:mo_common:processResources UP-TO-DATE
+:mo_common:classes UP-TO-DATE
+:mo_common:jar UP-TO-DATE
+:mo_common_kafka:compileJava UP-TO-DATE
+:mo_common_kafka:processResources UP-TO-DATE
+:mo_common_kafka:classes UP-TO-DATE
+:mo_common_kafka:jar UP-TO-DATE
+:mo_common_redispools:compileJava UP-TO-DATE
+:mo_common_redispools:processResources UP-TO-DATE
+:mo_common_redispools:classes UP-TO-DATE
+:mo_common_redispools:jar UP-TO-DATE
+:mo_common_thrift:compileJava UP-TO-DATE
+:mo_common_thrift:processResources UP-TO-DATE
+:mo_common_thrift:classes UP-TO-DATE
+:mo_common_thrift:jar UP-TO-DATE
+:mo_goods:compileJavaNote: /data/moxian_package/code_moxian_m1/moxian_m1/mo_goods/src/main/java/com/moxian/goods/BeanConfig.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+Note: Some input files use unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+
+:mo_goods:processResources
+:mo_goods:classes
+:mo_goods:war
+
+BUILD SUCCESSFUL
+
+Total time: 20.404 secs
+
+This build could be faster, please consider using the Gradle Daemon: http://gradle.org/docs/2.4/userguide/gradle_daemon.html
+:mo_marketing:clean
+:mo_common:compileJava UP-TO-DATE
+:mo_common:processResources UP-TO-DATE
+:mo_common:classes UP-TO-DATE
+:mo_common:jar UP-TO-DATE
+:mo_common_kafka:compileJava UP-TO-DATE
+:mo_common_kafka:processResources UP-TO-DATE
+:mo_common_kafka:classes UP-TO-DATE
+:mo_common_kafka:jar UP-TO-DATE
+:mo_common_redispools:compileJava UP-TO-DATE
+:mo_common_redispools:processResources UP-TO-DATE
+:mo_common_redispools:classes UP-TO-DATE
+:mo_common_redispools:jar UP-TO-DATE
+:mo_common_thrift:compileJava UP-TO-DATE
+:mo_common_thrift:processResources UP-TO-DATE
+:mo_common_thrift:classes UP-TO-DATE
+:mo_common_thrift:jar UP-TO-DATE
+:mo_marketing:compileJavaNote: /data/moxian_package/code_moxian_m1/moxian_m1/mo_marketing/src/main/java/com/moxian/marketing/BeanConfig.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+Note: Some input files use unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+
+:mo_marketing:processResources
+:mo_marketing:classes
+:mo_marketing:war
+
+BUILD SUCCESSFUL
+
+Total time: 20.9 secs
+
+This build could be faster, please consider using the Gradle Daemon: http://gradle.org/docs/2.4/userguide/gradle_daemon.html
+:mo_moment:clean
+:mo_common:compileJava UP-TO-DATE
+:mo_common:processResources UP-TO-DATE
+:mo_common:classes UP-TO-DATE
+:mo_common:jar UP-TO-DATE
+:mo_common_kafka:compileJava UP-TO-DATE
+:mo_common_kafka:processResources UP-TO-DATE
+:mo_common_kafka:classes UP-TO-DATE
+:mo_common_kafka:jar UP-TO-DATE
+:mo_common_redispools:compileJava UP-TO-DATE
+:mo_common_redispools:processResources UP-TO-DATE
+:mo_common_redispools:classes UP-TO-DATE
+:mo_common_redispools:jar UP-TO-DATE
+:mo_common_thrift:compileJava UP-TO-DATE
+:mo_common_thrift:processResources UP-TO-DATE
+:mo_common_thrift:classes UP-TO-DATE
+:mo_common_thrift:jar UP-TO-DATE
+:mo_moment:compileJavaNote: /data/moxian_package/code_moxian_outsource/moxian_outsource/mo_moment/src/main/java/com/moxian/moment/BeanConfig.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+Note: Some input files use unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+
+:mo_moment:processResources
+:mo_moment:classes
+:mo_moment:war
+
+BUILD SUCCESSFUL
+
+Total time: 18.807 secs
+
+This build could be faster, please consider using the Gradle Daemon: http://gradle.org/docs/2.4/userguide/gradle_daemon.html
+:mo_moxian:clean
+:mo_common:compileJava UP-TO-DATE
+:mo_common:processResources UP-TO-DATE
+:mo_common:classes UP-TO-DATE
+:mo_common:jar UP-TO-DATE
+:mo_common_kafka:compileJava UP-TO-DATE
+:mo_common_kafka:processResources UP-TO-DATE
+:mo_common_kafka:classes UP-TO-DATE
+:mo_common_kafka:jar UP-TO-DATE
+:mo_common_redispools:compileJava UP-TO-DATE
+:mo_common_redispools:processResources UP-TO-DATE
+:mo_common_redispools:classes UP-TO-DATE
+:mo_common_redispools:jar UP-TO-DATE
+:mo_common_thrift:compileJava UP-TO-DATE
+:mo_common_thrift:processResources UP-TO-DATE
+:mo_common_thrift:classes UP-TO-DATE
+:mo_common_thrift:jar UP-TO-DATE
+:mo_moxian:compileJavaNote: /data/moxian_package/code_moxian_m1/moxian_m1/mo_moxian/src/main/java/com/moxian/common/moxian/BeanConfig.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+
+:mo_moxian:processResources
+:mo_moxian:classes
+:mo_moxian:war
+
+BUILD SUCCESSFUL
+
+Total time: 19.185 secs
+
+This build could be faster, please consider using the Gradle Daemon: http://gradle.org/docs/2.4/userguide/gradle_daemon.html
+:mo_pal:clean
+:mo_common:compileJava UP-TO-DATE
+:mo_common:processResources UP-TO-DATE
+:mo_common:classes UP-TO-DATE
+:mo_common:jar UP-TO-DATE
+:mo_common_kafka:compileJava UP-TO-DATE
+:mo_common_kafka:processResources UP-TO-DATE
+:mo_common_kafka:classes UP-TO-DATE
+:mo_common_kafka:jar UP-TO-DATE
+:mo_common_redispools:compileJava UP-TO-DATE
+:mo_common_redispools:processResources UP-TO-DATE
+:mo_common_redispools:classes UP-TO-DATE
+:mo_common_redispools:jar UP-TO-DATE
+:mo_common_thrift:compileJava UP-TO-DATE
+:mo_common_thrift:processResources UP-TO-DATE
+:mo_common_thrift:classes UP-TO-DATE
+:mo_common_thrift:jar UP-TO-DATE
+:mo_pal:generateMetaModel
+Prepare dictionary structures  [/data/moxian_package/code_moxian_outsource/moxian_outsource/mo_pal/src/main/generated]
+Note: Hibernate JPA 2 Static-Metamodel Generator 4.3.1.Final
+:mo_pal:compileJavaNote: Some input files use or override a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+Note: Some input files use unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+
+:mo_pal:processResources
+:mo_pal:classes
+:mo_pal:war
+
+BUILD SUCCESSFUL
+
+Total time: 22.788 secs
+
+This build could be faster, please consider using the Gradle Daemon: http://gradle.org/docs/2.4/userguide/gradle_daemon.html
+:mo_common_push:clean UP-TO-DATE
+:mo_common:compileJava UP-TO-DATE
+:mo_common:processResources UP-TO-DATE
+:mo_common:classes UP-TO-DATE
+:mo_common:jar UP-TO-DATE
+:mo_common_kafka:compileJava UP-TO-DATE
+:mo_common_kafka:processResources UP-TO-DATE
+:mo_common_kafka:classes UP-TO-DATE
+:mo_common_kafka:jar UP-TO-DATE
+:mo_common_thrift:compileJava UP-TO-DATE
+:mo_common_thrift:processResources UP-TO-DATE
+:mo_common_thrift:classes UP-TO-DATE
+:mo_common_thrift:jar UP-TO-DATE
+:mo_common_push:compileJavaNote: Some input files use or override a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+Note: /data/moxian_package/code_moxian_m1/moxian_m1/mo_common_push/src/main/java/com/moxian/common/push/service/impl/PushServiceImpl.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+
+:mo_common_push:processResources
+:mo_common_push:classes
+:mo_common_push:war
+
+BUILD SUCCESSFUL
+
+Total time: 16.947 secs
+
+This build could be faster, please consider using the Gradle Daemon: http://gradle.org/docs/2.4/userguide/gradle_daemon.html
+:mo_moment:clean UP-TO-DATE
+:mo_common:compileJava UP-TO-DATE
+:mo_common:processResources UP-TO-DATE
+:mo_common:classes UP-TO-DATE
+:mo_common:jar UP-TO-DATE
+:mo_common_kafka:compileJava UP-TO-DATE
+:mo_common_kafka:processResources UP-TO-DATE
+:mo_common_kafka:classes UP-TO-DATE
+:mo_common_kafka:jar UP-TO-DATE
+:mo_common_redispools:compileJava UP-TO-DATE
+:mo_common_redispools:processResources UP-TO-DATE
+:mo_common_redispools:classes UP-TO-DATE
+:mo_common_redispools:jar UP-TO-DATE
+:mo_common_thrift:compileJava UP-TO-DATE
+:mo_common_thrift:processResources UP-TO-DATE
+:mo_common_thrift:classes UP-TO-DATE
+:mo_common_thrift:jar UP-TO-DATE
+:mo_moment:compileJavaNote: /data/moxian_package/code_moxian_m1/moxian_m1/mo_moment/src/main/java/com/moxian/moment/BeanConfig.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+Note: Some input files use unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+
+:mo_moment:processResources
+:mo_moment:classes
+:mo_moment:war
+
+BUILD SUCCESSFUL
+
+Total time: 20.235 secs
+
+This build could be faster, please consider using the Gradle Daemon: http://gradle.org/docs/2.4/userguide/gradle_daemon.html
+:mo_shake:clean UP-TO-DATE
+:mo_common:compileJava/data/moxian_package/code_moxian_m1/moxian_m1_master_m2/moxian_m1/mo_common/src/main/java/com/moxian/common/util/CryptUtil.java:16: warning: BASE64Decoder is internal proprietary API and may be removed in a future release
+import sun.misc.BASE64Decoder;
+               ^
+/data/moxian_package/code_moxian_m1/moxian_m1_master_m2/moxian_m1/mo_common/src/main/java/com/moxian/common/util/CryptUtil.java:17: warning: BASE64Encoder is internal proprietary API and may be removed in a future release
+import sun.misc.BASE64Encoder;
+               ^
+/data/moxian_package/code_moxian_m1/moxian_m1_master_m2/moxian_m1/mo_common/src/main/java/com/moxian/common/util/CryptUtil.java:16: warning: BASE64Decoder is internal proprietary API and may be removed in a future release
+import sun.misc.BASE64Decoder;
+               ^
+/data/moxian_package/code_moxian_m1/moxian_m1_master_m2/moxian_m1/mo_common/src/main/java/com/moxian/common/util/CryptUtil.java:17: warning: BASE64Encoder is internal proprietary API and may be removed in a future release
+import sun.misc.BASE64Encoder;
+               ^
+/data/moxian_package/code_moxian_m1/moxian_m1_master_m2/moxian_m1/mo_common/src/main/java/com/moxian/common/util/CryptUtil.java:16: warning: BASE64Decoder is internal proprietary API and may be removed in a future release
+import sun.misc.BASE64Decoder;
+               ^
+/data/moxian_package/code_moxian_m1/moxian_m1_master_m2/moxian_m1/mo_common/src/main/java/com/moxian/common/util/CryptUtil.java:17: warning: BASE64Encoder is internal proprietary API and may be removed in a future release
+import sun.misc.BASE64Encoder;
+               ^
+/data/moxian_package/code_moxian_m1/moxian_m1_master_m2/moxian_m1/mo_common/src/main/java/com/moxian/common/util/CryptUtil.java:16: warning: BASE64Decoder is internal proprietary API and may be removed in a future release
+import sun.misc.BASE64Decoder;
+               ^
+/data/moxian_package/code_moxian_m1/moxian_m1_master_m2/moxian_m1/mo_common/src/main/java/com/moxian/common/util/CryptUtil.java:17: warning: BASE64Encoder is internal proprietary API and may be removed in a future release
+import sun.misc.BASE64Encoder;
+               ^
+/data/moxian_package/code_moxian_m1/moxian_m1_master_m2/moxian_m1/mo_common/src/main/java/com/moxian/common/util/CryptUtil.java:93: warning: BASE64Encoder is internal proprietary API and may be removed in a future release
+        return new BASE64Encoder().encode(dataByte);
+                   ^
+/data/moxian_package/code_moxian_m1/moxian_m1_master_m2/moxian_m1/mo_common/src/main/java/com/moxian/common/util/CryptUtil.java:104: warning: BASE64Decoder is internal proprietary API and may be removed in a future release
+        return new BASE64Decoder().decodeBuffer(datasource);
+                   ^
+/data/moxian_package/code_moxian_m1/moxian_m1_master_m2/moxian_m1/mo_common/src/main/java/com/moxian/common/util/CryptUtil.java:160: warning: BASE64Encoder is internal proprietary API and may be removed in a future release
+            BASE64Encoder be = new BASE64Encoder();
+            ^
+/data/moxian_package/code_moxian_m1/moxian_m1_master_m2/moxian_m1/mo_common/src/main/java/com/moxian/common/util/CryptUtil.java:160: warning: BASE64Encoder is internal proprietary API and may be removed in a future release
+            BASE64Encoder be = new BASE64Encoder();
+                                   ^
+/data/moxian_package/code_moxian_m1/moxian_m1_master_m2/moxian_m1/mo_common/src/main/java/com/moxian/common/util/CryptUtil.java:199: warning: BASE64Decoder is internal proprietary API and may be removed in a future release
+            BASE64Decoder bd = new BASE64Decoder();
+            ^
+/data/moxian_package/code_moxian_m1/moxian_m1_master_m2/moxian_m1/mo_common/src/main/java/com/moxian/common/util/CryptUtil.java:199: warning: BASE64Decoder is internal proprietary API and may be removed in a future release
+            BASE64Decoder bd = new BASE64Decoder();
+                                   ^
+Note: /data/moxian_package/code_moxian_m1/moxian_m1_master_m2/moxian_m1/mo_common/src/main/java/com/moxian/common/rest/RestBase.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+14 warnings
+
+:mo_common:processResources
+:mo_common:classes
+:mo_common:jar
+:mo_common_redispools:compileJava
+:mo_common_redispools:processResources UP-TO-DATE
+:mo_common_redispools:classes
+:mo_common_redispools:jar
+:mo_common_thrift:compileJava
+:mo_common_thrift:processResources UP-TO-DATE
+:mo_common_thrift:classes
+:mo_common_thrift:jar
+:mo_shake:compileJavaNote: /data/moxian_package/code_moxian_m1/moxian_m1_master_m2/moxian_m1/mo_shake/src/main/java/com/moxian/shake/BeanConfig.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+Note: /data/moxian_package/code_moxian_m1/moxian_m1_master_m2/moxian_m1/mo_shake/src/main/java/com/moxian/shake/dao/impl/ShakeShopGpsRedisDaoImpl.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+
+:mo_shake:processResources
+:mo_shake:classes
+:mo_shake:war
+
+BUILD SUCCESSFUL
+
+Total time: 20.27 secs
+
+This build could be faster, please consider using the Gradle Daemon: http://gradle.org/docs/2.4/userguide/gradle_daemon.html
+:mo_deploy:clean UP-TO-DATE
+:mo_common:compileJava UP-TO-DATE
+:mo_common:processResources UP-TO-DATE
+:mo_common:classes UP-TO-DATE
+:mo_common:jar UP-TO-DATE
+:mo_deploy:compileJavaNote: /data/moxian_package/code_moxian_m1/moxian_m1_master_m2/moxian_m1/mo_deploy/src/main/java/com/moxian/deploy/BeanConfig.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+
+:mo_deploy:processResources
+:mo_deploy:classes
+:mo_deploy:war
+
+BUILD SUCCESSFUL
+
+Total time: 13.643 secs
+
+This build could be faster, please consider using the Gradle Daemon: http://gradle.org/docs/2.4/userguide/gradle_daemon.html
+:mo_goods:clean
+:mo_common:compileJava UP-TO-DATE
+:mo_common:processResources UP-TO-DATE
+:mo_common:classes UP-TO-DATE
+:mo_common:jar UP-TO-DATE
+:mo_common_kafka:compileJava UP-TO-DATE
+:mo_common_kafka:processResources UP-TO-DATE
+:mo_common_kafka:classes UP-TO-DATE
+:mo_common_kafka:jar UP-TO-DATE
+:mo_common_redispools:compileJava UP-TO-DATE
+:mo_common_redispools:processResources UP-TO-DATE
+:mo_common_redispools:classes UP-TO-DATE
+:mo_common_redispools:jar UP-TO-DATE
+:mo_common_thrift:compileJava UP-TO-DATE
+:mo_common_thrift:processResources UP-TO-DATE
+:mo_common_thrift:classes UP-TO-DATE
+:mo_common_thrift:jar UP-TO-DATE
+:mo_goods:compileJavaNote: /data/moxian_package/code_moxian_m1/moxian_m1/mo_goods/src/main/java/com/moxian/goods/BeanConfig.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+Note: Some input files use unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+
+:mo_goods:processResources
+:mo_goods:classes
+:mo_goods:war
+
+BUILD SUCCESSFUL
+
+Total time: 21.254 secs
+
+This build could be faster, please consider using the Gradle Daemon: http://gradle.org/docs/2.4/userguide/gradle_daemon.html
+:mo_goods:clean
+:mo_common:compileJava UP-TO-DATE
+:mo_common:processResources UP-TO-DATE
+:mo_common:classes UP-TO-DATE
+:mo_common:jar UP-TO-DATE
+:mo_common_kafka:compileJava UP-TO-DATE
+:mo_common_kafka:processResources UP-TO-DATE
+:mo_common_kafka:classes UP-TO-DATE
+:mo_common_kafka:jar UP-TO-DATE
+:mo_common_redispools:compileJava UP-TO-DATE
+:mo_common_redispools:processResources UP-TO-DATE
+:mo_common_redispools:classes UP-TO-DATE
+:mo_common_redispools:jar UP-TO-DATE
+:mo_common_thrift:compileJava UP-TO-DATE
+:mo_common_thrift:processResources UP-TO-DATE
+:mo_common_thrift:classes UP-TO-DATE
+:mo_common_thrift:jar UP-TO-DATE
+:mo_goods:compileJavaNote: /data/moxian_package/code_moxian_m1/moxian_m1/mo_goods/src/main/java/com/moxian/goods/BeanConfig.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+Note: Some input files use unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+
+:mo_goods:processResources
+:mo_goods:classes
+:mo_goods:war
+
+BUILD SUCCESSFUL
+
+Total time: 19.87 secs
+
+This build could be faster, please consider using the Gradle Daemon: http://gradle.org/docs/2.4/userguide/gradle_daemon.html
+:mo_shake:clean
+:mo_common:compileJava UP-TO-DATE
+:mo_common:processResources UP-TO-DATE
+:mo_common:classes UP-TO-DATE
+:mo_common:jar UP-TO-DATE
+:mo_common_redispools:compileJava UP-TO-DATE
+:mo_common_redispools:processResources UP-TO-DATE
+:mo_common_redispools:classes UP-TO-DATE
+:mo_common_redispools:jar UP-TO-DATE
+:mo_common_thrift:compileJava UP-TO-DATE
+:mo_common_thrift:processResources UP-TO-DATE
+:mo_common_thrift:classes UP-TO-DATE
+:mo_common_thrift:jar UP-TO-DATE
+:mo_shake:compileJavaNote: /data/moxian_package/code_moxian_m1/moxian_m1_master_m2/moxian_m1/mo_shake/src/main/java/com/moxian/shake/BeanConfig.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+Note: /data/moxian_package/code_moxian_m1/moxian_m1_master_m2/moxian_m1/mo_shake/src/main/java/com/moxian/shake/dao/impl/ShakeShopGpsRedisDaoImpl.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+
+:mo_shake:processResources
+:mo_shake:classes
+:mo_shake:war
+
+BUILD SUCCESSFUL
+
+Total time: 21.398 secs
+
+This build could be faster, please consider using the Gradle Daemon: http://gradle.org/docs/2.4/userguide/gradle_daemon.html
+:mo_shake:clean
+:mo_common:compileJava/data/moxian_package/code_moxian_m1/moxian_m1_master_m2/moxian_m1/mo_common/src/main/java/com/moxian/common/util/CryptUtil.java:16: warning: BASE64Decoder is internal proprietary API and may be removed in a future release
+import sun.misc.BASE64Decoder;
+               ^
+/data/moxian_package/code_moxian_m1/moxian_m1_master_m2/moxian_m1/mo_common/src/main/java/com/moxian/common/util/CryptUtil.java:17: warning: BASE64Encoder is internal proprietary API and may be removed in a future release
+import sun.misc.BASE64Encoder;
+               ^
+/data/moxian_package/code_moxian_m1/moxian_m1_master_m2/moxian_m1/mo_common/src/main/java/com/moxian/common/util/CryptUtil.java:16: warning: BASE64Decoder is internal proprietary API and may be removed in a future release
+import sun.misc.BASE64Decoder;
+               ^
+/data/moxian_package/code_moxian_m1/moxian_m1_master_m2/moxian_m1/mo_common/src/main/java/com/moxian/common/util/CryptUtil.java:17: warning: BASE64Encoder is internal proprietary API and may be removed in a future release
+import sun.misc.BASE64Encoder;
+               ^
+/data/moxian_package/code_moxian_m1/moxian_m1_master_m2/moxian_m1/mo_common/src/main/java/com/moxian/common/util/CryptUtil.java:16: warning: BASE64Decoder is internal proprietary API and may be removed in a future release
+import sun.misc.BASE64Decoder;
+               ^
+/data/moxian_package/code_moxian_m1/moxian_m1_master_m2/moxian_m1/mo_common/src/main/java/com/moxian/common/util/CryptUtil.java:17: warning: BASE64Encoder is internal proprietary API and may be removed in a future release
+import sun.misc.BASE64Encoder;
+               ^
+/data/moxian_package/code_moxian_m1/moxian_m1_master_m2/moxian_m1/mo_common/src/main/java/com/moxian/common/util/CryptUtil.java:16: warning: BASE64Decoder is internal proprietary API and may be removed in a future release
+import sun.misc.BASE64Decoder;
+               ^
+/data/moxian_package/code_moxian_m1/moxian_m1_master_m2/moxian_m1/mo_common/src/main/java/com/moxian/common/util/CryptUtil.java:17: warning: BASE64Encoder is internal proprietary API and may be removed in a future release
+import sun.misc.BASE64Encoder;
+               ^
+/data/moxian_package/code_moxian_m1/moxian_m1_master_m2/moxian_m1/mo_common/src/main/java/com/moxian/common/util/CryptUtil.java:93: warning: BASE64Encoder is internal proprietary API and may be removed in a future release
+        return new BASE64Encoder().encode(dataByte);
+                   ^
+/data/moxian_package/code_moxian_m1/moxian_m1_master_m2/moxian_m1/mo_common/src/main/java/com/moxian/common/util/CryptUtil.java:104: warning: BASE64Decoder is internal proprietary API and may be removed in a future release
+        return new BASE64Decoder().decodeBuffer(datasource);
+                   ^
+/data/moxian_package/code_moxian_m1/moxian_m1_master_m2/moxian_m1/mo_common/src/main/java/com/moxian/common/util/CryptUtil.java:160: warning: BASE64Encoder is internal proprietary API and may be removed in a future release
+            BASE64Encoder be = new BASE64Encoder();
+            ^
+/data/moxian_package/code_moxian_m1/moxian_m1_master_m2/moxian_m1/mo_common/src/main/java/com/moxian/common/util/CryptUtil.java:160: warning: BASE64Encoder is internal proprietary API and may be removed in a future release
+            BASE64Encoder be = new BASE64Encoder();
+                                   ^
+/data/moxian_package/code_moxian_m1/moxian_m1_master_m2/moxian_m1/mo_common/src/main/java/com/moxian/common/util/CryptUtil.java:199: warning: BASE64Decoder is internal proprietary API and may be removed in a future release
+            BASE64Decoder bd = new BASE64Decoder();
+            ^
+/data/moxian_package/code_moxian_m1/moxian_m1_master_m2/moxian_m1/mo_common/src/main/java/com/moxian/common/util/CryptUtil.java:199: warning: BASE64Decoder is internal proprietary API and may be removed in a future release
+            BASE64Decoder bd = new BASE64Decoder();
+                                   ^
+Note: /data/moxian_package/code_moxian_m1/moxian_m1_master_m2/moxian_m1/mo_common/src/main/java/com/moxian/common/rest/RestBase.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+14 warnings
+
+:mo_common:processResources UP-TO-DATE
+:mo_common:classes
+:mo_common:jar
+:mo_common_redispools:compileJava UP-TO-DATE
+:mo_common_redispools:processResources UP-TO-DATE
+:mo_common_redispools:classes UP-TO-DATE
+:mo_common_redispools:jar UP-TO-DATE
+:mo_common_thrift:compileJava UP-TO-DATE
+:mo_common_thrift:processResources UP-TO-DATE
+:mo_common_thrift:classes UP-TO-DATE
+:mo_common_thrift:jar UP-TO-DATE
+:mo_shake:compileJavaNote: /data/moxian_package/code_moxian_m1/moxian_m1_master_m2/moxian_m1/mo_shake/src/main/java/com/moxian/shake/BeanConfig.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+Note: /data/moxian_package/code_moxian_m1/moxian_m1_master_m2/moxian_m1/mo_shake/src/main/java/com/moxian/shake/dao/impl/ShakeShopGpsRedisDaoImpl.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+
+:mo_shake:processResources
+:mo_shake:classes
+:mo_shake:war
+
+BUILD SUCCESSFUL
+
+Total time: 23.244 secs
+
+This build could be faster, please consider using the Gradle Daemon: http://gradle.org/docs/2.4/userguide/gradle_daemon.html
+:mo_shake:clean
+:mo_common:compileJava UP-TO-DATE
+:mo_common:processResources UP-TO-DATE
+:mo_common:classes UP-TO-DATE
+:mo_common:jar UP-TO-DATE
+:mo_common_redispools:compileJava UP-TO-DATE
+:mo_common_redispools:processResources UP-TO-DATE
+:mo_common_redispools:classes UP-TO-DATE
+:mo_common_redispools:jar UP-TO-DATE
+:mo_common_thrift:compileJava UP-TO-DATE
+:mo_common_thrift:processResources UP-TO-DATE
+:mo_common_thrift:classes UP-TO-DATE
+:mo_common_thrift:jar UP-TO-DATE
+:mo_shake:compileJavaNote: /data/moxian_package/code_moxian_m1/moxian_m1_master_m2/moxian_m1/mo_shake/src/main/java/com/moxian/shake/BeanConfig.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+Note: /data/moxian_package/code_moxian_m1/moxian_m1_master_m2/moxian_m1/mo_shake/src/main/java/com/moxian/shake/dao/impl/ShakeShopGpsRedisDaoImpl.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+
+:mo_shake:processResources
+:mo_shake:classes
+:mo_shake:war
+
+BUILD SUCCESSFUL
+
+Total time: 20.529 secs
+
+This build could be faster, please consider using the Gradle Daemon: http://gradle.org/docs/2.4/userguide/gradle_daemon.html
+:mo_shake:clean
+:mo_common:compileJava UP-TO-DATE
+:mo_common:processResources UP-TO-DATE
+:mo_common:classes UP-TO-DATE
+:mo_common:jar UP-TO-DATE
+:mo_common_redispools:compileJava UP-TO-DATE
+:mo_common_redispools:processResources UP-TO-DATE
+:mo_common_redispools:classes UP-TO-DATE
+:mo_common_redispools:jar UP-TO-DATE
+:mo_common_thrift:compileJava UP-TO-DATE
+:mo_common_thrift:processResources UP-TO-DATE
+:mo_common_thrift:classes UP-TO-DATE
+:mo_common_thrift:jar UP-TO-DATE
+:mo_shake:compileJavaNote: /data/moxian_package/code_moxian_m1/moxian_m1_master_m2/moxian_m1/mo_shake/src/main/java/com/moxian/shake/BeanConfig.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+Note: /data/moxian_package/code_moxian_m1/moxian_m1_master_m2/moxian_m1/mo_shake/src/main/java/com/moxian/shake/dao/impl/ShakeShopGpsRedisDaoImpl.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+
+:mo_shake:processResources
+:mo_shake:classes
+:mo_shake:war
+
+BUILD SUCCESSFUL
+
+Total time: 21.521 secs
+
+This build could be faster, please consider using the Gradle Daemon: http://gradle.org/docs/2.4/userguide/gradle_daemon.html
+:mo_shake:clean
+:mo_common:compileJava UP-TO-DATE
+:mo_common:processResources UP-TO-DATE
+:mo_common:classes UP-TO-DATE
+:mo_common:jar UP-TO-DATE
+:mo_common_redispools:compileJava UP-TO-DATE
+:mo_common_redispools:processResources UP-TO-DATE
+:mo_common_redispools:classes UP-TO-DATE
+:mo_common_redispools:jar UP-TO-DATE
+:mo_common_thrift:compileJava UP-TO-DATE
+:mo_common_thrift:processResources UP-TO-DATE
+:mo_common_thrift:classes UP-TO-DATE
+:mo_common_thrift:jar UP-TO-DATE
+:mo_shake:compileJavaNote: /data/moxian_package/code_moxian_m1/moxian_m1_master_m2/moxian_m1/mo_shake/src/main/java/com/moxian/shake/BeanConfig.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+Note: /data/moxian_package/code_moxian_m1/moxian_m1_master_m2/moxian_m1/mo_shake/src/main/java/com/moxian/shake/dao/impl/ShakeShopGpsRedisDaoImpl.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+
+:mo_shake:processResources
+:mo_shake:classes
+:mo_shake:war
+
+BUILD SUCCESSFUL
+
+Total time: 20.776 secs
+
+This build could be faster, please consider using the Gradle Daemon: http://gradle.org/docs/2.4/userguide/gradle_daemon.html
+:mo_shake:clean
+:mo_common:compileJava UP-TO-DATE
+:mo_common:processResources UP-TO-DATE
+:mo_common:classes UP-TO-DATE
+:mo_common:jar UP-TO-DATE
+:mo_common_redispools:compileJava UP-TO-DATE
+:mo_common_redispools:processResources UP-TO-DATE
+:mo_common_redispools:classes UP-TO-DATE
+:mo_common_redispools:jar UP-TO-DATE
+:mo_common_thrift:compileJava UP-TO-DATE
+:mo_common_thrift:processResources UP-TO-DATE
+:mo_common_thrift:classes UP-TO-DATE
+:mo_common_thrift:jar UP-TO-DATE
+:mo_shake:compileJavaNote: /data/moxian_package/code_moxian_m1/moxian_m1_master_m2/moxian_m1/mo_shake/src/main/java/com/moxian/shake/BeanConfig.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+Note: /data/moxian_package/code_moxian_m1/moxian_m1_master_m2/moxian_m1/mo_shake/src/main/java/com/moxian/shake/dao/impl/ShakeShopGpsRedisDaoImpl.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+
+:mo_shake:processResources
+:mo_shake:classes
+:mo_shake:war
+
+BUILD SUCCESSFUL
+
+Total time: 21.48 secs
+
+This build could be faster, please consider using the Gradle Daemon: http://gradle.org/docs/2.4/userguide/gradle_daemon.html
+:mo_pal:clean
+:mo_common:compileJava UP-TO-DATE
+:mo_common:processResources UP-TO-DATE
+:mo_common:classes UP-TO-DATE
+:mo_common:jar UP-TO-DATE
+:mo_common_kafka:compileJava UP-TO-DATE
+:mo_common_kafka:processResources UP-TO-DATE
+:mo_common_kafka:classes UP-TO-DATE
+:mo_common_kafka:jar UP-TO-DATE
+:mo_common_redispools:compileJava UP-TO-DATE
+:mo_common_redispools:processResources UP-TO-DATE
+:mo_common_redispools:classes UP-TO-DATE
+:mo_common_redispools:jar UP-TO-DATE
+:mo_common_thrift:compileJava UP-TO-DATE
+:mo_common_thrift:processResources UP-TO-DATE
+:mo_common_thrift:classes UP-TO-DATE
+:mo_common_thrift:jar UP-TO-DATE
+:mo_pal:generateMetaModel
+Prepare dictionary structures  [/data/moxian_package/code_moxian_outsource/moxian_outsource/mo_pal/src/main/generated]
+Note: Hibernate JPA 2 Static-Metamodel Generator 4.3.1.Final
+/data/moxian_package/code_moxian_outsource/moxian_outsource/mo_pal/src/main/java/redis/dao/impl/RedisCacheImpl.java:16: error: package org.junit does not exist
+import org.junit.Assert;
+                ^
+1 error
+:mo_pal:generateMetaModel FAILED
+
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+Execution failed for task ':mo_pal:generateMetaModel'.
+> Compilation failed; see the compiler error output for details.
+
+* Try:
+Run with --stacktrace option to get the stack trace. Run with --info or --debug option to get more log output.
+
+BUILD FAILED
+
+Total time: 12.877 secs
+:mo_pal:clean
+:mo_common:compileJava UP-TO-DATE
+:mo_common:processResources UP-TO-DATE
+:mo_common:classes UP-TO-DATE
+:mo_common:jar UP-TO-DATE
+:mo_common_kafka:compileJava UP-TO-DATE
+:mo_common_kafka:processResources UP-TO-DATE
+:mo_common_kafka:classes UP-TO-DATE
+:mo_common_kafka:jar UP-TO-DATE
+:mo_common_redispools:compileJava UP-TO-DATE
+:mo_common_redispools:processResources UP-TO-DATE
+:mo_common_redispools:classes UP-TO-DATE
+:mo_common_redispools:jar UP-TO-DATE
+:mo_common_thrift:compileJava UP-TO-DATE
+:mo_common_thrift:processResources UP-TO-DATE
+:mo_common_thrift:classes UP-TO-DATE
+:mo_common_thrift:jar UP-TO-DATE
+:mo_pal:generateMetaModel
+Prepare dictionary structures  [/data/moxian_package/code_moxian_outsource/moxian_outsource/mo_pal/src/main/generated]
+Note: Hibernate JPA 2 Static-Metamodel Generator 4.3.1.Final
+:mo_pal:compileJavaNote: Some input files use or override a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+Note: Some input files use unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+
+:mo_pal:processResources
+:mo_pal:classes
+:mo_pal:war
+
+BUILD SUCCESSFUL
+
+Total time: 20.858 secs
+
+This build could be faster, please consider using the Gradle Daemon: http://gradle.org/docs/2.4/userguide/gradle_daemon.html
+:mo_moment:clean
+:mo_common:compileJava UP-TO-DATE
+:mo_common:processResources UP-TO-DATE
+:mo_common:classes UP-TO-DATE
+:mo_common:jar UP-TO-DATE
+:mo_common_kafka:compileJava UP-TO-DATE
+:mo_common_kafka:processResources UP-TO-DATE
+:mo_common_kafka:classes UP-TO-DATE
+:mo_common_kafka:jar UP-TO-DATE
+:mo_common_redispools:compileJava UP-TO-DATE
+:mo_common_redispools:processResources UP-TO-DATE
+:mo_common_redispools:classes UP-TO-DATE
+:mo_common_redispools:jar UP-TO-DATE
+:mo_common_thrift:compileJava UP-TO-DATE
+:mo_common_thrift:processResources UP-TO-DATE
+:mo_common_thrift:classes UP-TO-DATE
+:mo_common_thrift:jar UP-TO-DATE
+:mo_moment:compileJavaNote: /data/moxian_package/code_moxian_outsource/moxian_outsource/mo_moment/src/main/java/com/moxian/moment/BeanConfig.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+Note: Some input files use unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+
+:mo_moment:processResources
+:mo_moment:classes
+:mo_moment:war
+
+BUILD SUCCESSFUL
+
+Total time: 19.315 secs
+
+This build could be faster, please consider using the Gradle Daemon: http://gradle.org/docs/2.4/userguide/gradle_daemon.html
+:mo_pal:clean
+:mo_common:compileJava UP-TO-DATE
+:mo_common:processResources UP-TO-DATE
+:mo_common:classes UP-TO-DATE
+:mo_common:jar UP-TO-DATE
+:mo_common_kafka:compileJava UP-TO-DATE
+:mo_common_kafka:processResources UP-TO-DATE
+:mo_common_kafka:classes UP-TO-DATE
+:mo_common_kafka:jar UP-TO-DATE
+:mo_common_redispools:compileJava UP-TO-DATE
+:mo_common_redispools:processResources UP-TO-DATE
+:mo_common_redispools:classes UP-TO-DATE
+:mo_common_redispools:jar UP-TO-DATE
+:mo_common_thrift:compileJava UP-TO-DATE
+:mo_common_thrift:processResources UP-TO-DATE
+:mo_common_thrift:classes UP-TO-DATE
+:mo_common_thrift:jar UP-TO-DATE
+:mo_pal:generateMetaModel
+Prepare dictionary structures  [/data/moxian_package/code_moxian_outsource/moxian_outsource/mo_pal/src/main/generated]
+Note: Hibernate JPA 2 Static-Metamodel Generator 4.3.1.Final
+:mo_pal:compileJavaNote: Some input files use or override a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+Note: Some input files use unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+
+:mo_pal:processResources
+:mo_pal:classes
+:mo_pal:war
+
+BUILD SUCCESSFUL
+
+Total time: 22.094 secs
+
+This build could be faster, please consider using the Gradle Daemon: http://gradle.org/docs/2.4/userguide/gradle_daemon.html
+:mo_moxian:clean
+:mo_common:compileJava UP-TO-DATE
+:mo_common:processResources UP-TO-DATE
+:mo_common:classes UP-TO-DATE
+:mo_common:jar UP-TO-DATE
+:mo_common_kafka:compileJava UP-TO-DATE
+:mo_common_kafka:processResources UP-TO-DATE
+:mo_common_kafka:classes UP-TO-DATE
+:mo_common_kafka:jar UP-TO-DATE
+:mo_common_redispools:compileJava UP-TO-DATE
+:mo_common_redispools:processResources UP-TO-DATE
+:mo_common_redispools:classes UP-TO-DATE
+:mo_common_redispools:jar UP-TO-DATE
+:mo_common_thrift:compileJava UP-TO-DATE
+:mo_common_thrift:processResources UP-TO-DATE
+:mo_common_thrift:classes UP-TO-DATE
+:mo_common_thrift:jar UP-TO-DATE
+:mo_moxian:compileJavaNote: /data/moxian_package/code_moxian_m1/moxian_m1/mo_moxian/src/main/java/com/moxian/common/moxian/BeanConfig.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+
+:mo_moxian:processResources
+:mo_moxian:classes
+:mo_moxian:war
+
+BUILD SUCCESSFUL
+
+Total time: 19.756 secs
+
+This build could be faster, please consider using the Gradle Daemon: http://gradle.org/docs/2.4/userguide/gradle_daemon.html
+:mo_shake:clean
+:mo_common:compileJava UP-TO-DATE
+:mo_common:processResources UP-TO-DATE
+:mo_common:classes UP-TO-DATE
+:mo_common:jar UP-TO-DATE
+:mo_common_kafka:compileJavaNote: Some input files use unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+
+:mo_common_kafka:processResources
+:mo_common_kafka:classes
+:mo_common_kafka:jar
+:mo_common_redispools:compileJava UP-TO-DATE
+:mo_common_redispools:processResources UP-TO-DATE
+:mo_common_redispools:classes UP-TO-DATE
+:mo_common_redispools:jar UP-TO-DATE
+:mo_common_thrift:compileJava UP-TO-DATE
+:mo_common_thrift:processResources UP-TO-DATE
+:mo_common_thrift:classes UP-TO-DATE
+:mo_common_thrift:jar UP-TO-DATE
+:mo_shake:compileJavaNote: /data/moxian_package/code_moxian_m1/moxian_m1_master_m2/moxian_m1/mo_shake/src/main/java/com/moxian/shake/BeanConfig.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+Note: /data/moxian_package/code_moxian_m1/moxian_m1_master_m2/moxian_m1/mo_shake/src/main/java/com/moxian/shake/dao/impl/ShakeShopGpsRedisDaoImpl.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+
+:mo_shake:processResources
+:mo_shake:classes
+:mo_shake:war
+
+BUILD SUCCESSFUL
+
+Total time: 24.06 secs
+
+This build could be faster, please consider using the Gradle Daemon: http://gradle.org/docs/2.4/userguide/gradle_daemon.html
+------------shi.xiaolong login Successfully at 2015_08_13_15_33------------
+------------shi.xiaolong login Successfully at 2015_08_13_15_36------------
+------------shi.xiaolong Exit at 2015_08_13_15_36------------
+------------shi.xiaolong login Successfully at 2015_08_13_15_38------------
+------------shi.xiaolong Exit at 2015_08_13_15_38------------
+------------hu.langping login Successfully at 2015_08_19_11_50------------
+:mo_goods:clean
+:mo_common:compileJava/data/moxian_package/code_moxian_m1/moxian_m1/mo_common/src/main/java/com/moxian/common/util/CryptUtil.java:16: warning: BASE64Decoder is internal proprietary API and may be removed in a future release
+import sun.misc.BASE64Decoder;
+               ^
+/data/moxian_package/code_moxian_m1/moxian_m1/mo_common/src/main/java/com/moxian/common/util/CryptUtil.java:17: warning: BASE64Encoder is internal proprietary API and may be removed in a future release
+import sun.misc.BASE64Encoder;
+               ^
+/data/moxian_package/code_moxian_m1/moxian_m1/mo_common/src/main/java/com/moxian/common/util/CryptUtil.java:16: warning: BASE64Decoder is internal proprietary API and may be removed in a future release
+import sun.misc.BASE64Decoder;
+               ^
+/data/moxian_package/code_moxian_m1/moxian_m1/mo_common/src/main/java/com/moxian/common/util/CryptUtil.java:17: warning: BASE64Encoder is internal proprietary API and may be removed in a future release
+import sun.misc.BASE64Encoder;
+               ^
+/data/moxian_package/code_moxian_m1/moxian_m1/mo_common/src/main/java/com/moxian/common/util/CryptUtil.java:16: warning: BASE64Decoder is internal proprietary API and may be removed in a future release
+import sun.misc.BASE64Decoder;
+               ^
+/data/moxian_package/code_moxian_m1/moxian_m1/mo_common/src/main/java/com/moxian/common/util/CryptUtil.java:17: warning: BASE64Encoder is internal proprietary API and may be removed in a future release
+import sun.misc.BASE64Encoder;
+               ^
+/data/moxian_package/code_moxian_m1/moxian_m1/mo_common/src/main/java/com/moxian/common/util/CryptUtil.java:16: warning: BASE64Decoder is internal proprietary API and may be removed in a future release
+import sun.misc.BASE64Decoder;
+               ^
+/data/moxian_package/code_moxian_m1/moxian_m1/mo_common/src/main/java/com/moxian/common/util/CryptUtil.java:17: warning: BASE64Encoder is internal proprietary API and may be removed in a future release
+import sun.misc.BASE64Encoder;
+               ^
+/data/moxian_package/code_moxian_m1/moxian_m1/mo_common/src/main/java/com/moxian/common/util/CryptUtil.java:93: warning: BASE64Encoder is internal proprietary API and may be removed in a future release
+        return new BASE64Encoder().encode(dataByte);
+                   ^
+/data/moxian_package/code_moxian_m1/moxian_m1/mo_common/src/main/java/com/moxian/common/util/CryptUtil.java:104: warning: BASE64Decoder is internal proprietary API and may be removed in a future release
+        return new BASE64Decoder().decodeBuffer(datasource);
+                   ^
+/data/moxian_package/code_moxian_m1/moxian_m1/mo_common/src/main/java/com/moxian/common/util/CryptUtil.java:160: warning: BASE64Encoder is internal proprietary API and may be removed in a future release
+            BASE64Encoder be = new BASE64Encoder();
+            ^
+/data/moxian_package/code_moxian_m1/moxian_m1/mo_common/src/main/java/com/moxian/common/util/CryptUtil.java:160: warning: BASE64Encoder is internal proprietary API and may be removed in a future release
+            BASE64Encoder be = new BASE64Encoder();
+                                   ^
+/data/moxian_package/code_moxian_m1/moxian_m1/mo_common/src/main/java/com/moxian/common/util/CryptUtil.java:199: warning: BASE64Decoder is internal proprietary API and may be removed in a future release
+            BASE64Decoder bd = new BASE64Decoder();
+            ^
+/data/moxian_package/code_moxian_m1/moxian_m1/mo_common/src/main/java/com/moxian/common/util/CryptUtil.java:199: warning: BASE64Decoder is internal proprietary API and may be removed in a future release
+            BASE64Decoder bd = new BASE64Decoder();
+                                   ^
+Note: /data/moxian_package/code_moxian_m1/moxian_m1/mo_common/src/main/java/com/moxian/common/rest/RestBase.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+14 warnings
+
+:mo_common:processResources UP-TO-DATE
+:mo_common:classes
+:mo_common:jar
+:mo_common_kafka:compileJava UP-TO-DATE
+:mo_common_kafka:processResources UP-TO-DATE
+:mo_common_kafka:classes UP-TO-DATE
+:mo_common_kafka:jar UP-TO-DATE
+:mo_common_redispools:compileJava UP-TO-DATE
+:mo_common_redispools:processResources UP-TO-DATE
+:mo_common_redispools:classes UP-TO-DATE
+:mo_common_redispools:jar UP-TO-DATE
+:mo_common_thrift:compileJava UP-TO-DATE
+:mo_common_thrift:processResources UP-TO-DATE
+:mo_common_thrift:classes UP-TO-DATE
+:mo_common_thrift:jar UP-TO-DATE
+:mo_goods:compileJavaNote: /data/moxian_package/code_moxian_m1/moxian_m1/mo_goods/src/main/java/com/moxian/goods/BeanConfig.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+Note: Some input files use unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+
+:mo_goods:processResources
+:mo_goods:classes
+:mo_goods:war
+
+BUILD SUCCESSFUL
+
+Total time: 22.588 secs
+
+This build could be faster, please consider using the Gradle Daemon: http://gradle.org/docs/2.4/userguide/gradle_daemon.html
+------------hu.langping login Successfully at 2015_08_19_11_53------------
+:mo_common_sso:clean
+:mo_common:compileJava UP-TO-DATE
+:mo_common:processResources UP-TO-DATE
+:mo_common:classes UP-TO-DATE
+:mo_common:jar UP-TO-DATE
+:mo_common_kafka:compileJava UP-TO-DATE
+:mo_common_kafka:processResources UP-TO-DATE
+:mo_common_kafka:classes UP-TO-DATE
+:mo_common_kafka:jar UP-TO-DATE
+:mo_common_redispools:compileJava UP-TO-DATE
+:mo_common_redispools:processResources UP-TO-DATE
+:mo_common_redispools:classes UP-TO-DATE
+:mo_common_redispools:jar UP-TO-DATE
+:mo_common_thrift:compileJava UP-TO-DATE
+:mo_common_thrift:processResources UP-TO-DATE
+:mo_common_thrift:classes UP-TO-DATE
+:mo_common_thrift:jar UP-TO-DATE
+:mo_common_sso:compileJava/data/moxian_package/code_moxian_m1/moxian_m1/mo_common_sso/src/main/java/com/moxian/common/sso/util/HMacMD5.java:19: warning: BASE64Decoder is internal proprietary API and may be removed in a future release
+import sun.misc.BASE64Decoder;
+               ^
+/data/moxian_package/code_moxian_m1/moxian_m1/mo_common_sso/src/main/java/com/moxian/common/sso/util/HMacMD5.java:20: warning: BASE64Encoder is internal proprietary API and may be removed in a future release
+import sun.misc.BASE64Encoder;
+               ^
+/data/moxian_package/code_moxian_m1/moxian_m1/mo_common_sso/src/main/java/com/moxian/common/sso/util/HMacMD5.java:19: warning: BASE64Decoder is internal proprietary API and may be removed in a future release
+import sun.misc.BASE64Decoder;
+               ^
+/data/moxian_package/code_moxian_m1/moxian_m1/mo_common_sso/src/main/java/com/moxian/common/sso/util/HMacMD5.java:20: warning: BASE64Encoder is internal proprietary API and may be removed in a future release
+import sun.misc.BASE64Encoder;
+               ^
+/data/moxian_package/code_moxian_m1/moxian_m1/mo_common_sso/src/main/java/com/moxian/common/sso/util/HMacMD5.java:19: warning: BASE64Decoder is internal proprietary API and may be removed in a future release
+import sun.misc.BASE64Decoder;
+               ^
+/data/moxian_package/code_moxian_m1/moxian_m1/mo_common_sso/src/main/java/com/moxian/common/sso/util/HMacMD5.java:20: warning: BASE64Encoder is internal proprietary API and may be removed in a future release
+import sun.misc.BASE64Encoder;
+               ^
+/data/moxian_package/code_moxian_m1/moxian_m1/mo_common_sso/src/main/java/com/moxian/common/sso/util/HMacMD5.java:19: warning: BASE64Decoder is internal proprietary API and may be removed in a future release
+import sun.misc.BASE64Decoder;
+               ^
+/data/moxian_package/code_moxian_m1/moxian_m1/mo_common_sso/src/main/java/com/moxian/common/sso/util/HMacMD5.java:20: warning: BASE64Encoder is internal proprietary API and may be removed in a future release
+import sun.misc.BASE64Encoder;
+               ^
+/data/moxian_package/code_moxian_m1/moxian_m1/mo_common_sso/src/main/java/com/moxian/common/sso/util/HMacMD5.java:64: warning: BASE64Decoder is internal proprietary API and may be removed in a future release
+       return (new BASE64Decoder()).decodeBuffer(key);
+                   ^
+/data/moxian_package/code_moxian_m1/moxian_m1/mo_common_sso/src/main/java/com/moxian/common/sso/util/HMacMD5.java:76: warning: BASE64Encoder is internal proprietary API and may be removed in a future release
+       return (new BASE64Encoder()).encodeBuffer(key);
+                   ^
+Note: Some input files use or override a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+10 warnings
+
+:mo_common_sso:processResources
+:mo_common_sso:classes
+:mo_common_sso:war
+
+BUILD SUCCESSFUL
+
+Total time: 18.925 secs
+
+This build could be faster, please consider using the Gradle Daemon: http://gradle.org/docs/2.4/userguide/gradle_daemon.html
+------------wu.zechuan login Successfully at 2015_08_19_15_52------------
+:mo_common_gps:clean
+:mo_common:compileJava UP-TO-DATE
+:mo_common:processResources UP-TO-DATE
+:mo_common:classes UP-TO-DATE
+:mo_common:jar UP-TO-DATE
+:mo_common_thrift:compileJava UP-TO-DATE
+:mo_common_thrift:processResources UP-TO-DATE
+:mo_common_thrift:classes UP-TO-DATE
+:mo_common_thrift:jar UP-TO-DATE
+:mo_common_gps:compileJavaNote: /data/moxian_package/code_moxian_m1/moxian_m1/mo_common_gps/src/main/java/com/moxian/gps/BeanConfig.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+
+:mo_common_gps:processResources
+:mo_common_gps:classes
+:mo_common_gps:war
+
+BUILD SUCCESSFUL
+
+Total time: 18.455 secs
+
+This build could be faster, please consider using the Gradle Daemon: http://gradle.org/docs/2.4/userguide/gradle_daemon.html
+------------gu.yanfeng login Successfully at 2015_08_19_16_05------------
+------------gu.yanfeng Exit at 2015_08_19_16_05------------
+------------hu.langping login Successfully at 2015_08_19_16_55------------
+:mo_goods:clean
+:mo_common:compileJava UP-TO-DATE
+:mo_common:processResources UP-TO-DATE
+:mo_common:classes UP-TO-DATE
+:mo_common:jar UP-TO-DATE
+:mo_common_kafka:compileJava UP-TO-DATE
+:mo_common_kafka:processResources UP-TO-DATE
+:mo_common_kafka:classes UP-TO-DATE
+:mo_common_kafka:jar UP-TO-DATE
+:mo_common_redispools:compileJava UP-TO-DATE
+:mo_common_redispools:processResources UP-TO-DATE
+:mo_common_redispools:classes UP-TO-DATE
+:mo_common_redispools:jar UP-TO-DATE
+:mo_common_thrift:compileJava UP-TO-DATE
+:mo_common_thrift:processResources UP-TO-DATE
+:mo_common_thrift:classes UP-TO-DATE
+:mo_common_thrift:jar UP-TO-DATE
+:mo_goods:compileJavaNote: /data/moxian_package/code_moxian_m1/moxian_m1/mo_goods/src/main/java/com/moxian/goods/BeanConfig.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+Note: Some input files use unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+
+:mo_goods:processResources
+:mo_goods:classes
+:mo_goods:war
+
+BUILD SUCCESSFUL
+
+Total time: 20.85 secs
+
+This build could be faster, please consider using the Gradle Daemon: http://gradle.org/docs/2.4/userguide/gradle_daemon.html
+------------hu.langping login Successfully at 2015_08_19_17_51------------
+:mo_goods:clean
+:mo_common:compileJava UP-TO-DATE
+:mo_common:processResources UP-TO-DATE
+:mo_common:classes UP-TO-DATE
+:mo_common:jar UP-TO-DATE
+:mo_common_kafka:compileJava UP-TO-DATE
+:mo_common_kafka:processResources UP-TO-DATE
+:mo_common_kafka:classes UP-TO-DATE
+:mo_common_kafka:jar UP-TO-DATE
+:mo_common_redispools:compileJava UP-TO-DATE
+:mo_common_redispools:processResources UP-TO-DATE
+:mo_common_redispools:classes UP-TO-DATE
+:mo_common_redispools:jar UP-TO-DATE
+:mo_common_thrift:compileJava UP-TO-DATE
+:mo_common_thrift:processResources UP-TO-DATE
+:mo_common_thrift:classes UP-TO-DATE
+:mo_common_thrift:jar UP-TO-DATE
+:mo_goods:compileJavaNote: /data/moxian_package/code_moxian_m1/moxian_m1/mo_goods/src/main/java/com/moxian/goods/BeanConfig.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+Note: Some input files use unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+
+:mo_goods:processResources
+:mo_goods:classes
+:mo_goods:war
+
+BUILD SUCCESSFUL
+
+Total time: 20.718 secs
+
+This build could be faster, please consider using the Gradle Daemon: http://gradle.org/docs/2.4/userguide/gradle_daemon.html
+------------hu.langping login Successfully at 2015_08_19_19_54------------
+:mo_moment:clean
+:mo_common:compileJava UP-TO-DATE
+:mo_common:processResources UP-TO-DATE
+:mo_common:classes UP-TO-DATE
+:mo_common:jar UP-TO-DATE
+:mo_common_kafka:compileJava UP-TO-DATE
+:mo_common_kafka:processResources UP-TO-DATE
+:mo_common_kafka:classes UP-TO-DATE
+:mo_common_kafka:jar UP-TO-DATE
+:mo_common_redispools:compileJava UP-TO-DATE
+:mo_common_redispools:processResources UP-TO-DATE
+:mo_common_redispools:classes UP-TO-DATE
+:mo_common_redispools:jar UP-TO-DATE
+:mo_common_thrift:compileJava UP-TO-DATE
+:mo_common_thrift:processResources UP-TO-DATE
+:mo_common_thrift:classes UP-TO-DATE
+:mo_common_thrift:jar UP-TO-DATE
+:mo_moment:compileJavaNote: /data/moxian_package/code_moxian_outsource/moxian_outsource/mo_moment/src/main/java/com/moxian/moment/BeanConfig.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+Note: Some input files use unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+
+:mo_moment:processResources
+:mo_moment:classes
+:mo_moment:war
+
+BUILD SUCCESSFUL
+
+Total time: 20.247 secs
+
+This build could be faster, please consider using the Gradle Daemon: http://gradle.org/docs/2.4/userguide/gradle_daemon.html
+:mo_goods:clean
+:mo_common:compileJava UP-TO-DATE
+:mo_common:processResources UP-TO-DATE
+:mo_common:classes UP-TO-DATE
+:mo_common:jar UP-TO-DATE
+:mo_common_kafka:compileJava UP-TO-DATE
+:mo_common_kafka:processResources UP-TO-DATE
+:mo_common_kafka:classes UP-TO-DATE
+:mo_common_kafka:jar UP-TO-DATE
+:mo_common_redispools:compileJava UP-TO-DATE
+:mo_common_redispools:processResources UP-TO-DATE
+:mo_common_redispools:classes UP-TO-DATE
+:mo_common_redispools:jar UP-TO-DATE
+:mo_common_thrift:compileJava UP-TO-DATE
+:mo_common_thrift:processResources UP-TO-DATE
+:mo_common_thrift:classes UP-TO-DATE
+:mo_common_thrift:jar UP-TO-DATE
+:mo_goods:compileJavaNote: /data/moxian_package/code_moxian_m1/moxian_m1/mo_goods/src/main/java/com/moxian/goods/BeanConfig.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+Note: Some input files use unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+
+:mo_goods:processResources
+:mo_goods:classes
+:mo_goods:war
+
+BUILD SUCCESSFUL
+
+Total time: 23.708 secs
+
+This build could be faster, please consider using the Gradle Daemon: http://gradle.org/docs/2.4/userguide/gradle_daemon.html
+------------hu.langping login Successfully at 2015_08_19_22_17------------
+:mo_biz:clean
+:mo_common:compileJava UP-TO-DATE
+:mo_common:processResources UP-TO-DATE
+:mo_common:classes UP-TO-DATE
+:mo_common:jar UP-TO-DATE
+:mo_common_kafka:compileJava UP-TO-DATE
+:mo_common_kafka:processResources UP-TO-DATE
+:mo_common_kafka:classes UP-TO-DATE
+:mo_common_kafka:jar UP-TO-DATE
+:mo_common_redispools:compileJava UP-TO-DATE
+:mo_common_redispools:processResources UP-TO-DATE
+:mo_common_redispools:classes UP-TO-DATE
+:mo_common_redispools:jar UP-TO-DATE
+:mo_common_thrift:compileJava UP-TO-DATE
+:mo_common_thrift:processResources UP-TO-DATE
+:mo_common_thrift:classes UP-TO-DATE
+:mo_common_thrift:jar UP-TO-DATE
+:mo_biz:compileJava/data/moxian_package/code_moxian_m1/moxian_m1/mo_biz/src/main/java/com/moxian/biz/BeanConfig.java:251: warning: Generating equals/hashCode implementation but without a call to superclass, even though this class does not extend java.lang.Object. If this is intentional, add '@EqualsAndHashCode(callSuper=false)' to your type.
+	@Data
+	^
+/data/moxian_package/code_moxian_m1/moxian_m1/mo_biz/src/main/java/com/moxian/biz/BeanConfig.java:257: warning: Generating equals/hashCode implementation but without a call to superclass, even though this class does not extend java.lang.Object. If this is intentional, add '@EqualsAndHashCode(callSuper=false)' to your type.
+	@Data
+	^
+/data/moxian_package/code_moxian_m1/moxian_m1/mo_biz/src/main/java/com/moxian/biz/BeanConfig.java:283: warning: Generating equals/hashCode implementation but without a call to superclass, even though this class does not extend java.lang.Object. If this is intentional, add '@EqualsAndHashCode(callSuper=false)' to your type.
+	@Data
+	^
+Note: Some input files use or override a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+Note: Some input files use unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+3 warnings
+
+:mo_biz:processResources
+:mo_biz:classes
+:mo_biz:war
+
+BUILD SUCCESSFUL
+
+Total time: 23.17 secs
+
+This build could be faster, please consider using the Gradle Daemon: http://gradle.org/docs/2.4/userguide/gradle_daemon.html
+------------hu.langping login Successfully at 2015_08_20_12_07------------
+:mo_marketing:clean
+:mo_common:compileJava UP-TO-DATE
+:mo_common:processResources UP-TO-DATE
+:mo_common:classes UP-TO-DATE
+:mo_common:jar UP-TO-DATE
+:mo_common_kafka:compileJava UP-TO-DATE
+:mo_common_kafka:processResources UP-TO-DATE
+:mo_common_kafka:classes UP-TO-DATE
+:mo_common_kafka:jar UP-TO-DATE
+:mo_common_redispools:compileJava UP-TO-DATE
+:mo_common_redispools:processResources UP-TO-DATE
+:mo_common_redispools:classes UP-TO-DATE
+:mo_common_redispools:jar UP-TO-DATE
+:mo_common_thrift:compileJava UP-TO-DATE
+:mo_common_thrift:processResources UP-TO-DATE
+:mo_common_thrift:classes UP-TO-DATE
+:mo_common_thrift:jar UP-TO-DATE
+:mo_marketing:compileJavaNote: /data/moxian_package/code_moxian_m1/moxian_m1/mo_marketing/src/main/java/com/moxian/marketing/BeanConfig.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+Note: Some input files use unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+
+:mo_marketing:processResources
+:mo_marketing:classes
+:mo_marketing:war
+
+BUILD SUCCESSFUL
+
+Total time: 21.417 secs
+
+This build could be faster, please consider using the Gradle Daemon: http://gradle.org/docs/2.4/userguide/gradle_daemon.html
+------------hu.langping login Successfully at 2015_08_20_16_06------------
+:mo_moment:clean
+:mo_common:compileJava UP-TO-DATE
+:mo_common:processResources UP-TO-DATE
+:mo_common:classes UP-TO-DATE
+:mo_common:jar UP-TO-DATE
+:mo_common_kafka:compileJava UP-TO-DATE
+:mo_common_kafka:processResources UP-TO-DATE
+:mo_common_kafka:classes UP-TO-DATE
+:mo_common_kafka:jar UP-TO-DATE
+:mo_common_redispools:compileJava UP-TO-DATE
+:mo_common_redispools:processResources UP-TO-DATE
+:mo_common_redispools:classes UP-TO-DATE
+:mo_common_redispools:jar UP-TO-DATE
+:mo_common_thrift:compileJava UP-TO-DATE
+:mo_common_thrift:processResources UP-TO-DATE
+:mo_common_thrift:classes UP-TO-DATE
+:mo_common_thrift:jar UP-TO-DATE
+:mo_moment:compileJavaNote: /data/moxian_package/code_moxian_outsource/moxian_outsource/mo_moment/src/main/java/com/moxian/moment/BeanConfig.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+Note: Some input files use unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+
+:mo_moment:processResources
+:mo_moment:classes
+:mo_moment:war
+
+BUILD SUCCESSFUL
+
+Total time: 19.999 secs
+
+This build could be faster, please consider using the Gradle Daemon: http://gradle.org/docs/2.4/userguide/gradle_daemon.html
+:mo_goods:clean
+:mo_common:compileJava UP-TO-DATE
+:mo_common:processResources UP-TO-DATE
+:mo_common:classes UP-TO-DATE
+:mo_common:jar UP-TO-DATE
+:mo_common_kafka:compileJava UP-TO-DATE
+:mo_common_kafka:processResources UP-TO-DATE
+:mo_common_kafka:classes UP-TO-DATE
+:mo_common_kafka:jar UP-TO-DATE
+:mo_common_redispools:compileJava UP-TO-DATE
+:mo_common_redispools:processResources UP-TO-DATE
+:mo_common_redispools:classes UP-TO-DATE
+:mo_common_redispools:jar UP-TO-DATE
+:mo_common_thrift:compileJava UP-TO-DATE
+:mo_common_thrift:processResources UP-TO-DATE
+:mo_common_thrift:classes UP-TO-DATE
+:mo_common_thrift:jar UP-TO-DATE
+:mo_goods:compileJavaNote: /data/moxian_package/code_moxian_m1/moxian_m1/mo_goods/src/main/java/com/moxian/goods/BeanConfig.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+Note: Some input files use unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+
+:mo_goods:processResources
+:mo_goods:classes
+:mo_goods:war
+
+BUILD SUCCESSFUL
+
+Total time: 20.485 secs
+
+This build could be faster, please consider using the Gradle Daemon: http://gradle.org/docs/2.4/userguide/gradle_daemon.html
+------------hu.langping login Successfully at 2015_08_20_16_25------------
+:mo_pal:clean
+:mo_common:compileJava UP-TO-DATE
+:mo_common:processResources UP-TO-DATE
+:mo_common:classes UP-TO-DATE
+:mo_common:jar UP-TO-DATE
+:mo_common_kafka:compileJava UP-TO-DATE
+:mo_common_kafka:processResources UP-TO-DATE
+:mo_common_kafka:classes UP-TO-DATE
+:mo_common_kafka:jar UP-TO-DATE
+:mo_common_redispools:compileJava UP-TO-DATE
+:mo_common_redispools:processResources UP-TO-DATE
+:mo_common_redispools:classes UP-TO-DATE
+:mo_common_redispools:jar UP-TO-DATE
+:mo_common_thrift:compileJava UP-TO-DATE
+:mo_common_thrift:processResources UP-TO-DATE
+:mo_common_thrift:classes UP-TO-DATE
+:mo_common_thrift:jar UP-TO-DATE
+:mo_pal:generateMetaModel
+Prepare dictionary structures  [/data/moxian_package/code_moxian_outsource/moxian_outsource/mo_pal/src/main/generated]
+Note: Hibernate JPA 2 Static-Metamodel Generator 4.3.1.Final
+:mo_pal:compileJavaNote: Some input files use or override a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+Note: Some input files use unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+
+:mo_pal:processResources
+:mo_pal:classes
+:mo_pal:war
+
+BUILD SUCCESSFUL
+
+Total time: 22.799 secs
+
+This build could be faster, please consider using the Gradle Daemon: http://gradle.org/docs/2.4/userguide/gradle_daemon.html
+------------hu.langping login Successfully at 2015_08_20_16_27------------
+:mo_marketing:clean
+:mo_common:compileJava UP-TO-DATE
+:mo_common:processResources UP-TO-DATE
+:mo_common:classes UP-TO-DATE
+:mo_common:jar UP-TO-DATE
+:mo_common_kafka:compileJava UP-TO-DATE
+:mo_common_kafka:processResources UP-TO-DATE
+:mo_common_kafka:classes UP-TO-DATE
+:mo_common_kafka:jar UP-TO-DATE
+:mo_common_redispools:compileJava UP-TO-DATE
+:mo_common_redispools:processResources UP-TO-DATE
+:mo_common_redispools:classes UP-TO-DATE
+:mo_common_redispools:jar UP-TO-DATE
+:mo_common_thrift:compileJava UP-TO-DATE
+:mo_common_thrift:processResources UP-TO-DATE
+:mo_common_thrift:classes UP-TO-DATE
+:mo_common_thrift:jar UP-TO-DATE
+:mo_marketing:compileJavaNote: /data/moxian_package/code_moxian_m1/moxian_m1/mo_marketing/src/main/java/com/moxian/marketing/BeanConfig.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+Note: Some input files use unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+
+:mo_marketing:processResources
+:mo_marketing:classes
+:mo_marketing:war
+
+BUILD SUCCESSFUL
+
+Total time: 21.025 secs
+
+This build could be faster, please consider using the Gradle Daemon: http://gradle.org/docs/2.4/userguide/gradle_daemon.html
+------------hu.langping login Successfully at 2015_08_20_17_40------------
+:mo_marketing:clean
+:mo_common:compileJava UP-TO-DATE
+:mo_common:processResources UP-TO-DATE
+:mo_common:classes UP-TO-DATE
+:mo_common:jar UP-TO-DATE
+:mo_common_kafka:compileJava UP-TO-DATE
+:mo_common_kafka:processResources UP-TO-DATE
+:mo_common_kafka:classes UP-TO-DATE
+:mo_common_kafka:jar UP-TO-DATE
+:mo_common_redispools:compileJava UP-TO-DATE
+:mo_common_redispools:processResources UP-TO-DATE
+:mo_common_redispools:classes UP-TO-DATE
+:mo_common_redispools:jar UP-TO-DATE
+:mo_common_thrift:compileJava UP-TO-DATE
+:mo_common_thrift:processResources UP-TO-DATE
+:mo_common_thrift:classes UP-TO-DATE
+:mo_common_thrift:jar UP-TO-DATE
+:mo_marketing:compileJavaNote: /data/moxian_package/code_moxian_m1/moxian_m1/mo_marketing/src/main/java/com/moxian/marketing/BeanConfig.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+Note: Some input files use unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+
+:mo_marketing:processResources
+:mo_marketing:classes
+:mo_marketing:war
+
+BUILD SUCCESSFUL
+
+Total time: 22.08 secs
+
+This build could be faster, please consider using the Gradle Daemon: http://gradle.org/docs/2.4/userguide/gradle_daemon.html
+------------hu.langping login Successfully at 2015_08_20_17_44------------
+:mo_fans:clean
+:mo_common:compileJava UP-TO-DATE
+:mo_common:processResources UP-TO-DATE
+:mo_common:classes UP-TO-DATE
+:mo_common:jar UP-TO-DATE
+:mo_common_kafka:compileJava UP-TO-DATE
+:mo_common_kafka:processResources UP-TO-DATE
+:mo_common_kafka:classes UP-TO-DATE
+:mo_common_kafka:jar UP-TO-DATE
+:mo_common_thrift:compileJava UP-TO-DATE
+:mo_common_thrift:processResources UP-TO-DATE
+:mo_common_thrift:classes UP-TO-DATE
+:mo_common_thrift:jar UP-TO-DATE
+:mo_fans:compileJavaNote: /data/moxian_package/code_moxian_m1/moxian_m1/mo_fans/src/main/java/com/moxian/fans/BeanConfig.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+
+:mo_fans:processResources
+:mo_fans:classes
+:mo_fans:war
+
+BUILD SUCCESSFUL
+
+Total time: 14.773 secs
+
+This build could be faster, please consider using the Gradle Daemon: http://gradle.org/docs/2.4/userguide/gradle_daemon.html
+------------hu.langping login Successfully at 2015_08_20_18_44------------
+:mo_common_sms:clean
+:mo_common:compileJava UP-TO-DATE
+:mo_common:processResources UP-TO-DATE
+:mo_common:classes UP-TO-DATE
+:mo_common:jar UP-TO-DATE
+:mo_common_kafka:compileJava UP-TO-DATE
+:mo_common_kafka:processResources UP-TO-DATE
+:mo_common_kafka:classes UP-TO-DATE
+:mo_common_kafka:jar UP-TO-DATE
+:mo_common_thrift:compileJava UP-TO-DATE
+:mo_common_thrift:processResources UP-TO-DATE
+:mo_common_thrift:classes UP-TO-DATE
+:mo_common_thrift:jar UP-TO-DATE
+:mo_common_sms:compileJavaNote: /data/moxian_package/code_moxian_m1/moxian_m1/mo_common_sms/src/main/java/com/moxian/common/sms/BeanConfig.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+
+:mo_common_sms:processResources
+:mo_common_sms:classes
+:mo_common_sms:war
+
+BUILD SUCCESSFUL
+
+Total time: 16.812 secs
+
+This build could be faster, please consider using the Gradle Daemon: http://gradle.org/docs/2.4/userguide/gradle_daemon.html
+:mo_common_emailservice:clean
+:mo_common:compileJava UP-TO-DATE
+:mo_common:processResources UP-TO-DATE
+:mo_common:classes UP-TO-DATE
+:mo_common:jar UP-TO-DATE
+:mo_common_kafka:compileJava UP-TO-DATE
+:mo_common_kafka:processResources UP-TO-DATE
+:mo_common_kafka:classes UP-TO-DATE
+:mo_common_kafka:jar UP-TO-DATE
+:mo_common_emailservice:compileJavaNote: /data/moxian_package/code_moxian_m1/moxian_m1/mo_common_emailservice/src/main/java/com/moxian/common/emailservice/BeanConfig.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+
+:mo_common_emailservice:processResources
+:mo_common_emailservice:classes
+:mo_common_emailservice:war
+
+BUILD SUCCESSFUL
+
+Total time: 14.476 secs
+
+This build could be faster, please consider using the Gradle Daemon: http://gradle.org/docs/2.4/userguide/gradle_daemon.html
+------------hu.langping login Successfully at 2015_08_21_10_03------------
+:mo_biz:clean
+:mo_common:compileJava UP-TO-DATE
+:mo_common:processResources UP-TO-DATE
+:mo_common:classes UP-TO-DATE
+:mo_common:jar UP-TO-DATE
+:mo_common_kafka:compileJava UP-TO-DATE
+:mo_common_kafka:processResources UP-TO-DATE
+:mo_common_kafka:classes UP-TO-DATE
+:mo_common_kafka:jar UP-TO-DATE
+:mo_common_redispools:compileJava UP-TO-DATE
+:mo_common_redispools:processResources UP-TO-DATE
+:mo_common_redispools:classes UP-TO-DATE
+:mo_common_redispools:jar UP-TO-DATE
+:mo_common_thrift:compileJava UP-TO-DATE
+:mo_common_thrift:processResources UP-TO-DATE
+:mo_common_thrift:classes UP-TO-DATE
+:mo_common_thrift:jar UP-TO-DATE
+:mo_biz:compileJava/data/moxian_package/code_moxian_m1/moxian_m1/mo_biz/src/main/java/com/moxian/biz/BeanConfig.java:251: warning: Generating equals/hashCode implementation but without a call to superclass, even though this class does not extend java.lang.Object. If this is intentional, add '@EqualsAndHashCode(callSuper=false)' to your type.
+	@Data
+	^
+/data/moxian_package/code_moxian_m1/moxian_m1/mo_biz/src/main/java/com/moxian/biz/BeanConfig.java:257: warning: Generating equals/hashCode implementation but without a call to superclass, even though this class does not extend java.lang.Object. If this is intentional, add '@EqualsAndHashCode(callSuper=false)' to your type.
+	@Data
+	^
+/data/moxian_package/code_moxian_m1/moxian_m1/mo_biz/src/main/java/com/moxian/biz/BeanConfig.java:283: warning: Generating equals/hashCode implementation but without a call to superclass, even though this class does not extend java.lang.Object. If this is intentional, add '@EqualsAndHashCode(callSuper=false)' to your type.
+	@Data
+	^
+Note: Some input files use or override a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+Note: Some input files use unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+3 warnings
+
+:mo_biz:processResources
+:mo_biz:classes
+:mo_biz:war
+
+BUILD SUCCESSFUL
+
+Total time: 22.909 secs
+
+This build could be faster, please consider using the Gradle Daemon: http://gradle.org/docs/2.4/userguide/gradle_daemon.html
+------------hu.langping login Successfully at 2015_08_21_10_14------------
+------------hu.langping Exit at 2015_08_21_10_17------------
+------------hu.langping login Successfully at 2015_08_21_11_44------------
+:mo_common_smsservice:clean
+:mo_common:compileJava UP-TO-DATE
+:mo_common:processResources UP-TO-DATE
+:mo_common:classes UP-TO-DATE
+:mo_common:jar UP-TO-DATE
+:mo_common_kafka:compileJava UP-TO-DATE
+:mo_common_kafka:processResources UP-TO-DATE
+:mo_common_kafka:classes UP-TO-DATE
+:mo_common_kafka:jar UP-TO-DATE
+:mo_common_smsservice:compileJavaNote: /data/moxian_package/code_moxian_m1/moxian_m1/mo_common_smsservice/src/main/java/com/moxian/common/smsservice/BeanConfig.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+
+:mo_common_smsservice:processResources
+:mo_common_smsservice:classes
+:mo_common_smsservice:war
+
+BUILD SUCCESSFUL
+
+Total time: 15.068 secs
+
+This build could be faster, please consider using the Gradle Daemon: http://gradle.org/docs/2.4/userguide/gradle_daemon.html
+------------hu.langping login Successfully at 2015_08_21_11_54------------
+:mo_moment:clean
+:mo_common:compileJava UP-TO-DATE
+:mo_common:processResources UP-TO-DATE
+:mo_common:classes UP-TO-DATE
+:mo_common:jar UP-TO-DATE
+:mo_common_kafka:compileJava UP-TO-DATE
+:mo_common_kafka:processResources UP-TO-DATE
+:mo_common_kafka:classes UP-TO-DATE
+:mo_common_kafka:jar UP-TO-DATE
+:mo_common_redispools:compileJava UP-TO-DATE
+:mo_common_redispools:processResources UP-TO-DATE
+:mo_common_redispools:classes UP-TO-DATE
+:mo_common_redispools:jar UP-TO-DATE
+:mo_common_thrift:compileJava UP-TO-DATE
+:mo_common_thrift:processResources UP-TO-DATE
+:mo_common_thrift:classes UP-TO-DATE
+:mo_common_thrift:jar UP-TO-DATE
+:mo_moment:compileJavaNote: /data/moxian_package/code_moxian_outsource/moxian_outsource/mo_moment/src/main/java/com/moxian/moment/BeanConfig.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+Note: Some input files use unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+
+:mo_moment:processResources
+:mo_moment:classes
+:mo_moment:war
+
+BUILD SUCCESSFUL
+
+Total time: 18.995 secs
+
+This build could be faster, please consider using the Gradle Daemon: http://gradle.org/docs/2.4/userguide/gradle_daemon.html
+------------hu.langping login Successfully at 2015_08_22_14_39------------
+------------yi.zhiwu login Successfully at 2015_08_22_14_43------------
+------------yi.zhiwu login Successfully at 2015_08_22_14_44------------
+------------yi.zhiwu login Successfully at 2015_08_22_14_45------------
+:mo_goods:clean
+:mo_common:compileJava UP-TO-DATE
+:mo_common:processResources UP-TO-DATE
+:mo_common:classes UP-TO-DATE
+:mo_common:jar UP-TO-DATE
+:mo_common_kafka:compileJava UP-TO-DATE
+:mo_common_kafka:processResources UP-TO-DATE
+:mo_common_kafka:classes UP-TO-DATE
+:mo_common_kafka:jar UP-TO-DATE
+:mo_common_redispools:compileJava UP-TO-DATE
+:mo_common_redispools:processResources UP-TO-DATE
+:mo_common_redispools:classes UP-TO-DATE
+:mo_common_redispools:jar UP-TO-DATE
+:mo_common_thrift:compileJava UP-TO-DATE
+:mo_common_thrift:processResources UP-TO-DATE
+:mo_common_thrift:classes UP-TO-DATE
+:mo_common_thrift:jar UP-TO-DATE
+:mo_goods:compileJavaNote: /data/moxian_package/code_moxian_m1/moxian_m1/mo_goods/src/main/java/com/moxian/goods/BeanConfig.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+Note: Some input files use unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+
+:mo_goods:processResources
+:mo_goods:classes
+:mo_goods:war
+
+BUILD SUCCESSFUL
+
+Total time: 22.249 secs
+
+This build could be faster, please consider using the Gradle Daemon: http://gradle.org/docs/2.4/userguide/gradle_daemon.html
+------------yi.zhiwu login Successfully at 2015_08_22_15_29------------
+:mo_goods:clean
+:mo_common:compileJava UP-TO-DATE
+:mo_common:processResources UP-TO-DATE
+:mo_common:classes UP-TO-DATE
+:mo_common:jar UP-TO-DATE
+:mo_common_kafka:compileJava UP-TO-DATE
+:mo_common_kafka:processResources UP-TO-DATE
+:mo_common_kafka:classes UP-TO-DATE
+:mo_common_kafka:jar UP-TO-DATE
+:mo_common_redispools:compileJava UP-TO-DATE
+:mo_common_redispools:processResources UP-TO-DATE
+:mo_common_redispools:classes UP-TO-DATE
+:mo_common_redispools:jar UP-TO-DATE
+:mo_common_thrift:compileJava UP-TO-DATE
+:mo_common_thrift:processResources UP-TO-DATE
+:mo_common_thrift:classes UP-TO-DATE
+:mo_common_thrift:jar UP-TO-DATE
+:mo_goods:compileJavaNote: /data/moxian_package/code_moxian_m1/moxian_m1/mo_goods/src/main/java/com/moxian/goods/BeanConfig.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+Note: Some input files use unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+
+:mo_goods:processResources
+:mo_goods:classes
+:mo_goods:war
+
+BUILD SUCCESSFUL
+
+Total time: 21.487 secs
+
+This build could be faster, please consider using the Gradle Daemon: http://gradle.org/docs/2.4/userguide/gradle_daemon.html
+------------yi.zhiwu login Successfully at 2015_08_22_16_06------------
+:mo_goods:clean
+:mo_common:compileJava UP-TO-DATE
+:mo_common:processResources UP-TO-DATE
+:mo_common:classes UP-TO-DATE
+:mo_common:jar UP-TO-DATE
+:mo_common_kafka:compileJava UP-TO-DATE
+:mo_common_kafka:processResources UP-TO-DATE
+:mo_common_kafka:classes UP-TO-DATE
+:mo_common_kafka:jar UP-TO-DATE
+:mo_common_redispools:compileJava UP-TO-DATE
+:mo_common_redispools:processResources UP-TO-DATE
+:mo_common_redispools:classes UP-TO-DATE
+:mo_common_redispools:jar UP-TO-DATE
+:mo_common_thrift:compileJava UP-TO-DATE
+:mo_common_thrift:processResources UP-TO-DATE
+:mo_common_thrift:classes UP-TO-DATE
+:mo_common_thrift:jar UP-TO-DATE
+:mo_goods:compileJavaNote: /data/moxian_package/code_moxian_m1/moxian_m1/mo_goods/src/main/java/com/moxian/goods/BeanConfig.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+Note: Some input files use unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+
+:mo_goods:processResources
+:mo_goods:classes
+:mo_goods:war
+
+BUILD SUCCESSFUL
+
+Total time: 22.017 secs
+
+This build could be faster, please consider using the Gradle Daemon: http://gradle.org/docs/2.4/userguide/gradle_daemon.html
+------------hu.langping login Successfully at 2015_08_24_11_52------------
+:mo_pal:clean
+:mo_common:compileJava UP-TO-DATE
+:mo_common:processResources UP-TO-DATE
+:mo_common:classes UP-TO-DATE
+:mo_common:jar UP-TO-DATE
+:mo_common_kafka:compileJava UP-TO-DATE
+:mo_common_kafka:processResources UP-TO-DATE
+:mo_common_kafka:classes UP-TO-DATE
+:mo_common_kafka:jar UP-TO-DATE
+:mo_common_redispools:compileJava UP-TO-DATE
+:mo_common_redispools:processResources UP-TO-DATE
+:mo_common_redispools:classes UP-TO-DATE
+:mo_common_redispools:jar UP-TO-DATE
+:mo_common_thrift:compileJava UP-TO-DATE
+:mo_common_thrift:processResources UP-TO-DATE
+:mo_common_thrift:classes UP-TO-DATE
+:mo_common_thrift:jar UP-TO-DATE
+:mo_pal:generateMetaModel
+Prepare dictionary structures  [/data/moxian_package/code_moxian_outsource/moxian_outsource/mo_pal/src/main/generated]
+Note: Hibernate JPA 2 Static-Metamodel Generator 4.3.1.Final
+:mo_pal:compileJavaNote: Some input files use or override a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+Note: Some input files use unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+
+:mo_pal:processResources
+:mo_pal:classes
+:mo_pal:war
+
+BUILD SUCCESSFUL
+
+Total time: 22.964 secs
+
+This build could be faster, please consider using the Gradle Daemon: http://gradle.org/docs/2.4/userguide/gradle_daemon.html
+:mo_moment:clean
+:mo_common:compileJava UP-TO-DATE
+:mo_common:processResources UP-TO-DATE
+:mo_common:classes UP-TO-DATE
+:mo_common:jar UP-TO-DATE
+:mo_common_kafka:compileJava UP-TO-DATE
+:mo_common_kafka:processResources UP-TO-DATE
+:mo_common_kafka:classes UP-TO-DATE
+:mo_common_kafka:jar UP-TO-DATE
+:mo_common_redispools:compileJava UP-TO-DATE
+:mo_common_redispools:processResources UP-TO-DATE
+:mo_common_redispools:classes UP-TO-DATE
+:mo_common_redispools:jar UP-TO-DATE
+:mo_common_thrift:compileJava UP-TO-DATE
+:mo_common_thrift:processResources UP-TO-DATE
+:mo_common_thrift:classes UP-TO-DATE
+:mo_common_thrift:jar UP-TO-DATE
+:mo_moment:compileJavaNote: /data/moxian_package/code_moxian_outsource/moxian_outsource/mo_moment/src/main/java/com/moxian/moment/BeanConfig.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+Note: Some input files use unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+
+:mo_moment:processResources
+:mo_moment:classes
+:mo_moment:war
+
+BUILD SUCCESSFUL
+
+Total time: 18.809 secs
+
+This build could be faster, please consider using the Gradle Daemon: http://gradle.org/docs/2.4/userguide/gradle_daemon.html
+------------yi.zhiwu login Successfully at 2015_08_24_14_51------------
+:mo_moment:clean
+:mo_common:compileJava UP-TO-DATE
+:mo_common:processResources UP-TO-DATE
+:mo_common:classes UP-TO-DATE
+:mo_common:jar UP-TO-DATE
+:mo_common_kafka:compileJava UP-TO-DATE
+:mo_common_kafka:processResources UP-TO-DATE
+:mo_common_kafka:classes UP-TO-DATE
+:mo_common_kafka:jar UP-TO-DATE
+:mo_common_redispools:compileJava UP-TO-DATE
+:mo_common_redispools:processResources UP-TO-DATE
+:mo_common_redispools:classes UP-TO-DATE
+:mo_common_redispools:jar UP-TO-DATE
+:mo_common_thrift:compileJava UP-TO-DATE
+:mo_common_thrift:processResources UP-TO-DATE
+:mo_common_thrift:classes UP-TO-DATE
+:mo_common_thrift:jar UP-TO-DATE
+:mo_moment:compileJavaNote: /data/moxian_package/code_moxian_outsource/moxian_outsource/mo_moment/src/main/java/com/moxian/moment/BeanConfig.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+Note: Some input files use unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+
+:mo_moment:processResources
+:mo_moment:classes
+:mo_moment:war
+
+BUILD SUCCESSFUL
+
+Total time: 18.977 secs
+
+This build could be faster, please consider using the Gradle Daemon: http://gradle.org/docs/2.4/userguide/gradle_daemon.html
+------------shi.xiaolong login Successfully at 2015_08_26_10_44------------
+------------shi.xiaolong Exit at 2015_08_26_10_44------------
+------------shi.xiaolong login Successfully at 2015_08_26_10_45------------
+------------shi.xiaolong Exit at 2015_08_26_10_45------------
+------------shi.xiaolong login Successfully at 2015_08_26_10_48------------
+------------shi.xiaolong Exit at 2015_08_26_10_48------------
+------------shi.xiaolong login Successfully at 2015_08_26_10_51------------
+------------shi.xiaolong Exit at 2015_08_26_10_51------------
+------------shi.xiaolong login Successfully at 2015_08_26_11_00------------
+------------shi.xiaolong login Successfully at 2015_08_26_11_17------------
+------------shi.xiaolong login Successfully at 2015_08_26_11_30------------
+:mo_ad:clean
+:mo_common:compileJava UP-TO-DATE
+:mo_common:processResources UP-TO-DATE
+:mo_common:classes UP-TO-DATE
+:mo_common:jar UP-TO-DATE
+:mo_common_redispools:compileJava UP-TO-DATE
+:mo_common_redispools:processResources UP-TO-DATE
+:mo_common_redispools:classes UP-TO-DATE
+:mo_common_redispools:jar UP-TO-DATE
+:mo_ad:compileJava/data/moxian_package/code_moxian_m1/moxian_m1/mo_ad/src/main/java/com/moxian/ad/rest/InitPageResource.java:68: warning: @NonNull is meaningless on a primitive.
+	public BoUtil getLatestInitPage(@NonNull @QueryParam("city") long city){ 
+	                                ^
+/data/moxian_package/code_moxian_m1/moxian_m1/mo_ad/src/main/java/com/moxian/ad/rest/InitPageResource.java:95: warning: @NonNull is meaningless on a primitive.
+	public BoUtil getMoBizInitPage(@NonNull @QueryParam("city") long city,@NonNull @QueryParam("pageVersion") long pageVersion){ 
+	                               ^
+/data/moxian_package/code_moxian_m1/moxian_m1/mo_ad/src/main/java/com/moxian/ad/rest/InitPageResource.java:95: warning: @NonNull is meaningless on a primitive.
+	public BoUtil getMoBizInitPage(@NonNull @QueryParam("city") long city,@NonNull @QueryParam("pageVersion") long pageVersion){ 
+	                                                                      ^
+Note: /data/moxian_package/code_moxian_m1/moxian_m1/mo_ad/src/main/java/com/moxian/ad/BeanConfig.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+Note: /data/moxian_package/code_moxian_m1/moxian_m1/mo_ad/src/main/java/com/moxian/ad/dao/impl/MxCityDaoMyBatisImpl.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+3 warnings
+
+:mo_ad:processResources
+:mo_ad:classes
+:mo_ad:war
+
+BUILD SUCCESSFUL
+
+Total time: 23.245 secs
+
+This build could be faster, please consider using the Gradle Daemon: http://gradle.org/docs/2.4/userguide/gradle_daemon.html
+------------shi.xiaolong login Successfully at 2015_08_26_11_45------------
+:mo_ad:clean
+:mo_common:compileJava UP-TO-DATE
+:mo_common:processResources UP-TO-DATE
+:mo_common:classes UP-TO-DATE
+:mo_common:jar UP-TO-DATE
+:mo_common_redispools:compileJava UP-TO-DATE
+:mo_common_redispools:processResources UP-TO-DATE
+:mo_common_redispools:classes UP-TO-DATE
+:mo_common_redispools:jar UP-TO-DATE
+:mo_ad:compileJava/data/moxian_package/code_moxian_m1/moxian_m1/mo_ad/src/main/java/com/moxian/ad/rest/InitPageResource.java:68: warning: @NonNull is meaningless on a primitive.
+	public BoUtil getLatestInitPage(@NonNull @QueryParam("city") long city){ 
+	                                ^
+/data/moxian_package/code_moxian_m1/moxian_m1/mo_ad/src/main/java/com/moxian/ad/rest/InitPageResource.java:95: warning: @NonNull is meaningless on a primitive.
+	public BoUtil getMoBizInitPage(@NonNull @QueryParam("city") long city,@NonNull @QueryParam("pageVersion") long pageVersion){ 
+	                               ^
+/data/moxian_package/code_moxian_m1/moxian_m1/mo_ad/src/main/java/com/moxian/ad/rest/InitPageResource.java:95: warning: @NonNull is meaningless on a primitive.
+	public BoUtil getMoBizInitPage(@NonNull @QueryParam("city") long city,@NonNull @QueryParam("pageVersion") long pageVersion){ 
+	                                                                      ^
+Note: /data/moxian_package/code_moxian_m1/moxian_m1/mo_ad/src/main/java/com/moxian/ad/BeanConfig.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+Note: /data/moxian_package/code_moxian_m1/moxian_m1/mo_ad/src/main/java/com/moxian/ad/dao/impl/MxCityDaoMyBatisImpl.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+3 warnings
+
+:mo_ad:processResources
+:mo_ad:classes
+:mo_ad:war
+
+BUILD SUCCESSFUL
+
+Total time: 14.16 secs
+
+This build could be faster, please consider using the Gradle Daemon: http://gradle.org/docs/2.4/userguide/gradle_daemon.html
+------------shi.xiaolong login Successfully at 2015_08_26_12_00------------
+:mo_ad:clean
+:mo_common:compileJava UP-TO-DATE
+:mo_common:processResources UP-TO-DATE
+:mo_common:classes UP-TO-DATE
+:mo_common:jar UP-TO-DATE
+:mo_common_redispools:compileJava UP-TO-DATE
+:mo_common_redispools:processResources UP-TO-DATE
+:mo_common_redispools:classes UP-TO-DATE
+:mo_common_redispools:jar UP-TO-DATE
+:mo_ad:compileJava/data/moxian_package/code_moxian_m1/moxian_m1/mo_ad/src/main/java/com/moxian/ad/rest/InitPageResource.java:68: warning: @NonNull is meaningless on a primitive.
+	public BoUtil getLatestInitPage(@NonNull @QueryParam("city") long city){ 
+	                                ^
+/data/moxian_package/code_moxian_m1/moxian_m1/mo_ad/src/main/java/com/moxian/ad/rest/InitPageResource.java:95: warning: @NonNull is meaningless on a primitive.
+	public BoUtil getMoBizInitPage(@NonNull @QueryParam("city") long city,@NonNull @QueryParam("pageVersion") long pageVersion){ 
+	                               ^
+/data/moxian_package/code_moxian_m1/moxian_m1/mo_ad/src/main/java/com/moxian/ad/rest/InitPageResource.java:95: warning: @NonNull is meaningless on a primitive.
+	public BoUtil getMoBizInitPage(@NonNull @QueryParam("city") long city,@NonNull @QueryParam("pageVersion") long pageVersion){ 
+	                                                                      ^
+Note: /data/moxian_package/code_moxian_m1/moxian_m1/mo_ad/src/main/java/com/moxian/ad/BeanConfig.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+Note: /data/moxian_package/code_moxian_m1/moxian_m1/mo_ad/src/main/java/com/moxian/ad/dao/impl/MxCityDaoMyBatisImpl.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+3 warnings
+
+:mo_ad:processResources
+:mo_ad:classes
+:mo_ad:war
+
+BUILD SUCCESSFUL
+
+Total time: 15.025 secs
+
+This build could be faster, please consider using the Gradle Daemon: http://gradle.org/docs/2.4/userguide/gradle_daemon.html
+------------shi.xiaolong login Successfully at 2015_08_26_12_02------------
+:mo_ad:clean
+:mo_common:compileJava UP-TO-DATE
+:mo_common:processResources UP-TO-DATE
+:mo_common:classes UP-TO-DATE
+:mo_common:jar UP-TO-DATE
+:mo_common_redispools:compileJava UP-TO-DATE
+:mo_common_redispools:processResources UP-TO-DATE
+:mo_common_redispools:classes UP-TO-DATE
+:mo_common_redispools:jar UP-TO-DATE
+:mo_ad:compileJava/data/moxian_package/code_moxian_m1/moxian_m1/mo_ad/src/main/java/com/moxian/ad/rest/InitPageResource.java:68: warning: @NonNull is meaningless on a primitive.
+	public BoUtil getLatestInitPage(@NonNull @QueryParam("city") long city){ 
+	                                ^
+/data/moxian_package/code_moxian_m1/moxian_m1/mo_ad/src/main/java/com/moxian/ad/rest/InitPageResource.java:95: warning: @NonNull is meaningless on a primitive.
+	public BoUtil getMoBizInitPage(@NonNull @QueryParam("city") long city,@NonNull @QueryParam("pageVersion") long pageVersion){ 
+	                               ^
+/data/moxian_package/code_moxian_m1/moxian_m1/mo_ad/src/main/java/com/moxian/ad/rest/InitPageResource.java:95: warning: @NonNull is meaningless on a primitive.
+	public BoUtil getMoBizInitPage(@NonNull @QueryParam("city") long city,@NonNull @QueryParam("pageVersion") long pageVersion){ 
+	                                                                      ^
+Note: /data/moxian_package/code_moxian_m1/moxian_m1/mo_ad/src/main/java/com/moxian/ad/BeanConfig.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+Note: /data/moxian_package/code_moxian_m1/moxian_m1/mo_ad/src/main/java/com/moxian/ad/dao/impl/MxCityDaoMyBatisImpl.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+3 warnings
+
+:mo_ad:processResources
+:mo_ad:classes
+:mo_ad:war
+
+BUILD SUCCESSFUL
+
+Total time: 14.265 secs
+
+This build could be faster, please consider using the Gradle Daemon: http://gradle.org/docs/2.4/userguide/gradle_daemon.html
+------------shi.xiaolong login Successfully at 2015_08_26_12_11------------
+:mo_ad:clean
+:mo_common:compileJava UP-TO-DATE
+:mo_common:processResources UP-TO-DATE
+:mo_common:classes UP-TO-DATE
+:mo_common:jar UP-TO-DATE
+:mo_common_redispools:compileJava UP-TO-DATE
+:mo_common_redispools:processResources UP-TO-DATE
+:mo_common_redispools:classes UP-TO-DATE
+:mo_common_redispools:jar UP-TO-DATE
+:mo_ad:compileJava/data/moxian_package/code_moxian_m1/moxian_m1/mo_ad/src/main/java/com/moxian/ad/rest/InitPageResource.java:68: warning: @NonNull is meaningless on a primitive.
+	public BoUtil getLatestInitPage(@NonNull @QueryParam("city") long city){ 
+	                                ^
+/data/moxian_package/code_moxian_m1/moxian_m1/mo_ad/src/main/java/com/moxian/ad/rest/InitPageResource.java:95: warning: @NonNull is meaningless on a primitive.
+	public BoUtil getMoBizInitPage(@NonNull @QueryParam("city") long city,@NonNull @QueryParam("pageVersion") long pageVersion){ 
+	                               ^
+/data/moxian_package/code_moxian_m1/moxian_m1/mo_ad/src/main/java/com/moxian/ad/rest/InitPageResource.java:95: warning: @NonNull is meaningless on a primitive.
+	public BoUtil getMoBizInitPage(@NonNull @QueryParam("city") long city,@NonNull @QueryParam("pageVersion") long pageVersion){ 
+	                                                                      ^
+Note: /data/moxian_package/code_moxian_m1/moxian_m1/mo_ad/src/main/java/com/moxian/ad/BeanConfig.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+Note: /data/moxian_package/code_moxian_m1/moxian_m1/mo_ad/src/main/java/com/moxian/ad/dao/impl/MxCityDaoMyBatisImpl.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+3 warnings
+
+:mo_ad:processResources
+:mo_ad:classes
+:mo_ad:war
+
+BUILD SUCCESSFUL
+
+Total time: 14.995 secs
+
+This build could be faster, please consider using the Gradle Daemon: http://gradle.org/docs/2.4/userguide/gradle_daemon.html
+------------shi.xiaolong login Successfully at 2015_08_26_12_13------------
+:mo_ad:clean
+:mo_common:compileJava UP-TO-DATE
+:mo_common:processResources UP-TO-DATE
+:mo_common:classes UP-TO-DATE
+:mo_common:jar UP-TO-DATE
+:mo_common_redispools:compileJava UP-TO-DATE
+:mo_common_redispools:processResources UP-TO-DATE
+:mo_common_redispools:classes UP-TO-DATE
+:mo_common_redispools:jar UP-TO-DATE
+:mo_ad:compileJava/data/moxian_package/code_moxian_m1/moxian_m1/mo_ad/src/main/java/com/moxian/ad/rest/InitPageResource.java:68: warning: @NonNull is meaningless on a primitive.
+	public BoUtil getLatestInitPage(@NonNull @QueryParam("city") long city){ 
+	                                ^
+/data/moxian_package/code_moxian_m1/moxian_m1/mo_ad/src/main/java/com/moxian/ad/rest/InitPageResource.java:95: warning: @NonNull is meaningless on a primitive.
+	public BoUtil getMoBizInitPage(@NonNull @QueryParam("city") long city,@NonNull @QueryParam("pageVersion") long pageVersion){ 
+	                               ^
+/data/moxian_package/code_moxian_m1/moxian_m1/mo_ad/src/main/java/com/moxian/ad/rest/InitPageResource.java:95: warning: @NonNull is meaningless on a primitive.
+	public BoUtil getMoBizInitPage(@NonNull @QueryParam("city") long city,@NonNull @QueryParam("pageVersion") long pageVersion){ 
+	                                                                      ^
+Note: /data/moxian_package/code_moxian_m1/moxian_m1/mo_ad/src/main/java/com/moxian/ad/BeanConfig.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+Note: /data/moxian_package/code_moxian_m1/moxian_m1/mo_ad/src/main/java/com/moxian/ad/dao/impl/MxCityDaoMyBatisImpl.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+3 warnings
+
+:mo_ad:processResources
+:mo_ad:classes
+:mo_ad:war
+
+BUILD SUCCESSFUL
+
+Total time: 14.47 secs
+
+This build could be faster, please consider using the Gradle Daemon: http://gradle.org/docs/2.4/userguide/gradle_daemon.html
+------------shi.xiaolong login Successfully at 2015_08_26_12_18------------
+:mo_ad:clean
+:mo_common:compileJava UP-TO-DATE
+:mo_common:processResources UP-TO-DATE
+:mo_common:classes UP-TO-DATE
+:mo_common:jar UP-TO-DATE
+:mo_common_redispools:compileJava UP-TO-DATE
+:mo_common_redispools:processResources UP-TO-DATE
+:mo_common_redispools:classes UP-TO-DATE
+:mo_common_redispools:jar UP-TO-DATE
+:mo_ad:compileJava/data/moxian_package/code_moxian_m1/moxian_m1/mo_ad/src/main/java/com/moxian/ad/rest/InitPageResource.java:68: warning: @NonNull is meaningless on a primitive.
+	public BoUtil getLatestInitPage(@NonNull @QueryParam("city") long city){ 
+	                                ^
+/data/moxian_package/code_moxian_m1/moxian_m1/mo_ad/src/main/java/com/moxian/ad/rest/InitPageResource.java:95: warning: @NonNull is meaningless on a primitive.
+	public BoUtil getMoBizInitPage(@NonNull @QueryParam("city") long city,@NonNull @QueryParam("pageVersion") long pageVersion){ 
+	                               ^
+/data/moxian_package/code_moxian_m1/moxian_m1/mo_ad/src/main/java/com/moxian/ad/rest/InitPageResource.java:95: warning: @NonNull is meaningless on a primitive.
+	public BoUtil getMoBizInitPage(@NonNull @QueryParam("city") long city,@NonNull @QueryParam("pageVersion") long pageVersion){ 
+	                                                                      ^
+Note: /data/moxian_package/code_moxian_m1/moxian_m1/mo_ad/src/main/java/com/moxian/ad/BeanConfig.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+Note: /data/moxian_package/code_moxian_m1/moxian_m1/mo_ad/src/main/java/com/moxian/ad/dao/impl/MxCityDaoMyBatisImpl.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+3 warnings
+
+:mo_ad:processResources
+:mo_ad:classes
+:mo_ad:war
+
+BUILD SUCCESSFUL
+
+Total time: 14.735 secs
+
+This build could be faster, please consider using the Gradle Daemon: http://gradle.org/docs/2.4/userguide/gradle_daemon.html
+------------shi.xiaolong login Successfully at 2015_08_26_12_24------------
+:mo_ad:clean
+:mo_common:compileJava UP-TO-DATE
+:mo_common:processResources UP-TO-DATE
+:mo_common:classes UP-TO-DATE
+:mo_common:jar UP-TO-DATE
+:mo_common_redispools:compileJava UP-TO-DATE
+:mo_common_redispools:processResources UP-TO-DATE
+:mo_common_redispools:classes UP-TO-DATE
+:mo_common_redispools:jar UP-TO-DATE
+:mo_ad:compileJava/data/moxian_package/code_moxian_m1/moxian_m1/mo_ad/src/main/java/com/moxian/ad/rest/InitPageResource.java:68: warning: @NonNull is meaningless on a primitive.
+	public BoUtil getLatestInitPage(@NonNull @QueryParam("city") long city){ 
+	                                ^
+/data/moxian_package/code_moxian_m1/moxian_m1/mo_ad/src/main/java/com/moxian/ad/rest/InitPageResource.java:95: warning: @NonNull is meaningless on a primitive.
+	public BoUtil getMoBizInitPage(@NonNull @QueryParam("city") long city,@NonNull @QueryParam("pageVersion") long pageVersion){ 
+	                               ^
+/data/moxian_package/code_moxian_m1/moxian_m1/mo_ad/src/main/java/com/moxian/ad/rest/InitPageResource.java:95: warning: @NonNull is meaningless on a primitive.
+	public BoUtil getMoBizInitPage(@NonNull @QueryParam("city") long city,@NonNull @QueryParam("pageVersion") long pageVersion){ 
+	                                                                      ^
+Note: /data/moxian_package/code_moxian_m1/moxian_m1/mo_ad/src/main/java/com/moxian/ad/BeanConfig.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+Note: /data/moxian_package/code_moxian_m1/moxian_m1/mo_ad/src/main/java/com/moxian/ad/dao/impl/MxCityDaoMyBatisImpl.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+3 warnings
+
+:mo_ad:processResources
+:mo_ad:classes
+:mo_ad:war
+
+BUILD SUCCESSFUL
+
+Total time: 14.785 secs
+
+This build could be faster, please consider using the Gradle Daemon: http://gradle.org/docs/2.4/userguide/gradle_daemon.html
+------------shi.xiaolong login Successfully at 2015_08_26_15_29------------
+:mo_ad:clean
+:mo_common:compileJava UP-TO-DATE
+:mo_common:processResources UP-TO-DATE
+:mo_common:classes UP-TO-DATE
+:mo_common:jar UP-TO-DATE
+:mo_common_redispools:compileJava UP-TO-DATE
+:mo_common_redispools:processResources UP-TO-DATE
+:mo_common_redispools:classes UP-TO-DATE
+:mo_common_redispools:jar UP-TO-DATE
+:mo_ad:compileJava/data/moxian_package/code_moxian_m1/moxian_m1/mo_ad/src/main/java/com/moxian/ad/rest/InitPageResource.java:68: warning: @NonNull is meaningless on a primitive.
+	public BoUtil getLatestInitPage(@NonNull @QueryParam("city") long city){ 
+	                                ^
+/data/moxian_package/code_moxian_m1/moxian_m1/mo_ad/src/main/java/com/moxian/ad/rest/InitPageResource.java:95: warning: @NonNull is meaningless on a primitive.
+	public BoUtil getMoBizInitPage(@NonNull @QueryParam("city") long city,@NonNull @QueryParam("pageVersion") long pageVersion){ 
+	                               ^
+/data/moxian_package/code_moxian_m1/moxian_m1/mo_ad/src/main/java/com/moxian/ad/rest/InitPageResource.java:95: warning: @NonNull is meaningless on a primitive.
+	public BoUtil getMoBizInitPage(@NonNull @QueryParam("city") long city,@NonNull @QueryParam("pageVersion") long pageVersion){ 
+	                                                                      ^
+Note: /data/moxian_package/code_moxian_m1/moxian_m1/mo_ad/src/main/java/com/moxian/ad/BeanConfig.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+Note: /data/moxian_package/code_moxian_m1/moxian_m1/mo_ad/src/main/java/com/moxian/ad/dao/impl/MxCityDaoMyBatisImpl.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+3 warnings
+
+:mo_ad:processResources
+:mo_ad:classes
+:mo_ad:war
+
+BUILD SUCCESSFUL
+
+Total time: 14.738 secs
+
+This build could be faster, please consider using the Gradle Daemon: http://gradle.org/docs/2.4/userguide/gradle_daemon.html
+------------shi.xiaolong login Successfully at 2015_08_26_15_31------------
+:mo_ad:clean
+:mo_common:compileJava UP-TO-DATE
+:mo_common:processResources UP-TO-DATE
+:mo_common:classes UP-TO-DATE
+:mo_common:jar UP-TO-DATE
+:mo_common_redispools:compileJava UP-TO-DATE
+:mo_common_redispools:processResources UP-TO-DATE
+:mo_common_redispools:classes UP-TO-DATE
+:mo_common_redispools:jar UP-TO-DATE
+:mo_ad:compileJava/data/moxian_package/code_moxian_m1/moxian_m1/mo_ad/src/main/java/com/moxian/ad/rest/InitPageResource.java:68: warning: @NonNull is meaningless on a primitive.
+	public BoUtil getLatestInitPage(@NonNull @QueryParam("city") long city){ 
+	                                ^
+/data/moxian_package/code_moxian_m1/moxian_m1/mo_ad/src/main/java/com/moxian/ad/rest/InitPageResource.java:95: warning: @NonNull is meaningless on a primitive.
+	public BoUtil getMoBizInitPage(@NonNull @QueryParam("city") long city,@NonNull @QueryParam("pageVersion") long pageVersion){ 
+	                               ^
+/data/moxian_package/code_moxian_m1/moxian_m1/mo_ad/src/main/java/com/moxian/ad/rest/InitPageResource.java:95: warning: @NonNull is meaningless on a primitive.
+	public BoUtil getMoBizInitPage(@NonNull @QueryParam("city") long city,@NonNull @QueryParam("pageVersion") long pageVersion){ 
+	                                                                      ^
+Note: /data/moxian_package/code_moxian_m1/moxian_m1/mo_ad/src/main/java/com/moxian/ad/BeanConfig.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+Note: /data/moxian_package/code_moxian_m1/moxian_m1/mo_ad/src/main/java/com/moxian/ad/dao/impl/MxCityDaoMyBatisImpl.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+3 warnings
+
+:mo_ad:processResources
+:mo_ad:classes
+:mo_ad:war
+
+BUILD SUCCESSFUL
+
+Total time: 13.831 secs
+
+This build could be faster, please consider using the Gradle Daemon: http://gradle.org/docs/2.4/userguide/gradle_daemon.html
+------------shi.xiaolong login Successfully at 2015_08_26_16_03------------
+:mo_ad:clean
+:mo_common:compileJava UP-TO-DATE
+:mo_common:processResources UP-TO-DATE
+:mo_common:classes UP-TO-DATE
+:mo_common:jar UP-TO-DATE
+:mo_common_redispools:compileJava UP-TO-DATE
+:mo_common_redispools:processResources UP-TO-DATE
+:mo_common_redispools:classes UP-TO-DATE
+:mo_common_redispools:jar UP-TO-DATE
+:mo_ad:compileJava/data/moxian_package/code_moxian_m1/moxian_m1/mo_ad/src/main/java/com/moxian/ad/rest/InitPageResource.java:68: warning: @NonNull is meaningless on a primitive.
+	public BoUtil getLatestInitPage(@NonNull @QueryParam("city") long city){ 
+	                                ^
+/data/moxian_package/code_moxian_m1/moxian_m1/mo_ad/src/main/java/com/moxian/ad/rest/InitPageResource.java:95: warning: @NonNull is meaningless on a primitive.
+	public BoUtil getMoBizInitPage(@NonNull @QueryParam("city") long city,@NonNull @QueryParam("pageVersion") long pageVersion){ 
+	                               ^
+/data/moxian_package/code_moxian_m1/moxian_m1/mo_ad/src/main/java/com/moxian/ad/rest/InitPageResource.java:95: warning: @NonNull is meaningless on a primitive.
+	public BoUtil getMoBizInitPage(@NonNull @QueryParam("city") long city,@NonNull @QueryParam("pageVersion") long pageVersion){ 
+	                                                                      ^
+Note: /data/moxian_package/code_moxian_m1/moxian_m1/mo_ad/src/main/java/com/moxian/ad/BeanConfig.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+Note: /data/moxian_package/code_moxian_m1/moxian_m1/mo_ad/src/main/java/com/moxian/ad/dao/impl/MxCityDaoMyBatisImpl.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+3 warnings
+
+:mo_ad:processResources
+:mo_ad:classes
+:mo_ad:war
+
+BUILD SUCCESSFUL
+
+Total time: 14.695 secs
+
+This build could be faster, please consider using the Gradle Daemon: http://gradle.org/docs/2.4/userguide/gradle_daemon.html
+------------shi.xiaolong login Successfully at 2015_08_26_17_09------------
+------------shi.xiaolong Exit at 2015_08_26_17_09------------
+------------wu.zechuan login Successfully at 2015_08_27_10_12------------
+:mo_shake:clean
+:mo_common:compileJava
+Download http://172.16.1.26:4444/nexus/content/groups/public/org/apache/poi/poi/3.9/poi-3.9.pom
+Download http://172.16.1.26:4444/nexus/content/groups/public/org/apache/poi/poi/3.9/poi-3.9.jar
+/data/moxian_package/code_moxian_m1/moxian_m1_master_m2/moxian_m1/mo_common/src/main/java/com/moxian/common/util/CryptUtil.java:16: warning: BASE64Decoder is internal proprietary API and may be removed in a future release
+import sun.misc.BASE64Decoder;
+               ^
+/data/moxian_package/code_moxian_m1/moxian_m1_master_m2/moxian_m1/mo_common/src/main/java/com/moxian/common/util/CryptUtil.java:17: warning: BASE64Encoder is internal proprietary API and may be removed in a future release
+import sun.misc.BASE64Encoder;
+               ^
+/data/moxian_package/code_moxian_m1/moxian_m1_master_m2/moxian_m1/mo_common/src/main/java/com/moxian/common/util/CryptUtil.java:16: warning: BASE64Decoder is internal proprietary API and may be removed in a future release
+import sun.misc.BASE64Decoder;
+               ^
+/data/moxian_package/code_moxian_m1/moxian_m1_master_m2/moxian_m1/mo_common/src/main/java/com/moxian/common/util/CryptUtil.java:17: warning: BASE64Encoder is internal proprietary API and may be removed in a future release
+import sun.misc.BASE64Encoder;
+               ^
+/data/moxian_package/code_moxian_m1/moxian_m1_master_m2/moxian_m1/mo_common/src/main/java/com/moxian/common/util/CryptUtil.java:16: warning: BASE64Decoder is internal proprietary API and may be removed in a future release
+import sun.misc.BASE64Decoder;
+               ^
+/data/moxian_package/code_moxian_m1/moxian_m1_master_m2/moxian_m1/mo_common/src/main/java/com/moxian/common/util/CryptUtil.java:17: warning: BASE64Encoder is internal proprietary API and may be removed in a future release
+import sun.misc.BASE64Encoder;
+               ^
+/data/moxian_package/code_moxian_m1/moxian_m1_master_m2/moxian_m1/mo_common/src/main/java/com/moxian/common/util/CryptUtil.java:16: warning: BASE64Decoder is internal proprietary API and may be removed in a future release
+import sun.misc.BASE64Decoder;
+               ^
+/data/moxian_package/code_moxian_m1/moxian_m1_master_m2/moxian_m1/mo_common/src/main/java/com/moxian/common/util/CryptUtil.java:17: warning: BASE64Encoder is internal proprietary API and may be removed in a future release
+import sun.misc.BASE64Encoder;
+               ^
+/data/moxian_package/code_moxian_m1/moxian_m1_master_m2/moxian_m1/mo_common/src/main/java/com/moxian/common/util/CryptUtil.java:93: warning: BASE64Encoder is internal proprietary API and may be removed in a future release
+        return new BASE64Encoder().encode(dataByte);
+                   ^
+/data/moxian_package/code_moxian_m1/moxian_m1_master_m2/moxian_m1/mo_common/src/main/java/com/moxian/common/util/CryptUtil.java:104: warning: BASE64Decoder is internal proprietary API and may be removed in a future release
+        return new BASE64Decoder().decodeBuffer(datasource);
+                   ^
+/data/moxian_package/code_moxian_m1/moxian_m1_master_m2/moxian_m1/mo_common/src/main/java/com/moxian/common/util/CryptUtil.java:160: warning: BASE64Encoder is internal proprietary API and may be removed in a future release
+            BASE64Encoder be = new BASE64Encoder();
+            ^
+/data/moxian_package/code_moxian_m1/moxian_m1_master_m2/moxian_m1/mo_common/src/main/java/com/moxian/common/util/CryptUtil.java:160: warning: BASE64Encoder is internal proprietary API and may be removed in a future release
+            BASE64Encoder be = new BASE64Encoder();
+                                   ^
+/data/moxian_package/code_moxian_m1/moxian_m1_master_m2/moxian_m1/mo_common/src/main/java/com/moxian/common/util/CryptUtil.java:199: warning: BASE64Decoder is internal proprietary API and may be removed in a future release
+            BASE64Decoder bd = new BASE64Decoder();
+            ^
+/data/moxian_package/code_moxian_m1/moxian_m1_master_m2/moxian_m1/mo_common/src/main/java/com/moxian/common/util/CryptUtil.java:199: warning: BASE64Decoder is internal proprietary API and may be removed in a future release
+            BASE64Decoder bd = new BASE64Decoder();
+                                   ^
+Note: /data/moxian_package/code_moxian_m1/moxian_m1_master_m2/moxian_m1/mo_common/src/main/java/com/moxian/common/rest/RestBase.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+14 warnings
+:mo_common:processResources UP-TO-DATE
+:mo_common:classes
+:mo_common:jar
+:mo_common_kafka:compileJava UP-TO-DATE
+:mo_common_kafka:processResources UP-TO-DATE
+:mo_common_kafka:classes UP-TO-DATE
+:mo_common_kafka:jar UP-TO-DATE
+:mo_common_redispools:compileJava UP-TO-DATE
+:mo_common_redispools:processResources UP-TO-DATE
+:mo_common_redispools:classes UP-TO-DATE
+:mo_common_redispools:jar UP-TO-DATE
+:mo_common_thrift:compileJava UP-TO-DATE
+:mo_common_thrift:processResources UP-TO-DATE
+:mo_common_thrift:classes UP-TO-DATE
+:mo_common_thrift:jar UP-TO-DATE
+:mo_shake:compileJavaNote: /data/moxian_package/code_moxian_m1/moxian_m1_master_m2/moxian_m1/mo_shake/src/main/java/com/moxian/shake/BeanConfig.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+Note: /data/moxian_package/code_moxian_m1/moxian_m1_master_m2/moxian_m1/mo_shake/src/main/java/com/moxian/shake/dao/impl/ShakeShopGpsRedisDaoImpl.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+
+:mo_shake:processResources
+:mo_shake:classes
+:mo_shake:war------------wu.zechuan login Successfully at 2015_08_27_10_15------------
+:mo_shake:clean
+:mo_common:compileJava/data/moxian_package/code_moxian_m1/moxian_m1_master_m2/moxian_m1/mo_common/src/main/java/com/moxian/common/util/CryptUtil.java:16: warning: BASE64Decoder is internal proprietary API and may be removed in a future release
+import sun.misc.BASE64Decoder;
+               ^
+/data/moxian_package/code_moxian_m1/moxian_m1_master_m2/moxian_m1/mo_common/src/main/java/com/moxian/common/util/CryptUtil.java:17: warning: BASE64Encoder is internal proprietary API and may be removed in a future release
+import sun.misc.BASE64Encoder;
+               ^
+/data/moxian_package/code_moxian_m1/moxian_m1_master_m2/moxian_m1/mo_common/src/main/java/com/moxian/common/util/CryptUtil.java:16: warning: BASE64Decoder is internal proprietary API and may be removed in a future release
+import sun.misc.BASE64Decoder;
+               ^
+/data/moxian_package/code_moxian_m1/moxian_m1_master_m2/moxian_m1/mo_common/src/main/java/com/moxian/common/util/CryptUtil.java:17: warning: BASE64Encoder is internal proprietary API and may be removed in a future release
+import sun.misc.BASE64Encoder;
+               ^
+/data/moxian_package/code_moxian_m1/moxian_m1_master_m2/moxian_m1/mo_common/src/main/java/com/moxian/common/util/CryptUtil.java:16: warning: BASE64Decoder is internal proprietary API and may be removed in a future release
+import sun.misc.BASE64Decoder;
+               ^
+/data/moxian_package/code_moxian_m1/moxian_m1_master_m2/moxian_m1/mo_common/src/main/java/com/moxian/common/util/CryptUtil.java:17: warning: BASE64Encoder is internal proprietary API and may be removed in a future release
+import sun.misc.BASE64Encoder;
+               ^
+/data/moxian_package/code_moxian_m1/moxian_m1_master_m2/moxian_m1/mo_common/src/main/java/com/moxian/common/util/CryptUtil.java:16: warning: BASE64Decoder is internal proprietary API and may be removed in a future release
+import sun.misc.BASE64Decoder;
+               ^
+/data/moxian_package/code_moxian_m1/moxian_m1_master_m2/moxian_m1/mo_common/src/main/java/com/moxian/common/util/CryptUtil.java:17: warning: BASE64Encoder is internal proprietary API and may be removed in a future release
+import sun.misc.BASE64Encoder;
+               ^
+/data/moxian_package/code_moxian_m1/moxian_m1_master_m2/moxian_m1/mo_common/src/main/java/com/moxian/common/util/CryptUtil.java:93: warning: BASE64Encoder is internal proprietary API and may be removed in a future release
+        return new BASE64Encoder().encode(dataByte);
+                   ^
+/data/moxian_package/code_moxian_m1/moxian_m1_master_m2/moxian_m1/mo_common/src/main/java/com/moxian/common/util/CryptUtil.java:104: warning: BASE64Decoder is internal proprietary API and may be removed in a future release
+        return new BASE64Decoder().decodeBuffer(datasource);
+                   ^
+/data/moxian_package/code_moxian_m1/moxian_m1_master_m2/moxian_m1/mo_common/src/main/java/com/moxian/common/util/CryptUtil.java:160: warning: BASE64Encoder is internal proprietary API and may be removed in a future release
+            BASE64Encoder be = new BASE64Encoder();
+            ^
+/data/moxian_package/code_moxian_m1/moxian_m1_master_m2/moxian_m1/mo_common/src/main/java/com/moxian/common/util/CryptUtil.java:160: warning: BASE64Encoder is internal proprietary API and may be removed in a future release
+            BASE64Encoder be = new BASE64Encoder();
+                                   ^
+/data/moxian_package/code_moxian_m1/moxian_m1_master_m2/moxian_m1/mo_common/src/main/java/com/moxian/common/util/CryptUtil.java:199: warning: BASE64Decoder is internal proprietary API and may be removed in a future release
+            BASE64Decoder bd = new BASE64Decoder();
+            ^
+/data/moxian_package/code_moxian_m1/moxian_m1_master_m2/moxian_m1/mo_common/src/main/java/com/moxian/common/util/CryptUtil.java:199: warning: BASE64Decoder is internal proprietary API and may be removed in a future release
+            BASE64Decoder bd = new BASE64Decoder();
+                                   ^
+Note: /data/moxian_package/code_moxian_m1/moxian_m1_master_m2/moxian_m1/mo_common/src/main/java/com/moxian/common/rest/RestBase.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+14 warnings
+
+:mo_common:processResources
+:mo_common:classes
+:mo_common:jar
+:mo_common_kafka:compileJavaNote: Some input files use unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+
+:mo_common_kafka:processResources
+:mo_common_kafka:classes
+:mo_common_kafka:jar
+:mo_common_redispools:compileJava
+:mo_common_redispools:processResources UP-TO-DATE
+:mo_common_redispools:classes
+:mo_common_redispools:jar
+:mo_common_thrift:compileJava
+:mo_common_thrift:processResources UP-TO-DATE
+:mo_common_thrift:classes
+:mo_common_thrift:jar
+:mo_shake:compileJavaNote: /data/moxian_package/code_moxian_m1/moxian_m1_master_m2/moxian_m1/mo_shake/src/main/java/com/moxian/shake/BeanConfig.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+Note: /data/moxian_package/code_moxian_m1/moxian_m1_master_m2/moxian_m1/mo_shake/src/main/java/com/moxian/shake/dao/impl/ShakeShopGpsRedisDaoImpl.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+
+:mo_shake:processResources
+:mo_shake:classes
+:mo_shake:war
+
+BUILD SUCCESSFUL
+
+Total time: 22.855 secs
+
+This build could be faster, please consider using the Gradle Daemon: http://gradle.org/docs/2.4/userguide/gradle_daemon.html
+------------wu.zechuan login Successfully at 2015_08_27_10_20------------
+:mo_common_gps:clean
+:mo_common:compileJava UP-TO-DATE
+:mo_common:processResources UP-TO-DATE
+:mo_common:classes UP-TO-DATE
+:mo_common:jar UP-TO-DATE
+:mo_common_thrift:compileJava UP-TO-DATE
+:mo_common_thrift:processResources UP-TO-DATE
+:mo_common_thrift:classes UP-TO-DATE
+:mo_common_thrift:jar UP-TO-DATE
+:mo_common_gps:compileJavaNote: /data/moxian_package/code_moxian_m1/moxian_m1/mo_common_gps/src/main/java/com/moxian/gps/BeanConfig.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+
+:mo_common_gps:processResources
+:mo_common_gps:classes
+:mo_common_gps:war
+
+BUILD SUCCESSFUL
+
+Total time: 16.884 secs
+
+This build could be faster, please consider using the Gradle Daemon: http://gradle.org/docs/2.4/userguide/gradle_daemon.html
+------------shi.xiaolong login Successfully at 2015_08_27_15_13------------
+:mo_common_login:clean
+:mo_common:compileJava UP-TO-DATE
+:mo_common:processResources UP-TO-DATE
+:mo_common:classes UP-TO-DATE
+:mo_common:jar UP-TO-DATE
+:mo_common_redispools:compileJava UP-TO-DATE
+:mo_common_redispools:processResources UP-TO-DATE
+:mo_common_redispools:classes UP-TO-DATE
+:mo_common_redispools:jar UP-TO-DATE
+:mo_common_thrift:compileJava UP-TO-DATE
+:mo_common_thrift:processResources UP-TO-DATE
+:mo_common_thrift:classes UP-TO-DATE
+:mo_common_thrift:jar UP-TO-DATE
+:mo_common_login:compileJavaNote: /data/moxian_package/code_moxian_m1/moxian_m1/mo_common_login/src/main/java/com/moxian/common/login/BeanConfig.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+
+:mo_common_login:processResources
+:mo_common_login:classes
+:mo_common_login:war
+
+BUILD SUCCESSFUL
+
+Total time: 15.129 secs
+
+This build could be faster, please consider using the Gradle Daemon: http://gradle.org/docs/2.4/userguide/gradle_daemon.html
+------------shi.xiaolong login Successfully at 2015_08_28_09_52------------
+------------shi.xiaolong Exit at 2015_08_28_09_52------------

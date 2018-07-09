@@ -1,0 +1,22 @@
+#!user/bin/python
+# encoding:utf-8
+
+import re
+from bs4 import BeautifulSoup
+
+def repl(m):
+    repHtml = m.group(0)
+    soup = BeautifulSoup(repHtml, 'lxml')
+    soup.prettify()  # 标准化
+    soupObj = soup.find(name="p", attrs={"class": "sceneheading"})
+    data_input = soupObj['data-input']
+    retext = soupObj.get_text()
+    totext = '<input type="text" value="%s">' % data_input + retext
+    return str(soupObj).replace(retext, totext)
+
+
+html = """<div class="watermark bzh-main" id="bzh-container"><pre id="bzh-main" class="bzh-tag" contenteditable="true"><p class="action"></p><p class="action"></p><p class="sceneheading" id="ljfe" data-input="12" data-id="1182">人物：包珺印（姜敏）托马斯、金刚、吴迪、飞行员甲乙、科考队员</p><p class="action"></p><p class="sceneheading" id="dbdc" data-input="23" data-id="1332">空中的浓云打在飞机的前挡风玻璃上形成雨珠被雨刮器挂向一边，正副驾驶员紧张得驾驶着飞机，此时驾驶舱的门被打开。</p><p class="character" id="v0og">托马斯：还有多久才能到？病人快不行了。</p><p class="character" id="fthe">正驾驶：快了，再有十几分钟就能看见机场了。</p><p class="dialog" id="px05" data-id="1353">托马斯：我们需要帮手。</p><p class="reminder" id="zo7h">正驾驶看向副驾驶，副驾驶旋即点了点头走向后舱。后舱是一群慌乱的人，只见人们分成两波分别压着狂躁的金刚和吴迪。忙乱的人中有的在试图给金刚打针，有的在向吴迪的嘴里灌着药水。机舱的尾部坐着面无表情的包珺印（姜敏），她看了看暴躁挣扎的金刚站起身向驾驶舱走去，在驾驶舱门口她拍了拍正在协助别人的托马斯，向他示意进入驾驶舱。托马斯跟着包珺印走进驾驶舱，在驾驶舱内包珺印反锁了舱门，托马斯不解的看着她，包珺印依旧面无表情，片刻后舱传来了凄厉的惨叫声和敲门声。</p><p class="parenthetical" id="fl0f">驾驶员惊恐的回过头看着他两：出什么事了？</p><p class="action">包珺印：开好你的飞机！</p><p class="action">托马斯看着包珺印随即伸手去抓门把，却被包珺印按住了手。</p><p class="action"></p><p class="action"></p><p class="action"></p><p class="action">人物：包珺印（姜敏）托马斯、金刚、吴迪、飞行员甲乙、科考队员</p><p class="action"></p><p class="action">空中的浓云打在飞机的前挡风玻璃上形成雨珠被雨刮器挂向一边，正副驾驶员紧张得驾驶着飞机，此时驾驶舱的门被打开。</p><p class="action">托马斯：还有多久才能到？病人快不行了。</p><p class="action">正驾驶：快了，再有十几分钟就能看见机场了。</p><p class="action">托马斯：我们需要帮手。</p><p class="action">正驾驶看向副驾驶，副驾驶旋即点了点头走向后舱。后舱是一群慌乱的人，只见人们分成两波分别压着狂躁的金刚和吴迪。忙乱的人中有的在试图给金刚打针，有的在向吴迪的嘴里灌着药水。机舱的尾部坐着面无表情的包珺印（姜敏），她看了看暴躁挣扎的金刚站起身向驾驶舱走去，在驾驶舱门口她拍了拍正在协助别人的托马斯，向他示意进入驾驶舱。托马斯跟着包珺印走进驾驶舱，在驾驶舱内包珺印反锁了舱门，托马斯不解的看着她，包珺印依旧面无表情，片刻后舱传来了凄厉的惨叫声和敲门声。</p><p class="action">驾驶员惊恐的回过头看着他两：出什么事了？</p><p class="action">包珺印：开好你的飞机！</p><p class="action">托马斯看着包珺印随即伸手去抓门把，却被包珺印按住了手。</p><p class="action"></p><p class="action"></p><p class="action">人物：包珺印（姜敏）托马斯、金刚、吴迪、飞行员甲乙、科考队员</p><p class="action"></p><p class="action">空中的浓云打在飞机的前挡风玻璃上形成雨珠被雨刮器挂向一边，正副驾驶员紧张得驾驶着飞机，此时驾驶舱的门被打开。</p><p class="action">托马斯：还有多久才能到？病人快不行了。</p><p class="action">正驾驶：快了，再有十几分钟就能看见机场了。</p><p class="action">托马斯：我们需要帮手。</p><p class="action">正驾驶看向副驾驶，副驾驶旋即点了点头走向后舱。后舱是一群慌乱的人，只见人们分成两波分别压着狂躁的金刚和吴迪。忙乱的人中有的在试图给金刚打针，有的在向吴迪的嘴里灌着药水。机舱的尾部坐着面无表情的包珺印（姜敏），她看了看暴躁挣扎的金刚站起身向驾驶舱走去，在驾驶舱门口她拍了拍正在协助别人的托马斯，向他示意进入驾驶舱。托马斯跟着包珺印走进驾驶舱，在驾驶舱内包珺印反锁了舱门，托马斯不解的看着她，包珺印依旧面无表情，片刻后舱传来了凄厉的惨叫声和敲门声。</p><p class="action">驾驶员惊恐的回过头看着他两：出什么事了？</p><p class="action">包珺印：开好你的飞机！</p><p class="action">托马斯看着包珺印随即伸手去抓门把，却被包珺印按住了手。</p><p class="action"></p><p class="action"></p><p class="action">人物：包珺印（姜敏）托马斯、金刚、吴迪、飞行员甲乙、科考队员</p><p class="action"></p><i></i><span class="hh"></span><i></i><p class="action">空中的浓云打在飞机的前挡风玻璃上形成雨珠被雨刮器挂向一边，正副驾驶员紧张得驾驶着飞机，此时驾驶舱的门被打开。</p><p class="action">托马斯：还有多久才能到？病人快不行了。</p><p class="action">正驾驶：快了，再有十几分钟就能看见机场了。</p><p class="action">托马斯：我们需要帮手。</p><p class="action">正驾驶看向副驾驶，副驾驶旋即点了点头走向后舱。后舱是一群慌乱的人，只见人们分成两波分别压着狂躁的金刚和吴迪。忙乱的人中有的在试图给金刚打针，有的在向吴迪的嘴里灌着药水。机舱的尾部坐着面无表情的包珺印（姜敏），她看了看暴躁挣扎的金刚站起身向驾驶舱走去，在驾驶舱门口她拍了拍正在协助别人的托马斯，向他示意进入驾驶舱。托马斯跟着包珺印走进驾驶舱，在驾驶舱内包珺印反锁了舱门，托马斯不解的看着她，包珺印依旧面无表情，片刻后舱传来了凄厉的惨叫声和敲门声。</p><p class="action">驾驶员惊恐的回过头看着他两：出什么事了？</p><p class="action">包珺印：开好你的飞机！</p><p class="action">托马斯看着包珺印随即伸手去抓门把，却被包珺印按住了手。</p><p class="action"></p><p class="action"></p><p class="action">人物：包珺印（姜敏）托马斯、金刚、吴迪、飞行员甲乙、科考队员</p><p class="action"></p><p class="action">空中的浓云打在飞机的前挡风玻璃上形成雨珠被雨刮器挂向一边，正副驾驶员紧张得驾驶着飞机，此时驾驶舱的门被打开。</p><p class="action">托马斯：还有多久才能到？病人快不行了。</p><p class="action">正驾驶：快了，再有十几分钟就能看见机场了。</p><p class="action">托马斯：我们需要帮手。</p><p class="action">正驾驶看向副驾驶，副驾驶旋即点了点头走向后舱。后舱是一群慌乱的人，只见人们分成两波分别压着狂躁的金刚和吴迪。忙乱的人中有的在试图给金刚打针，有的在向吴迪的嘴里灌着药水。机舱的尾部坐着面无表情的包珺印（姜敏），她看了看暴躁挣扎的金刚站起身向驾驶舱走去，在驾驶舱门口她拍了拍正在协助别人的托马斯，向他示意进入驾驶舱。托马斯跟着包珺印走进驾驶舱，在驾驶舱内包珺印反锁了舱门，托马斯不解的看着她，包珺印依旧面无表情，片刻后舱传来了凄厉的惨叫声和敲门声。</p><p class="action">驾驶员惊恐的回过头看着他两：出什么事了？</p><p class="action">包珺印：开好你的飞机！</p><p class="action">托马斯看着包珺印随即伸手去抓门把，却被包珺印按住了手。</p><p class="action"></p><p class="action"></p><p class="action">Test</p><p class="action"></p><p class="action">Test</p><p class="action"></p><p class="action">Test</p><p class="action"></p><p class="action">Test</p><p class="action"></p></pre></div>"""
+
+com = re.compile(r"<p[^>]*class=\"sceneheading\"[^>]*>[\s\S]*?</p>")
+val = com.sub(repl, html)
+print val

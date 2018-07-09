@@ -1,0 +1,2 @@
+a = "ddd"
+print a

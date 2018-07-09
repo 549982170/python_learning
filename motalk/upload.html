@@ -1,0 +1,26 @@
+<!--<form id="addform" method="post" enctype="multipart/form-data" action="http://localhost:8888/m1/moxianlog/uploadLogFile"> -->
+<!--<form id="addform" method="post" enctype="multipart/form-data" action="http://dev2.moxian.com:8080/mo_common_log/m1/mxlog/uploadFile">
+<form id="addform" method="post" enctype="multipart/form-data" action="http://dev2.moxian.com:8080/mo_common_log/m1/mxlog/uploadFile"> -->
+<!-- <form id="addform" method="post" enctype="multipart/form-data" action="http://localhost:8888/m1/mxlog/uploadFile">  -->
+<form id="addform" method="post" enctype="multipart/form-data" action="http://dev2.moxian.com:8080/mo_common_fileuploadservice/m1/upload">
+<table border="0" class="perview" align="center">
+        <a href="#" onClick="toaddpic()">uploadtofile</a>
+        <tr>
+            <th>select file</th>
+            <th width="50%">preview</th>
+        </tr>
+        <tr>
+            <td height="200"><input id="uploadFile" name="uploadFile" type="file" /></td>
+			
+            <td align="center"><img id="idImg" /></td>
+        </tr>
+		
+		
+		
+		
+</table>
+ <input type="hidden" name="userId" value="4" >
+ <input type="hidden" name="fileType" value="1" >
+ <input type="hidden" name="fileClassfycation" value="3" > 
+ <input type="submit" name="submit" value="submit" >
+</form>
