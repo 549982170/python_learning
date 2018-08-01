@@ -2,8 +2,8 @@
 import smtplib
 from email.mime.text import MIMEText
 
-msg_from = '2921671328@qq.com'  # 发送方邮箱
-passwd = 'lioukhegxcmpdecg'  # 填入发送方邮箱的授权码(邮箱设置获取)
+msg_from = 'xxxxx@qq.com'  # 发送方邮箱
+passwd = 'xxxxx'  # 填入发送方邮箱的授权码(邮箱设置获取)
 msg_to = '549982170@qq.com'  # 收件人邮箱
 
 subject = "python邮件测试"  # 主题
